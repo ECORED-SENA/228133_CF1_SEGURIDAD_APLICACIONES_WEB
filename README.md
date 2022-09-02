@@ -1,8 +1,8 @@
 # **sena-base-2021 v6.3.0**
 
-## **Enlace GitHubPages**
+## **Metodologías, normas y estándares de seguridad orientada a aplicaciones web**
 
-[https://ecored-sena.github.io/ECORED-BASE-2021](https://ecored-sena.github.io/ECORED-BASE-2021)
+[https://ecored-sena.github.io/228133_CF1_SEGURIDAD_APLICACIONES_WEB/](https://ecored-sena.github.io/228133_CF1_SEGURIDAD_APLICACIONES_WEB/)
 
 #
 

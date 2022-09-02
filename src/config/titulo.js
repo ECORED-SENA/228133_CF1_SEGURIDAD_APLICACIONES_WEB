@@ -1,2 +1,2 @@
 module.exports =
-  'Componente Formativo con un nombre extremadamente largo y extenso'
+  'Metodologías, normas y estándares de seguridad orientada a aplicaciones web'
