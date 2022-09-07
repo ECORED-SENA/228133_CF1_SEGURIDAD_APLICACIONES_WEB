@@ -198,9 +198,458 @@
       h5 Figura 2
       span Arquitectura de una aplicación web
 
+    .row.justify-content-center.align-items-center.mb-4
+      .col-md-6
+        figure
+          img(src='@/assets/curso/tema1/img1.svg', alt='icono')
+      .col-md-5
+        .tarjeta.tarjeta-color1.p-5
+          ol.lista-ol
+            li 
+              span.text-bold a. 
+              | El usuario realiza la solicitud de un recurso web a través de un navegador.
+            li 
+              span.text-bold b. 
+              | El navegador realiza la petición del recurso web a través del protocolo http.
+            li 
+              span.text-bold c. 
+              | El servidor web recibe la petición y procesa la respuesta:
+            li  
+              ul.lista-ul--color
+                li 
+                  i.fas.fa-angle-right
+                  | Procesa lógica de negocio.
+                li 
+                  i.fas.fa-angle-right
+                  | Procesa información desde bases de datos.
+                li 
+                  i.fas.fa-angle-right
+                  | Conforma la respuesta.
+            li 
+              span.text-bold d. 
+              | El servidor devuelve la respuesta hacia el navegador.
+            li 
+              span.text-bold e. 
+              | Navegador despliega resultado al usuario.
+
+    p.mb-4 Actualmente existen diferentes tipos de aplicaciones web, entre las más comunes se resaltan:
+
+    .row.justify-content-center.align-items-center.mb-4
+      .col-md-4
+        figure
+          img(src='@/assets/curso/tema1/7.jpg', alt='icono')
+      .col-md-8
+        TabsA.color-acento-contenido.mb-5
+          .tarjeta.color-acento-contenido--borde.p-4(titulo="Hogar inteligente")
+            h5 Hogar inteligente
+            p Termostatos domésticos, control de televisores, detectores de humo, cámaras de seguridad, cafeteras y otros electrodomésticos.
+
+
+          .tarjeta.color-acento-contenido--borde.p-4(titulo="Fuera del hogar")
+            h5 Fuera del hogar
+            p.mb-4 Automóviles en red, prendas tecnológicas y monitores de salud en la ropa, aplicaciones para ciclistas para controlar su actividad física, gafas inteligentes.
+
+          .tarjeta.color-acento-contenido--borde.p-4(titulo="Ropa tecnológica (wearables)")
+            h5 Ropa tecnológica (wearables)
+            p Dispositivos médicos, productos de salud, marcapasos y bombas de insulina. Estos wearables monitorean la geolocalización, así como la frecuencia cardiaca, el pulso, calorías, patrones del sueño, etc.
+
+          .tarjeta.color-acento-contenido--borde.p-4(titulo="Transporte")
+            h5 Transporte
+            p Supervisión de vehículos conectados, sensores de proximidad, parqueo de vehículos, vehículos autónomos, control remoto de peajes.
+        
+          .tarjeta.color-acento-contenido--borde.p-4(titulo="Contadores inteligentes")
+            h5 Contadores inteligentes
+            p Dispositivos electrónicos de medición de energía, calefacción, climatización, agua.
+
+    p.mb-4 Comprender la arquitectura técnica que sirven las aplicaciones web, así como sus tipos, permitirá comprender el funcionamiento y determinar un ejercicio que facilite el aseguramiento de las aplicaciones web.
+
+    separador
+
+    #t_1_3.titulo-segundo.color-acento-contenido
+      .h4 1.3	Normatividad y estándares para la gestión de la seguridad
+
+    p.mb-4 La gestión de la seguridad en las aplicaciones web es una tarea que actualmente no se le presta la debida atención, y esta no depende únicamente de las buenas prácticas de programación de software, en su lugar es importante tener presente que la responsabilidad de poseer una aplicación web pública, que gestione información importante para la organización o maneje información confidencial, y ello obliga a contar con ciertos controles de seguridad que garantice los pilares de la seguridad de la información, a saber:
+
+    .row.justify-content-center.align-items-center.mb-4
+      .col-md-10
+        figure
+          img(src='@/assets/curso/tema1/vec2.svg', alt='icono')
+
+    p.mb-4 Ahora bien, para cumplir con estos tres pilares se hace necesario de acciones, y aquí es donde han surgido algunas buenas iniciativas como normatividad, estándares y buenas prácticas para una adecuada gestión de la información, entre las cuales poder revisar:
     
+    .row.mb-4
+      .col-md-3
+        .tarjeta.clr-1
+          h4.text-center.p-2 Norma ISO/IEC 27001:2013:
 
+    p.mb-4 Ahora bien, para cumplir con estos tres pilares se hace necesario de acciones, y aquí es donde han surgido algunas buenas iniciativas como normatividad, estándares y buenas prácticas para una adecuada gestión de la información, entre las cuales poder revisar:
 
+    .row.justify-content-center.align-items-center.mb-4
+      .col-md-10.mb-lg-0
+        .tarjeta-avatar
+          img(src='@/assets/curso/tema1/7.png' alt='AvatarTop')
+          .tarjeta.clr-2
+            .p-5
+              ul.lista-ul--color.mb-0
+                li 
+                  i.fas.fa-angle-right
+                  | Concientización de la necesidad de adoptar una cultura de seguridad.
+                li 
+                  i.fas.fa-angle-right
+                  | Delegación de responsabilidades sobre la seguridad de la información.
+                li 
+                  i.fas.fa-angle-right
+                  | Involucrar la alta dirección en la estrategia de seguridad.
+                li 
+                  i.fas.fa-angle-right
+                  | Seleccionar los controles adecuados para garantizar la seguridad de la información.
+                li 
+                  i.fas.fa-angle-right
+                  | Adoptar la seguridad como elemento esencial de los sistemas de información.
+                li 
+                  i.fas.fa-angle-right
+                  | Adoptar estrategias activas para la prevención de incidentes de seguridad activa.
+                li 
+                  i.fas.fa-angle-right
+                  | Adoptar la mejora continua en la evaluación de la seguridad.
+
+    p.mb-4 En cuanto a la metodología para la adopción de esta norma, se incorpora el ciclo PDCA, acrónimo del inglés Plan-Do-Check-Act (en español: PHVA, planear, actuar verificar y actuar) la cual incorpora los siguientes ítems como se puede apreciar en la siguiente figura. 
+
+    .titulo-sexto.color-acento-contenido
+      h5 Figura 3
+      span Fases de un SGSI
+
+    .row.justify-content-center.align-items-center.mb-4
+      .col-md-12
+        .tarjeta.clr--gris1
+          .p-5
+            .row.justify-content-center.align-items-center
+              .col-md-7
+                ImagenInfografica.color-secundario.m-5
+                  template(v-slot:imagen)
+                    figure
+                      img.mb-0(src='@/assets/curso/tema1/info1.svg', alt='Texto que describa la imagen')
+
+                  .tarjeta.color-info.p-5(x="71%" y="9%" numero="")
+                    ol.lista-ol--cuadro
+                      li 
+                        .lista-ol--cuadro__vineta
+                          span 1
+                        | Diseñar SGSI.
+                      li 
+                        .lista-ol--cuadro__vineta
+                          span 2
+                        | Análisis de procesos.
+                      li 
+                        .lista-ol--cuadro__vineta
+                          span 3
+                        | Definir Alcance.
+                      li 
+                        .lista-ol--cuadro__vineta
+                          span 4
+                        | Elaborar política de seguridad.
+                      li 
+                        .lista-ol--cuadro__vineta
+                          span 5
+                        | Identificar y evaluar inventario de activos.
+                      li 
+                        .lista-ol--cuadro__vineta
+                          span 6
+                        | Realizar análisis de riesgos.
+                      li 
+                        .lista-ol--cuadro__vineta
+                          span 7
+                        | Generar SoA.
+
+                  .tarjeta.color-info.p-5(x="72%" y="78%" numero="")
+                    ol.lista-ol--cuadro
+                      li 
+                        .lista-ol--cuadro__vineta
+                          span 8
+                        | Generar plan de mitigación de riesgos.
+                      li 
+                        .lista-ol--cuadro__vineta
+                          span 9
+                        | Aplicar plan de mitigación de riesgos.
+                      li 
+                        .lista-ol--cuadro__vineta
+                          span 10
+                        | Implementar controles seleccionados.
+                      li 
+                        .lista-ol--cuadro__vineta
+                          span 11
+                        | Administración de cambio.
+
+                  .tarjeta.color-info.p-5(x="16%" y="78%" numero="")
+                    ol.lista-ol--cuadro
+                      li 
+                        .lista-ol--cuadro__vineta
+                          span 12
+                        | Revisiones gerenciales.
+                      li 
+                        .lista-ol--cuadro__vineta
+                          span 13
+                        | Revisiones independientes.
+                      li 
+                        .lista-ol--cuadro__vineta
+                          span 14
+                        | Auditorías internas.
+                      li 
+                        .lista-ol--cuadro__vineta
+                          span 15
+                        | Revisiones técnicas.
+
+                  .tarjeta.color-info.p-5(x="17%" y="9%" numero="")
+                    ol.lista-ol--cuadro
+                      li 
+                        .lista-ol--cuadro__vineta
+                          span 16
+                        | Implementar mejoras.
+                      li 
+                        .lista-ol--cuadro__vineta
+                          span 17
+                        | Tomar acciones preventivas y correctivas.
+                      li 
+                        .lista-ol--cuadro__vineta
+                          span 18
+                        | Comunicar resultados de las acciones tomadas.
+
+    p.mb-4 Ahora bien, este estándar es base para la adopción de un SGSI, lo que conlleva a que, si una organización esta certificada o está pensando en certificar sus procesos bajo esta norma, debe tener presente la seguridad de la información que se gestiona a través de aplicaciones web, de acuerdo con las siguientes recomendaciones:
+
+    .row.justify-content-center.align-items-center.mb-4
+      .col-md-5
+        .tarjeta.color-amarillo.p-4
+          ol.lista-ol--cuadro
+            li 
+              .lista-ol--cuadro__vineta
+                span 01
+            p Los elementos y componentes de las aplicaciones web deberán ser objeto de análisis, planificación y evaluación para que sean cubiertos por el SGSI, esto involucra que también se le haga un análisis de riesgos.
+      .col-md-5
+        .tarjeta.color-amarillo.p-4
+          ol.lista-ol--cuadro
+            li 
+              .lista-ol--cuadro__vineta
+                span 02
+            p Dado el cambio continuo tecnológico, se requiere que las aplicaciones web sean evaluadas permanentemente según los nuevos retos, tecnologías y amenazas.
+
+    .row.mb-4
+      .col-md-3
+        .tarjeta.clr-1
+          h4.text-center.p-2 Norma ISO/IEC 27002:2013:
+
+    p.mb-0 Este estándar establece una guía para la implementación de controles de seguridad en una organización, a partir de sus objetivos, controles y estrategias de implementación.
+    p.mb-4 Este estándar está compuesto por 14 dominios, 35 objetivos de control y 114 controles, con los cuales se busca adoptar medidas de seguridad en una organización.
+    p.mb-4 A continuación, se exponen algunos de los controles asociados directamente con la seguridad de la información en aplicaciones web:
+
+    .row.justify-content-center.mb-5
+      .col-lg-10.position-relative
+        .crd.crd--avatarHorizontal.py-4
+          .row.align-items-center
+            .col-auto
+              figure
+                img(src='@/assets/curso/tema1/8.png' alt='AvatarTop').img1
+            .col
+              ul.lista-ul--color.mb-0
+                li 
+                  i.fas.fa-angle-right
+                  | Documento con política de seguridad de la información.
+                li 
+                  i.fas.fa-angle-right
+                  | Asignación de responsabilidades relativas a la seguridad.
+                li 
+                  i.fas.fa-angle-right
+                  | Formación y concienciación sobre la seguridad de la información.
+                li 
+                  i.fas.fa-angle-right
+                  | Notificación de los eventos de seguridad de la información.
+                li 
+                  i.fas.fa-angle-right
+                  | Gestión de los derechos de propiedad intelectual.
+                li 
+                  i.fas.fa-angle-right
+                  | Protección de activos de documentación de la organización.
+                li 
+                  i.fas.fa-angle-right
+                  | Protección de datos y privacidad de la información de carácter sensible de índole personal.
+              
+    p.mb-4 Desde el punto de vista de aporte de este estándar en la seguridad web, se pueden referenciar algunas medidas importantes que ayudan a gestionar la seguridad de los datos en las aplicaciones web, así:
+
+    .tarjeta.tarjeta-color.p-5.mb-5
+      SlyderA(tipo="b")
+        .row
+          .col-md-6.mb-4.mb-md-0
+            h5 Control de acceso al código fuente
+            p Se debe gestionar la seguridad del código fuente, las personas que acceden a partir de medidas de protección.
+          .col-md-6
+            figure
+              img(src='@/assets/curso/tema1/slyder6.png', alt='Texto que describa la imagen')
+
+        .row
+          .col-md-6.mb-4.mb-md-0
+            h5 Procedimientos de control de cambios
+            p.mb-4 Cualquier cambio realizado en un sistema puede afectarlo negativamente, se sugieren una serie de recomendaciones para la gestión del control de cambios.
+            p.mb-4 Para conocer una serie de recomendaciones para la gestión del control de cambios, haz clic en el botón 
+          .col-md-6
+            figure
+              img(src='@/assets/curso/tema1/slyder7.png', alt='Texto que describa la imagen')
+
+        .row
+          .col-md-6.mb-4.mb-md-0
+            h5 Revisión técnica tras cambios en las plataformas
+            p Todo sistema deberá ser evaluado después de la aplicación de los cambios, para verificar que no existan fallas.        
+          .col-md-6
+            figure
+              img(src='@/assets/curso/tema1/slyder8.png', alt='Texto que describa la imagen')
+  
+        .row
+          .col-md-6.mb-4.mb-md-0
+            h5 Fugas de información
+            p Se deben evitar que sucedan fugas de información a partir de la inadecuada aplicación de cambios en los sistemas de información, es necesario adoptar los controles para la detección de fugas.         
+          .col-md-6
+            figure
+              img(src='@/assets/curso/tema1/slyder9.png', alt='Texto que describa la imagen')
+
+        .row
+          .col-md-6.mb-4.mb-md-0
+            h5 Desarrollo externo de aplicaciones
+            p Si la organización considera el desarrollo por terceros o externos, se deberá velar porque cumpla con las condiciones y requisitos de seguridad y teniendo en cuenta las condiciones de propiedad intelectual, calidad del desarrollo, certificaciones, entre otros.        
+          .col-md-6
+            figure
+              img(src='@/assets/curso/tema1/slyder10.png', alt='Texto que describa la imagen')
+
+        .row
+          .col-md-6.mb-4.mb-md-0
+            h5 Gestión de vulnerabilidades
+            p.mb-4 Se deben adoptar mecanismos y planes para la gestión de vulnerabilidades en cualquier desarrollo o cambio realizado.
+            p.mb-3 Haz clic en el botón Ver más, para conocer qué se debe hacer antes de ser puesto en producción. 
+          .col-md-6
+            figure
+              img(src='@/assets/curso/tema1/slyder11.png', alt='Texto que describa la imagen')
+
+    .row.mb-4
+      .col-md-3
+        .tarjeta.clr-1
+          h4.text-center.p-2 Norma ISO/IEC 25010:2013: 
+
+    p.mb-4 Este estándar aplica para la industria del desarrollo de software, así como para las organizaciones que realizan desarrollos propios para gestionar su información, es así como esta norma busca mejorar la calidad en los productos de desarrollo de software a partir de las siguientes características:
+
+    .row 
+      .col-md-12
+        TabsA.color-acento-contenido.mb-5
+          .tarjeta.color-acento-contenido--borde.p-4(titulo="Adecuación funcional del software")
+            h5 Adecuación funcional del software 
+            p El sistema satisface las necesidades declaradas cuando se utiliza en condiciones específicas.
+            .row.justify-content-center  
+              .col-md-5
+                figure
+                  img(src='@/assets/curso/tema1/calidad.jpg', alt='Texto que describa la imagen')
+
+          .tarjeta.color-acento-contenido--borde.p-4(titulo="Eficiencia del desempeño del software")
+            h5 Eficiencia del desempeño del software 
+            p.mb-4 Automóviles en red, prendas tecnológicas y monitores de salud en la ropa, aplicaciones para ciclistas para controlar su actividad física, gafas inteligentes.
+            .row.justify-content-center  
+              .col-md-5
+                figure
+                  img(src='@/assets/curso/tema1/calidad.jpg', alt='Texto que describa la imagen')
+
+          .tarjeta.color-acento-contenido--borde.p-4(titulo="Compatibilidad")
+            h5 Compatibilidad 
+            p Necesidad del producto final para funcionar ante diferentes características de software y hardware.
+            .row.justify-content-center  
+              .col-md-5
+                figure
+                  img(src='@/assets/curso/tema1/calidad.jpg', alt='Texto que describa la imagen')
+  
+          .tarjeta.color-acento-contenido--borde.p-4(titulo="Usabilidad ")
+            h5 Usabilidad 
+            p Donde entra en juego la interfaz y experiencia de usuario para aprender a usar rápidamente el software.
+            .row.justify-content-center  
+              .col-md-5
+                figure
+                  img(src='@/assets/curso/tema1/calidad.jpg', alt='Texto que describa la imagen')
+             
+          .tarjeta.color-acento-contenido--borde.p-4(titulo="Contadores inteligentes")
+            h5 Confiabilidad
+            p Se basa en evaluar la capacidad del sistema para trabajar sin fallas durante un periodo de tiempo específico en un entorno específico.
+            .row.justify-content-center  
+              .col-md-5
+                figure
+                  img(src='@/assets/curso/tema1/calidad.jpg', alt='Texto que describa la imagen')
+
+          .tarjeta.color-acento-contenido--borde.p-4(titulo="Ropa tecnológica (wearables)")
+            h5 Seguridad 
+            p Nos ayuda a analizar y verificar la seguridad de nuestro producto software mediante diferentes pruebas como: pruebas de penetración, vulnerabilidad, ethical hacking o static analysis.
+            .row.justify-content-center  
+              .col-md-5
+                figure
+                  img(src='@/assets/curso/tema1/calidad.jpg', alt='Texto que describa la imagen')
+  
+          .tarjeta.color-acento-contenido--borde.p-4(titulo="Transporte")
+            h5 Mantenibilidad
+            p El sistema debe ser fácil de mantener, analizarlo, cambiarlo y probarlo. 
+            .row.justify-content-center  
+              .col-md-5
+                figure
+                  img(src='@/assets/curso/tema1/calidad.jpg', alt='Texto que describa la imagen')
+    
+          .tarjeta.color-acento-contenido--borde.p-4(titulo="Portabilidad")
+            h5 Portabilidad
+            p Esto se refiere a la capacidad que tiene el producto software para cambiar entre versiones de un sistema operativo a otro sin mayores complicaciones.
+            .row.justify-content-center  
+              .col-md-5
+                figure
+                  img(src='@/assets/curso/tema1/calidad.jpg', alt='Texto que describa la imagen')
+
+    p.mb-4 Esto fortalece los procesos de desarrollo de software dentro las organizaciones y en los procesos de desarrollo en sitio en las organizaciones, que buscan mejorar los niveles de seguridad.
+    p.mb-4 Para reforzar esta temática, se sugiere observar el siguiente video.
+
+    figure.mb-5
+      .video
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+      figcaption Video: Leyenda del video
+    separador
+
+    #t_1_4.titulo-segundo.color-acento-contenido
+      .h4 1.4	Metodologías para la gestión de la seguridad en aplicaciones web
+
+    .row.justify-content-center.align-items-center.mb-4
+      .col-md-8
+        p.mb-4 Existen normas y estándares que orientan en la adopción de iniciativas de seguridad en las organizaciones y que impactan directamente en la seguridad de las aplicaciones web y en la información gestionada a través de ellos, ahora bien, desde el punto de vista práctico existen iniciativas metodológicas para la gestión de las vulnerabilidades en aplicaciones web específicamente, una de ellas es Owasp.
+        p Owasp (Open Web Application Security Project) es una metodología de seguridad para la auditoría web, orientada al análisis de seguridad de estas aplicaciones. Esta metodología está siendo utilizada en la mayoría de los trabajos de auditoría de seguridad, ya que permite a partir de la auditoría realizar una evaluación de riesgos.
+      .col-md-4
+        figure
+          img(src='@/assets/curso/tema1/9.png', alt='Texto que describa la imagen')
+
+    p.mb-4 Parte de la revisión de los controles definidos por la metodología, la cual permite al auditor garantizar que una revisión de la plataforma se realiza de forma adecuada, garantizando que todos los vectores de ataque han sido analizados y que los fallos de seguridad han sido detectados. 
+    p.mb-5 Este proceso ayuda a mejorar la seguridad y la protección de los sistemas informáticos en las organizaciones.
+
+    .titulo-sexto.color-acento-contenido
+      h5 Figura 4
+      span Flujo de trabajo de prueba SDLC genérico
+
+    .row.justify-content-center.align-items-center.mb-4
+      .col-md-10
+        figure
+          img(src='@/assets/curso/tema1/vec3.svg', alt='Texto que describa la imagen')
+
+    p.mb-4 Actualmente la mayoría de los desarrolladores de software no realizan la validación de vulnerabilidades en sus productos si no hasta que este ya es funcional, pero esto no es tan eficiente, por ello se sugiere la adopción de un Ciclo de Vida de Desarrollo de Software (SDLC), el cual lleva a tener presente el factor de seguridad en cada una de las fases del desarrollo, así:
+
+    .row.justify-content-center.align-items-center.mb-4
+      .col-md-10
+        .tarjeta.color-cuadro.p-4
+          .row.justify-content-center.align-items-center
+            .col-md-12
+              p.mb-4 Con la adopción de los SDLC o Ciclo de Vida de Desarrollo de Software, se busca que el factor de la seguridad esté presente desde el momento de la concepción del software permitiendo identificar los requisitos funcionales de la necesidad que motiva la creación de una aplicación, mantener los componentes seguros desde el diseño y prototipado, buenas prácticas de programación, desarrollar un plan de pruebas de seguridad, así como mantener un plan de mantenimiento y actualizaciones que garanticen su funcionalidad y seguridad de la información en el tiempo, como se puede apreciar en la siguiente figura. 
+            .col-md-6
+              figure
+                img(src='@/assets/curso/tema1/vec4.svg', alt='Texto que describa la imagen')
+
+        a.anexo.mb-4.mb-lg-0(href="https://en.wikipedia.org/wiki/Main_Page" target="_blank")
+          .anexo__icono
+            img(src="@/assets/template/icono-link.svg")
+          .anexo__texto
+            p Anexo. Consideraciones generales de tratamiento clínico del paciente con COVID-19 en el servicio de urgencias
+            
 </template>
 
 <script>

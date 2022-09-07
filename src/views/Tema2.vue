@@ -3,138 +3,195 @@
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
     
-    .titulo-principal
-      .h3 Producción Audiovisual
+    .titulo-principal.color-acento-contenido
+      .titulo-principal__numero
+        span 2
+      h1  Vulnerabilidades en aplicaciones web
+
+    .row.justify-content-center.align-items-center.mb-4
+      .col-md-10
+        .bloque-texto-g.color-acento-botones.p-3.p-sm-4.p-md-5
+          .bloque-texto-g__img(
+            :style="{'background-image': `url(${require('@/assets/curso/tema2/img1.jpg')})`}"
+          )
+          .bloque-texto-g__texto.p-4
+            p.mb-0 Actualmente se cuenta con una amplia gama de recursos normativos y estándares para la gestión de vulnerabilidades, algunas de ellas con un nivel de cobertura más amplio dado su capacidad de aplicación dentro de las necesidades de una organización. Cada una de estas normas tiene como talante la gestión proactiva de las vulnerabilidades antes de una ocurrencia de un incidente que ponga en riesgo la información administrada
+    separador
     
-    #t_2_1.titulo-segundo
+    #t_2_1.titulo-segundo.color-acento-contenido
       .h4 2.1 Infografía Animada
+
+    p.mb-4 Owasp propone una metodología para la identificación de vulnerabilidades basada en pruebas de seguridad sobre las aplicaciones web, con el cual se busca encontrar las debilidades presentes en un sistema.
+    p.mb-4 Este modelo de pruebas está conformado por:
+
+    .row.mb-4
+      .col-lg-4.mb-4.mb-lg-0
+        .tarjeta.rounded-0.bg--a-1.p-4.d-flex.flex-column.h-100.hoverScale2
+          img.mb-2(src='@/assets/curso/tema2/1.png' style='width: 40px').mx-auto
+          .row.justify-content-center.align-items-center.mb-2
+            .col-md-8
+              .tarjeta.color-primario.p-3
+                h4.text-center.text-white.mb-0 Probador/Auditor: 
+          p.text-center Quien realiza las pruebas y validaciones.
+      .col-lg-4.mb-4.mb-lg-0
+        .tarjeta.rounded-0.bg--a-1.p-4.d-flex.flex-column.h-100.hoverScale2
+          img.mb-2(src='@/assets/curso/tema2/2.png' style='width: 40px').mx-auto
+          .row.justify-content-center.align-items-center.mb-2
+            .col-md-10
+              .tarjeta.color-primario.p-3
+                h4.text-center.text-white.mb-0 Herramientas y metodología:  
+          p.text-center Guía de pruebas de Owasp.
+      .col-lg-4.mb-4.mb-lg-0
+        .tarjeta.rounded-0.bg--a-1.p-4.d-flex.flex-column.h-100.hoverScale2
+          img.mb-2(src='@/assets/curso/tema2/3.png' style='width: 40px').mx-auto
+          .row.justify-content-center.align-items-center.mb-2
+            .col-md-6
+              .tarjeta.color-primario.p-3
+                h4.text-center.text-white.mb-0 Aplicación: 
+          p.text-center Objeto que se desea probar.
     
-    p.mb-4 Propuesta infográfica en animación que refuerce un tema y matice conceptos dados de manera creativa y con intención pedagógica.
+    P.mb-4 A su vez, las pruebas se pueden clasificar así:
 
-    figure.mb-5
-      .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/2cnKTwQ85fg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+    .tarjeta.tarjeta-color.p-5.mb-5
+      SlyderA(tipo="b")
+        .row
+          .col-md-6.mb-4.mb-md-0
+            h5 Pruebas pasivas 
+            p El probador intenta comprender la lógica de la aplicación y explora la aplicación web como un usuario. Se pueden utilizar herramientas para la recopilación de información. Por ejemplo, se puede utilizar un proxy HTTP para observar todas las solicitudes y respuestas. Al final de esta fase, el probador generalmente debe comprender todos los puntos de acceso y la funcionalidad del sistema (por ejemplo, encabezados HTTP, parámetros, cookies, API, uso / patrones de tecnología, etc.).
+          .col-md-6
+            figure
+              img(src='@/assets/curso/tema2/img2.png', alt='Texto que describa la imagen')
 
-    #t_2_2.titulo-segundo
+        .row
+          .col-md-6.mb-4.mb-md-0
+            h5 Pruebas activas
+            p Durante estas pruebas, un probador comienza a utilizar las metodologías descritas en las siguientes secciones, las cuales están divididas en 12 categorías:
+            p.mb-0 01. Recopilación de información.
+            p.mb-0 2 Pruebas de administración de configuración e implementación.
+            p.mb-0 03. Pruebas de administración de identidades.
+            p.mb-0 04. Pruebas de autenticación.
+            p.mb-0 05. Pruebas de autorización.
+            p.mb-0 06. Pruebas de gestión de sesiones.
+            p.mb-0  07. Pruebas de validación de entrada.
+            p.mb-0 08. Manejo de errores.
+            p.mb-0  09. Criptografía.
+            p.mb-0  10. Pruebas de lógica empresarial.
+            p.mb-0  11. Pruebas del lado del cliente.
+            p.mb-0 12. Pruebas de API.
+          .col-md-6
+            figure
+              img(src='@/assets/curso/tema2/img3.png', alt='Texto que describa la imagen')
+    separador
+   
+    #t_2_2.titulo-segundo.color-acento-contenido
       .h4 2.2 Video Motion
 
-    p.mb-4 Animación digital que crea la ilusión de movimiento mediante imágenes, fotografías, títulos, colores y diseños.
+    p.mb-4 Dentro del ejercicio de la gestión de vulnerabilidades, cobran vital importancia las metodologías para el descubrimiento e identificación de estas, ya que orientan y dan un mapa de ruta de cómo se debe realizar el ejercicio, uno de estos es el pentesting o prueba de penetración, que no es más que un ejercicio de descubrimiento apoyado en técnicas y herramientas especializadas para la validación y búsqueda de vulnerabilidades en un sistema o aplicación.
+    p.mb-4 Existen los siguientes tipos de pentesting:
 
-    figure.mb-5
-      .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/E7-BaX6ox9s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+    .row 
+      .col-md-12
+        AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta-azul")
+          .row(titulo="Prueba en aplicación web")
+            .col-md-9.mb-4.mb-md-0
+              p Es una exploración profunda en una aplicación de tipo web, realizando análisis extremadamente detallados, para identificar vulnerabilidades que pueden poner en riesgo la información.
 
-    #t_2_3.titulo-segundo
+            .col-md-3
+              figure
+                img(src='@/assets/curso/tema2/4.png', alt='Texto que describa la imagen')
+
+          .row(titulo="Prueba de Client Side")
+            .col-md-9.mb-4.mb-md-0
+              p En este tipo de prueba, es posible analizar software, programas de creación de contenido y Web browsers (como Chrome, Firefox, Explorer, etc) en ordenadores de los usuarios, para la búsqueda de vulnerabilidades.
+          
+            .col-md-3
+              figure
+                img(src='@/assets/curso/tema2/5.png', alt='Texto que describa la imagen')
+
+          .row(titulo="Prueba en red inalámbrica")
+            .col-md-9.mb-4.mb-md-0
+              p Se examinan las redes inalámbricas validando protocolos, puntos de acceso y credenciales administrativas.
+          
+            .col-md-3
+              figure
+                img(src='@/assets/curso/tema2/6.png', alt='Texto que describa la imagen')
+
+          .row(titulo="Prueba de Ingeniería Social")
+            .col-md-9.mb-4.mb-md-0
+              p Se analizan las informaciones y datos confidenciales que pueden ser objeto de robo por medio de manipulación psicológica, aprovechándose del ingenio o desconocimiento del usuario.  
+          
+            .col-md-3
+              figure
+                img(src='@/assets/curso/tema2/7.png', alt='Texto que describa la imagen')
+
+    p.mb-4 Para cualquiera de los tipos de pentesting, se sugiere un ciclo de vida como se muestra en la siguiente figura, en donde se resalta:
+
+    .row 
+      .col-md-12
+        TabsA.color-acento-contenido.mb-5
+          .tarjeta.color-acento-contenido--borde.p-4(titulo="Reconocimiento:")
+            .row
+              .col-md-9
+                h5 Reconocimiento: 
+                p Identificar los activos de información, aplicaciones, dispositivos, información de red, credenciales de acceso, información.
+              .col-md-3
+                figure
+                  img(src='@/assets/curso/tema2/img2.jpg', alt='Texto que describa la imagen')
+
+          .tarjeta.color-acento-contenido--borde.p-4(titulo="Fuera del hogar")
+            .row
+              .col-md-9
+                h5 Análisis de vulnerabilidades:
+                p.mb-4 Realizar mediante la aplicación de técnicas y herramientas especializadas, la búsqueda de posibles vulnerabilidades que pueden afectar un activo de información.
+              .col-md-3
+                figure
+                  img(src='@/assets/curso/tema2/img2.jpg', alt='Texto que describa la imagen')
+
+          .tarjeta.color-acento-contenido--borde.p-4(titulo="Ropa tecnológica (wearables)")
+            .row
+              .col-md-9
+                h5 Explotación:
+                p Permite validar si una vulnerabilidad es explotable o puede permanecer en estado inactivo.
+              .col-md-3
+                figure
+                  img(src='@/assets/curso/tema2/img2.jpg', alt='Texto que describa la imagen')
+
+          .tarjeta.color-acento-contenido--borde.p-4(titulo="Transporte")
+            .row
+              .col-md-9
+                h5 Escalar privilegios o postexplotación:
+                p Permite evaluar los posibles daños que pueden causar si una vulnerabilidad se materializa como amenaza.
+              .col-md-3
+                figure
+                  img(src='@/assets/curso/tema2/img2.jpg', alt='Texto que describa la imagen')
+
+          .tarjeta.color-acento-contenido--borde.p-4(titulo="Contadores inteligentes")
+            .row
+              .col-md-9
+                h5 Informe:
+                p Generar el reporte del ejercicio realizado, hallazgos y detalles de las vulnerabilidades encontradas.
+              .col-md-3
+                figure
+                  img(src='@/assets/curso/tema2/img2.jpg', alt='Texto que describa la imagen')
+    
+    P.mb-4 Ahora bien, este ejercicio se puede realizar de manera exploratoria sin conocimiento del escenario e información de acceso, y dependiendo de esto, las pruebas se pueden clasificar en:
+
+
+    #t_2_3.titulo-segundo.color-acento-contenido
       .h4 2.3 Motion + Presentador
 
-    p.mb-4 Es el uso locutor + acompañamiento de imágenes como fondo, el estilo tiene una mezcla entre imagen viva y recursos gráficos vectoriales  se usa cuando un material tiene información de datos numéricos o gráficos de valores. 
-
-    figure.mb-5
-      .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/Ky73iaXuuTA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-
+    
     #t_2_4.titulo-segundo
       .h4 2.4 Animación 2D
 
-    p.mb-4 Es el uso locutor + acompañamiento de imágenes como fondo, el estilo tiene una mezcla entre imagen viva y recursos gráficos vectoriales  se usa cuando un material tiene información de datos numéricos o gráficos de valores. 
-
-    figure.mb-5
-      .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/3b8VctSm558" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-
-    #t_2_5.titulo-segundo
+   
+    #t_2_5.titulo-segundo.color-acento-contenido
       .h4 2.5 Video interactivo
 
-    p.mb-4 Visualización de videos con diferentes tipos de preguntas o anotaciones.
-
-    figure.mb-5
-      .video
-        iframe(src="https://vizia.co/videos/94d994c5fe93f1b08a60eb/embed" allowtransparency="true" frameborder="0" scrolling="no" width="640" height="390")
-
-    #t_2_6.titulo-segundo
+   
+    #t_2_6.titulo-segundo.color-acento-contenido
       .h4 2.6 Infografías
 
-    p.mb-4 Es una herramienta de comunicación de alta precisión, el cual tiene una narrativa gráfica con un texto corto acompañada de elementos visuales que tienen como intención de captar rápidamente la atención del lector. 
-
-    figure.mb-5
-      img(src='@/assets/curso/infografia-1.jpg', alt='Infografía Fundamentos del Servicio de Interpretación')
-      figcaption Fundamentos del Servicio de Interpretación
-
-    .tarjeta.tarjeta--morada.p-3.mb-5
-      .row.justify-content-around.align-items-center
-        .col
-          .row.justify-content-between.align-items-center
-            .col.mb-3.mb-sm-0
-              .h5.mb-0 Fundamentos del Servicio de Interpretación
-              p Formato PDF
-            .col-sm-auto
-              a.boton.boton--b(:href="obtenerLink('/downloads/fundamentos_del_servicio_de_Interpretacion.pdf')" target="_blank")
-                span Descargar
-                i.fas.fa-file-download
-    
-    figure.mb-5
-      img(src='@/assets/curso/infografia-2.jpg', alt='Infografía Plan de Negocios')
-      figcaption Plan de Negocios
-
-    .tarjeta.tarjeta--morada.p-3.mb-5
-      .row.justify-content-around.align-items-center
-        .col
-          .row.justify-content-between.align-items-center
-            .col.mb-3.mb-sm-0
-              .h5.mb-0 Plan de Negocios
-              p Formato PDF
-            .col-sm-auto
-              a.boton.boton--b(:href="obtenerLink('/downloads/plan_de_negocios.pdf')" target="_blank")
-                span Descargar
-                i.fas.fa-file-download
-    
-    figure.mb-5
-      img(src='@/assets/curso/infografia-3.jpg', alt='Infografía Cobertura poblacional')
-      figcaption Cobertura poblacional
-
-    .tarjeta.tarjeta--morada.p-3.mb-5
-      .row.justify-content-around.align-items-center
-        .col
-          .row.justify-content-between.align-items-center
-            .col.mb-3.mb-sm-0
-              .h5.mb-0 Cobertura poblacional
-              p Formato PDF
-            .col-sm-auto
-              a.boton.boton--b(:href="obtenerLink('/downloads/cobertura_poblacional.pdf')" target="_blank")
-                span Descargar
-                i.fas.fa-file-download
-    
-    figure.mb-5
-      img(src='@/assets/curso/infografia-4.jpg', alt='Infografía Historia de las microfinanzas: Mohammad Yunus')
-      figcaption Historia de las microfinanzas: Mohammad Yunus
-
-    .tarjeta.tarjeta--morada.p-3.mb-5
-      .row.justify-content-around.align-items-center
-        .col
-          .row.justify-content-between.align-items-center
-            .col.mb-3.mb-sm-0
-              .h5.mb-0 Historia de las microfinanzas: Mohammad Yunus
-              p Formato PDF
-            .col-sm-auto
-              a.boton.boton--b(:href="obtenerLink('/downloads/historia_de_las_microfinanzas_mohammad_yunus.pdf')" target="_blank")
-                span Descargar
-                i.fas.fa-file-download
-    
-    figure.mb-5
-      img(src='@/assets/curso/infografia-5.jpg', alt='Infografía Psicología de la moda: sexualidad, ropa mágica, ropa malévola y ropa neurótica')
-      figcaption Psicología de la moda: sexualidad, ropa mágica, ropa malévola y ropa neurótica
-
-    .tarjeta.tarjeta--morada.p-3.mb-5
-      .row.justify-content-around.align-items-center
-        .col
-          .row.justify-content-between.align-items-center
-            .col.mb-3.mb-sm-0
-              .h5.mb-0 Psicología de la moda: sexualidad, ropa mágica, ropa malévola y ropa neurótica
-              p Formato PDF
-            .col-sm-auto
-              a.boton.boton--b(:href="obtenerLink('/downloads/psicologia_de_la_moda.pdf')" target="_blank")
-                span Descargar
-                i.fas.fa-file-download
 
 </template>
 

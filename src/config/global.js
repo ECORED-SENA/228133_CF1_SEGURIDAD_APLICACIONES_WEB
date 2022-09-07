@@ -60,7 +60,7 @@ export default {
             numero: '1.4',
             titulo:
               'Metodologías para la gestión de la seguridad en aplicaciones web',
-            hash: 't_1_5',
+            hash: 't_1_4',
           },
         ],
       },

@@ -73,14 +73,125 @@
 .tarjeta-color
   background-color: #E5FDF3
 
-.slyder-a__btn--sigt, .slyder-a__btn--atrs
-  width: 50px
-  height: 50px
-  background-color: #6ACEAE
+.tarjeta.color-acento-contenido--borde
+  background-color: #FDFCFC
+  color: #12263F
+  border: solid 3px #CBEEE3
+
+.clr-1
+  background-color: #A6E6CA
+  width: auto
+  border-radius: 0px
+
+.tarjeta-avatar
+  height: 100%
+  position: relative
+  padding-top: 0px
+
+.tarjeta-avatar > img 
+  position: absolute
+  left: 87%
+  top: 15%
+  transform: translateX(-50%)
+  display: block
+  width: 240px
+  margin: 0 auto
+
+.tarjeta-avatar .tarjeta
+  display: inline-block
+  padding-top: 0px !important
+  padding-right: 60px !important
+  height: 100%
+
+.clr-2
+  background-color: #E5FDF3
+  width: 925px
+
+.clr--gris1
+  background-color: #F6F6F6
+  border-radius: 0px
+
+.color-info
+  background-color: #FFFFFF 
+  border-radius: 0px
+
+.img-infografica__item__dot:before, .img-infografica__item__dot:after, .img-infografica-b__item__dot:before, .img-infografica-b__item__dot:afte
+  content: ''
+  display: block
+  width: 100%
+  height: 100%
   border-radius: 50%
-  background-repeat: no-repeat
-  background-size: 16px 24px
-  background-position: center
-  border: 1px solid #D8ECFF
-  top: 50%
-  z-index: 10000
+  position: absolute
+  top: 0
+  left: 0
+  transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out
+  opacity: 100%
+
+
+.img-infografica.color-secundario .img-infografica__item__dot:before, .img-infografica.color-secundario .img-infografica__item__dot:after, .img-infografica.color-secundario .img-infografica-b__item__dot:before, .img-infografica.color-secundario .img-infografica-b__item__dot:after, .img-infografica-b.color-secundario .img-infografica__item__dot:before, .img-infografica-b.color-secundario .img-infografica__item__dot:after, .img-infografica-b.color-secundario .img-infografica-b__item__dot:before, .img-infografica-b.color-secundario .img-infografica-b__item__dot:after
+  background-color: #ffffff48
+  opacity: 0%
+
+.color-amarillo
+  background-color: #FFFAEF
+  border-radius: 0px
+
+.img1
+  width: 240px
+  @media (max-width: 1000px)
+    width: auto
+
+.crd--avatarHorizontal
+  position: relative
+  padding-right: 4rem
+  & > *
+    position: relative
+  p 
+    margin-bottom: 0
+  &::before  
+    position: absolute 
+    content: ''
+    top: 0
+    right: 0
+    width: calc( 100% - 60px)
+    height: 100%
+    background-color: #E5EAFF
+    border-radius: 20px
+
+  @media (max-width: 1000px)
+    padding-right: 2rem
+
+.color-cuadro
+  background-color: #FFFDF8
+  border-radius: 20px
+  border: 2px solid
+
+.tarjeta.color-cuadro
+  border-color: #ECC153
+
+///tema2
+
+.bg--a-1
+  background-color: #E5EAFF
+
+.hoverScale
+  transition: transform .3s ease-in
+  &:hover
+    transform: scale(1.1)
+.hoverScale2
+  transition: all .3s ease-in
+  &:hover
+    transform: scale(1.1)
+    background-color: #A6E6CA
+
+.tarjeta.acordeonA
+  background-color: #FFE59F
+.acordion__accion__btn--a
+  background-color: #FFFFFF !important
+
+.acordion__activo
+  background-color: #FFE59F !important
+
+.tarjeta-azul
+    background-color: #FFF1CC
+
