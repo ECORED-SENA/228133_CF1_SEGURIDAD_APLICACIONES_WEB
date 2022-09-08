@@ -176,21 +176,307 @@
     
     P.mb-4 Ahora bien, este ejercicio se puede realizar de manera exploratoria sin conocimiento del escenario e información de acceso, y dependiendo de esto, las pruebas se pueden clasificar en:
 
+    .row.mb-5
+      .col-md-6.col-lg.mb-5.mb-lg-0
+        .tarjeta-avatar
+          img(src='@/assets/curso/tema2/avatar1.png' alt='AvatarTop')
+          .tarjeta.color-ama
+            .text-black.p-4
+              h5.text-center.mb-5 Caja negra: 
+              p Aquí los auditores no cuentan con información previa sobre el escenario en el cual se va a trabajar, se desarrollan ejercicios de exploración e intrusión, este tipo de pruebas por lo general son realizadas por personas externas a la organización.
+
+      .col-md-6.col-lg.mb-5.mb-lg-0
+        .tarjeta-avatar
+          img(src='@/assets/curso/tema2/avatar2.png' alt='AvatarTop')
+          .tarjeta.color-ver
+            .p-4
+              h2.text-center.mb-5 Caja blanca
+              p Los auditores cuentan con datos del escenario e incluso credenciales de acceso a los sistemas de información, este tipo de pruebas lo realizan principalmente personal interno de la organización.
+
+      .col-md-6.col-lg.mb-5.mb-lg-0
+        .tarjeta-avatar
+          img(src='@/assets/curso/tema2/avatar3.png' alt='AvatarTop')
+          .tarjeta.color-az
+            .p-4
+              h2.text-center.mb-5.text-white Caja gris
+              p Se cuenta con parte de la información, pero se requiere detallar ciertos aspectos técnicos. 
+    separador
 
     #t_2_3.titulo-segundo.color-acento-contenido
       .h4 2.3 Motion + Presentador
 
+    p.mb-4 De acuerdo con la comunidad de Owasp, este genera reportes sobre las vulnerabilidades que más se encuentran en las aplicaciones web y en su último reporte se puede observar el siguiente comportamiento del top 10 de las vulnerabilidades identificadas.
+
+    SlyderB.mb-5(:datos="datosSlyder")
+    separador
     
     #t_2_4.titulo-segundo
       .h4 2.4 Animación 2D
 
+    .row.justify-content-center.align-items-center.mb-4
+      .col-md-8
+        p.mb-4 Estas son un elemento fundamental en el ejercicio de la búsqueda y gestión de vulnerabilidades, dado que permiten agilizar, automatizar y realizar cientos de validaciones en segundos, y generando informes muy completos sobre los hallazgos encontrados.
+        p.mb-4 A continuación, se exponen algunas de las herramientas más comunes, aunque más adelante se profundizará sobre su utilidad y manejo en el ejercicio de la auditoría.
+        p.mb-4 Dentro del universo de herramientas a utilizar, están las siguientes categorías:
+      .col-md-4
+        figure
+          img(src='@/assets/curso/tema2/img3.jpg', alt='Texto que describa la imagen')
+
+    .row.mb-4
+      .col-md-12
+        ul.lista-ul--color.mb-0
+          li 
+            i.fas.fa-atom
+            | Herramientas de pruebas de seguridad de aplicaciones estáticas (SAST).
+          li 
+            i.fas.fa-atom
+            | Herramientas de pruebas dinámicas de seguridad de aplicaciones (DAST), principalmente para aplicaciones web.
+          li 
+            i.fas.fa-atom
+            | Herramientas interactivas de pruebas de seguridad de aplicaciones (IAST), principalmente para aplicaciones web y API web.
+          li 
+            i.fas.fa-atom
+            | Mantener actualizadas las bibliotecas de código abierto, para evitar el uso de componentes con vulnerabilidades conocidas (Owasp Top 10-2017 A9)
+          li 
+            i.fas.fa-atom
+            | Herramientas de calidad de código estático.
+
+    .row.mb-4
+      .col-md-3
+        .tarjeta.clr-1
+          h4.text-center.p-2 Herramientas SAST
+
+    p.mb-4 En el siguiente recurso podrá conocer las herramientas más importantes SAST.
+
+    .row.mb-4 
+      .col-md-12 
+        TabsC.color-acento-contenido
+          .py-3.py-md-0(titulo="Escaneo de código de GitHub")
+            .row.tarjeta.color--gris.p-4
+              .col-md-6
+                figure
+                  img(src='@/assets/curso/tema2/img5.jpg', alt='Texto que describa la imagen')
+              .col-md-6.mb-4.mb-md-0
+                h4 Escaneo de código de GitHub 
+                p.mb-4 Es un servicio gratuito de análisis estático de código abierto que utiliza GitHub Actions y CodeQL. 
+                p Sirve para escanear repositorios públicos en GitHub. Soporta C/C++, C#, Ruby (beta), Java, JavaScript/TypeScript, Python y Go.               
+
+          .py-3.py-md-0(titulo="Análisis estático de Coverity Scan")
+            .row.tarjeta.color--gris.p-4
+              .col-md-6
+                figure
+                  img(src='@/assets/curso/tema2/img6.jpg', alt='Texto que describa la imagen')
+              .col-md-6.mb-4.mb-md-0
+                h4 Análisis estático de Coverity Scan 
+                p.mb-4 Se puede conectar a Travis-CI para que se realice automáticamente con recursos en línea. Soporta más de una docena de lenguajes de programación.
+
+          .py-3.py-md-0(titulo="Reshift")
+            .row.tarjeta.color--gris.p-4
+              .col-md-6
+                figure
+                  img(src='@/assets/curso/tema2/img7.jpg', alt='Texto que describa la imagen')
+              .col-md-6.mb-4.mb-md-0
+                h4 Reshift
+                p.mb-4 Es una herramienta de CI/CD que utiliza el análisis de código estático para buscar vulnerabilidades y utiliza el aprendizaje automático para dar una predicción sobre falsos positivos. Soporta Java con soporte futuro para NodeJS y JavaScript planeado.  
+
+          .py-3.py-md-0(titulo="WhiteSource Free Tools ")
+            .row.tarjeta.color--gris.p-4
+              .col-md-6
+                figure
+                  img(src='@/assets/curso/tema2/img8.jpg', alt='Texto que describa la imagen')
+              .col-md-6.mb-4.mb-md-0
+                h4 WhiteSource Free Tools 
+                p.mb-4 Suite de herramientas para detectar vulnerabilidades en código fuente.
+          
+          .py-3.py-md-0(titulo="HCL AppScan CodeSweep")
+            .row.tarjeta.color--gris.p-4
+              .col-md-6
+                figure
+                  img(src='@/assets/curso/tema2/img9.jpg', alt='Texto que describa la imagen')
+              .col-md-6.mb-4.mb-md-0
+                h4 HCL AppScan CodeSweep 
+                p.mb-4 Esta es una versión de la edición de la comunidad SAST de HCL AppScan. 
+                p La herramienta actualmente es compatible con Python, Ruby, JS (Vue, Node, Angular, JQuery, React, etc.), PHP, Perl, Go, TypeScript y con otros nuevos lenguajes que se agregan con frecuencia.  
+
+    .row.mb-4
+      .col-md-3
+        .tarjeta.clr-1
+          h4.text-center.p-2 Herramientas DAST
+
+    p.mb-4 Si un proyecto tiene un componente de aplicación web, se recomienda ejecutar análisis automatizados contra él para establecer las vulnerabilidades.
+
+    .row.mb-4 
+      .tarjeta.tarjeta-ama.p-4
+        LineaTiempoC.color-acento-botones(text-small)
+          .row(titulo="Owasp ZAP")
+            .col-md-8.mb-4.mb-md-0
+              h5 Owasp ZAP
+              p Es una herramienta gratuita y de código abierto con todas las funciones que incluye escaneo automatizado en busca de vulnerabilidades y herramientas para ayudar a los expertos a realizar pruebas manuales de lápiz de aplicaciones web.
+          
+            .col-md-4
+              figure
+                img(src='@/assets/curso/tema2/img4.jpg', alt='Texto que describa la imagen')
+
+          .row(titulo="StackHawk")
+            .col-md-8.mb-4.mb-md-0
+              h5 StackHawk
+              p Esta es una herramienta con soporte comercial construida sobre Owasp ZAP y optimizada para ejecutarse en CI/CD (casi todos los CI soportados) para probar aplicaciones web durante el desarrollo y en CI/CD. StackHawk es gratuito para proyectos de código abierto y de uso gratuito en una sola aplicación.
+          
+            .col-md-4
+              figure
+                img(src='@/assets/curso/tema2/img4.jpg', alt='Texto que describa la imagen')
+
+
+          .row(titulo="Arachni – Arachni")
+            .col-md-8.mb-4.mb-md-0
+              h5 Arachni – Arachni
+              p Es un escáner con soporte comercial, pero es gratuito para la mayoría de los casos de uso, incluido el escaneo de proyectos de código abierto.
+          
+            .col-md-4
+              figure
+                img(src='@/assets/curso/tema2/img4.jpg', alt='Texto que describa la imagen')
+
+          .row(titulo="VWT Digital's Sec-helpers")
+            .col-md-8.mb-4.mb-md-0
+              h5 VWT Digital's Sec-helpers
+              p Es una herramienta gratuita y de código abierto con todas las funciones que incluye escaneo automatizado en busca de vulnerabilidades y herramientas para ayudar a los expertos a realizar pruebas manuales de lápiz de aplicaciones web.
+          
+            .col-md-4
+              figure
+                img(src='@/assets/curso/tema2/img4.jpg', alt='Texto que describa la imagen')
+
+
+          .row(titulo="Owasp Purpleteam")
+            .col-md-8.mb-4.mb-md-0
+              h5 Owasp Purpleteam
+              p Una regresión de seguridad que prueba SaaS y CLI, perfecta para insertar en sus canalizaciones de compilación. No necesita escribir ninguna prueba. Esta herramienta únicamente necesita proporcionar un archivo de trabajo que le diga a Purpleteam lo que desea que se pruebe. Tiene dos ambientes principales y un local cloud.
+          
+            .col-md-4
+              figure
+                img(src='@/assets/curso/tema2/img4.jpg', alt='Texto que describa la imagen')
+
+    .row.mb-4
+      .col-md-3
+        .tarjeta.clr-1
+          h4.text-center.p-2 Herramientas IAST
+
+    p.mb-4 Estas herramientas suelen estar orientadas a analizar aplicaciones web y API web, pero eso es específico del proveedor. Puede haber productos IAST que también realicen un buen análisis de seguridad en aplicaciones que no sean web.
+
+    .titulo-sexto.color-acento-contenido
+      h5 Figura 6
+      span Contrast Community Edition (CE)
+
+    .row.justify-content-center.align-items-center.mb-4
+      .col-md-8
+        .row
+          .col-8
+            figure
+              img.mb-0(src='@/assets/curso/tema2/img11.jpg', alt='Texto que describa la imagen')
+          .col-md-4
+            .tarjeta.color-gris.p-4
+              h5 Contrast Community Edition (CE) 
+              p Versión con todas las funciones para 1 aplicación y hasta 5 usuarios (algunas funciones Enterprise deshabilitadas). Contrast CE solo admite Java y .NET.
+
+    p.mb-4 A continuación podrá conocer algunas de las herramientas disponibles para la auditoría de aplicaciones web y para proyectos de desarrollo de aplicaciones web, y vale la pena  aclarar que algunas de ellas son open source, o tienen una posibilidad de ser utilizados cuando son proyectos abiertos, pero para proyectos comerciales o de gran tamaño requieren de una licencia o contrato de uso.
+
+    .row
+      .col-md-12
+        TabsB.color-acento-contenido.mb-5
+          .py-4.py-md-5(titulo="The splendor of the mystery" :icono="require('@/assets/curso/tema2/icon1.png')")
+            .row
+              .col-md-8.mb-4.mb-md-0
+                h4 Herramientas de seguridad de software de código abierto (OSS)
+                p.mb-4 OSS se refiere a las bibliotecas o componentes de código abierto que los desarrolladores de aplicaciones aprovechan para desarrollar rápidamente nuevas aplicaciones y agregar características a las aplicaciones existentes.
+                p.mb-2 Plugin Maven Versions. 
+                p.mb-2 Dependabot.
+            
+              .col-md-4
+                figure
+                  img(src='@/assets/curso/tema2/vec1.jpg', alt='Texto que describa la imagen')
+
+          .py-4.py-md-5(titulo="The splendor of the mystery" :icono="require('@/assets/curso/tema2/icon2.png')")
+            .row
+              .col-md-8.mb-4.mb-md-0
+                h4 Detección de componentes vulnerables conocidos 
+                p.mb-4 Como alternativa y para tratar de mantener todos sus componentes actualizados, un proyecto puede monitorear específicamente si alguno de los componentes que utilizan tiene componentes vulnerables conocidos:
+                p.mb-2 Owasp.
+                p.mb-2 GitHub
+                p.mb-2 Debricked
+
+              .col-md-4
+                figure
+                  img(src='@/assets/curso/tema2/vec2.jpg', alt='Texto que describa la imagen')
+
+          .py-4.py-md-5(titulo="The splendor of the mystery" :icono="require('@/assets/curso/tema2/icon3.png')")
+            .row
+              .col-md-8.mb-4.mb-md-0
+                h4 Herramientas de calidad de código
+                p.mb-4 Los proyectos de desarrollo de software consideran el uso de herramientas de buena calidad de código. Algunos sugeridos por Owasp son:
+                p.mb-2 SpotBugs
+                p.mb-2 SonarQube
+                p.mb-2 DeepScan
+
+              .col-md-4
+                figure
+                  img(src='@/assets/curso/tema2/vec3.jpg', alt='Texto que describa la imagen')
+
+          .py-4.py-md-5(titulo="The splendor of the mystery" :icono="require('@/assets/curso/tema2/icon4.png')")
+            .row
+              .col-md-8.mb-4.mb-md-0
+                h4 Herramientas de seguridad integradas en entornos DevOps/CI
+                p Permiten a las empresas conseguir una mayor eficiencia, productividad y agilidad, conectando diferentes aplicaciones de software y servicios, interfaces de programación de aplicaciones (API) datos y dispositivos para automatizar los procesos empresariales.
+                p.mb-2 Grendel-Scan
+                p.mb-2 Vega
+                p.mb-2 Wapiti
+
+              .col-md-4
+                figure
+                  img(src='@/assets/curso/tema2/vec4.jpg', alt='Texto que describa la imagen')
+
+    separador
    
     #t_2_5.titulo-segundo.color-acento-contenido
       .h4 2.5 Video interactivo
 
-   
-    #t_2_6.titulo-segundo.color-acento-contenido
-      .h4 2.6 Infografías
+    .row.justify-content-center.align-items-center.mb-4
+      .col-md-8
+        p.mb-4 Una vez realizado el plan de pruebas programado con las herramientas y técnicas seleccionadas, se deben documentar los hallazgos encontrados en el ejercicio, para ello se emplean instrumentos que permitan registrar, analizar y evaluar el estado actual de la seguridad de las aplicaciones web.
+        p Desde el proyecto Owasp, se han propuesto varios instrumentos para registrar la información a manera de checklist, a saber:
+      .col-md-4
+        figure
+          img(src='@/assets/curso/tema2/img10.jpg', alt='Texto que describa la imagen')
+
+    .titulo-sexto.color-acento-contenido
+      h5 Figura 7
+      span Instrumento Checklist para registro de la evaluación.
+
+    .row.justify-content-center.align-items-center.mb-4
+      .col-md-8
+        .row
+          .col-8
+            figure
+              img.mb-0(src='@/assets/curso/tema2/img11.jpg', alt='Texto que describa la imagen')
+          .col-md-4
+            .tarjeta.color-gris.p-4
+              h5 Instrumento checklist para registro de la evaluación
+              p Este permite obtener un informe del riesgo que pueden llegar a presentar una determinada aplicación web, registrando cada una de las aplicaciones web que se desea evaluar, y registrar el resultado de las pruebas practicadas, esta información será útil para generar un informe final del nivel del riesgo presente en las aplicaciones.
+
+    .titulo-sexto.color-acento-contenido
+      h5 Figura 8
+      span OWASP Risk Assesment Calculator.
+
+    .row.justify-content-center.align-items-center.mb-4
+      .col-md-8
+        .row
+          .col-8
+            figure
+              img.mb-0(src='@/assets/curso/tema2/img11.jpg', alt='Texto que describa la imagen')
+          .col-md-4
+            .tarjeta.color-gris.p-4
+              h5 Instrument OWASP Risk Assessment Calculator
+              p Esta herramienta es una calculadora de evaluación de riesgos OWAS y se puede encontrar un instrumento de evaluación en línea.
+
+    
 
 
 </template>
@@ -199,7 +485,74 @@
 export default {
   name: 'Tema2',
   data: () => ({
-    // variables de vue
+    datosSlyder: [
+      {
+        titulo: 'Pérdida del control de acceso (Broken Access Control)',
+        texto:
+          'El control de acceso permite cumplir una política de permisos y roles, es decir, que un usuario pueda acceder a determinados lugares. Estas restricciones implican que los usuarios no puedan actuar fuera de los permisos y, además, llevar un control de quien accede a cada recurso.<br></br>La vulnerabilidad Broken Access Control permite que un usuario sin privilegios pueda acceder a un recurso al que no tendría que acceder.',
+        imagen: require('@/assets/curso/tema2/1.jpg'),
+      },
+      {
+        titulo: 'Fallos criptográficos (Cryptographic Failures)',
+        texto:
+          'Hay ciertos datos que deben estar cifrados, como credenciales de acceso, datos bancarios, información confidencial de la empresa, etc., ya que, aparte de que la ley lo exija, lo que un ciberdelincuente pueda hacer con los datos resulta catastrófico para la empresa. Para que estos sean vistos únicamente por las personas autorizadas de la empresa, hay que aplicarles un cifrado con algoritmos y protocolos estándares y robustos. ',
+        imagen: require('@/assets/curso/tema2/2.jpg'),
+      },
+      {
+        titulo: 'Inyección (Injection)',
+        texto:
+          'Esto sucede cuando un ciberdelincuente puede enviar datos dañinos a un cliente y desde el año 2021, el Cross-site Scripting forma parte de esta categoría, como una vulnerabilidad de seguridad inyectando un script malicioso en un sitio web para luego ser procesado y ejecutado.',
+        imagen: require('@/assets/curso/tema2/3.jpg'),
+      },
+      {
+        titulo: 'Diseño inseguro (Insecure Design)',
+        texto:
+          'A la hora de desarrollar una aplicación web es primordial incluir la seguridad de la aplicación desde la fase del diseño, centrándose la detección de riesgos relacionados con el diseño y las fallas arquitectónicas, además de dar más fuerza al modelado de amenazas, patrones de diseño seguros y arquitecturas de referencia.',
+        imagen: require('@/assets/curso/tema2/4.jpg'),
+      },
+      {
+        titulo:
+          'Configuración de seguridad defectuosa (Security Misconfiguration)',
+        texto:
+          'En el entorno de la aplicación web los ciberdelincuentes intentarán acceder mediante cuentas por defecto, versiones obsoletas con vulnerabilidades sin actualizar, directorios desprotegidos, etc. Por ello, tiene que estar todo bien configurado y evitar usar credenciales por defecto, como puede ser en el caso del servidor, aplicaciones o dispositivos.',
+        imagen: require('@/assets/curso/tema2/5.jpg'),
+      },
+      {
+        titulo:
+          'Componentes vulnerables y obsoletos (Vulnerable and Outdated Components)',
+        texto:
+          'Un ciberdelincuente podrá comprometer un sistema mediante vulnerabilidades ya conocidas en componentes comunes, como por ejemplo la versión del sistema operativo o aplicaciones instaladas en el servidor, entre otras.',
+        imagen: require('@/assets/curso/tema2/6.jpg'),
+      },
+      {
+        titulo:
+          'Fallos de identificación y autenticación (Identification and Authentication Failures)',
+        texto:
+          'Esto sucede cuando en las interfaces de acceso no se controla el número de intentos de autenticación, hay una baja complejidad de las contraseñas o no se implanta un sistema multifactor “2FA”.<br></br>Esto podría permitir a un ciberdelincuente realizar ataques de fuerza bruta o diccionario para ingresar en él o cuando la aplicación permite utilizar contraseñas débiles.',
+        imagen: require('@/assets/curso/tema2/7.jpg'),
+      },
+      {
+        titulo:
+          'Fallos en el software y en la integridad de los datos (Software and Data Integrity Failures)',
+        texto:
+          'Muchas aplicaciones se actualizan de manera automática. Cuando estas actualizaciones no son verificadas los ciberdelincuentes podrían modificarlas cargando sus propias actualizaciones y distribuyéndolas. ',
+        imagen: require('@/assets/curso/tema2/8.jpg'),
+      },
+      {
+        titulo:
+          'Fallos en el registro y la supervisión de la seguridad (Security Logging and Monitoring Failures)',
+        texto:
+          'La falta de registros sobre eventos, los denominados logs, en la aplicación o en el sistema, como inicios de sesión (tanto válidos como fallidos). Por ejemplo, que estos registros no se almacenen remotamente impide que se puedan detectar las infracciones.',
+        imagen: require('@/assets/curso/tema2/9.jpg'),
+      },
+      {
+        titulo:
+          'Falsificación de solicitud del lado del servidor (Server-side Request Forguery o SSRF)',
+        texto:
+          'Cuando nuestra aplicación web obtiene un recurso externo y este no valida la URL un ciberdelincuente podría modificarla con fines malintencionados y realizar peticiones no autorizadas.',
+        imagen: require('@/assets/curso/tema2/10.jpg'),
+      },
+    ],
   }),
   mounted() {
     this.$nextTick(() => {

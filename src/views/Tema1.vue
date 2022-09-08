@@ -285,11 +285,13 @@
     p.mb-4 Ahora bien, para cumplir con estos tres pilares se hace necesario de acciones, y aquí es donde han surgido algunas buenas iniciativas como normatividad, estándares y buenas prácticas para una adecuada gestión de la información, entre las cuales poder revisar:
 
     .row.justify-content-center.align-items-center.mb-4
-      .col-md-10.mb-lg-0
-        .tarjeta-avatar
-          img(src='@/assets/curso/tema1/7.png' alt='AvatarTop')
-          .tarjeta.clr-2
-            .p-5
+      .col-lg-10.position-relative
+        .crd.crd--avatarHorizontal.py-4
+          .row.align-items-center
+            .col-auto
+              figure
+                img(src='@/assets/curso/tema1/7.png' alt='AvatarTop').img1
+            .col
               ul.lista-ul--color.mb-0
                 li 
                   i.fas.fa-angle-right
@@ -312,7 +314,7 @@
                 li 
                   i.fas.fa-angle-right
                   | Adoptar la mejora continua en la evaluación de la seguridad.
-
+                
     p.mb-4 En cuanto a la metodología para la adopción de esta norma, se incorpora el ciclo PDCA, acrónimo del inglés Plan-Do-Check-Act (en español: PHVA, planear, actuar verificar y actuar) la cual incorpora los siguientes ítems como se puede apreciar en la siguiente figura. 
 
     .titulo-sexto.color-acento-contenido
