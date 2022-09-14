@@ -70,7 +70,7 @@
               | En el siguiente recurso, se ofrece información en detalle de la relación de otros conceptos, se invita a consultarlo:
           .col-md-4
             figure
-              img(src="@/assets/curso/tema1/img2.png", alt="alt")
+              img(src="@/assets/curso/tema1/img2.svg", alt="alt")
 
     p.mb-4 A continuación, se podrán conocer otros conceptos importantes:
 
@@ -78,23 +78,23 @@
       SlyderA(tipo="b")
         .row
           .col-md-6.mb-4.mb-md-0
-            h5 Bug
-            p Es una falla o error en un programa que puede generar problemas en el procesamiento de la información, debido a fallas en la programación o causado por compatibilidades entre sistemas.
+            h5 <i>Bug</i>
+            p En informática se dice que hay un bug cuando se produce un error o fallo en un programa que tiene como consecuencia un resultado o comportamiento inesperado. 
           .col-md-6
             figure
               img(src='@/assets/curso/tema1/slyder1.png', alt='Texto que describa la imagen')
 
         .row
           .col-md-6.mb-4.mb-md-0
-            h5 Patch
-            p También conocido como parche, es una pieza de programa adicional que corrige un bug o adiciona funcionalidades en una aplicación.	
+            h5 <i>Patch</i>
+            p También conocido como parche, es una pieza de programa adicional que corrige un <i>bug</i> o adiciona funcionalidades en una aplicación.	
           .col-md-6
             figure
               img(src='@/assets/curso/tema1/slyder2.png', alt='Texto que describa la imagen')
 
         .row
           .col-md-6.mb-4.mb-md-0
-            h5 Testing
+            h5 <i>Testing</i>
             p También conocidas como pruebas, son un conjunto de técnicas y pruebas utilizadas dentro de la auditoría de aplicaciones web para verificar si estas son vulnerables o no ante dicha amenaza.         
           .col-md-6
             figure
@@ -146,7 +146,7 @@
         .row.justify-content-center.align-items-center.mb-4
           .col-md-2
             figure
-              img(src='@/assets/curso/tema1/1.png', alt='icono')
+              img(src='@/assets/curso/tema1/1.svg', alt='icono')
           .col-md-10
             h5 Usuario
             p.mb-0 Es la persona u otra aplicación que realiza la solicitud de acceso a un recurso web,  de forma habitual en diferentes situaciones, diferenciando los aspectos entre el servicio, el producto y la persona.
@@ -154,7 +154,7 @@
         .row.justify-content-center.align-items-center.mb-4
           .col-md-2
             figure
-              img(src='@/assets/curso/tema1/2.png', alt='icono')
+              img(src='@/assets/curso/tema1/2.svg', alt='icono')
           .col-md-10
             h5 Dispositivo de acceso
             p.mb-0 Es el dispositivo físico que utiliza el usuario para conectarse a una red y hacer uso de un navegador,  a través de computadores, portátiles, tabletas y dispositivos móviles entre otros.
@@ -162,7 +162,7 @@
         .row.justify-content-center.align-items-center.mb-4
           .col-md-2
             figure
-              img(src='@/assets/curso/tema1/3.png', alt='icono')
+              img(src='@/assets/curso/tema1/3.svg', alt='icono')
           .col-md-10
             h5 Navegador web
             p.mb-0 Son programas que permiten navegar dentro de una red como lo es internet y visualizar recursos enriquecidos con texto, imágenes, videos, audio, hoy en día se cuenta con gran variedad de navegadores como, por ejemplo: Edge, Firefox, Chrome, Opera, Safari, Brave, entre otros.
@@ -170,15 +170,15 @@
         .row.justify-content-center.align-items-center.mb-4
           .col-md-2
             figure
-              img(src='@/assets/curso/tema1/4.png', alt='icono')
+              img(src='@/assets/curso/tema1/4.svg', alt='icono')
           .col-md-10
             h5 Servidor Web
-            p.mb-0 Es un programa especializado que se instala en un dispositivo hardware o virtual y que cuenta con recursos de procesamiento, almacenamiento, de tráfico y sirve para ofrecer alojamiento de recursos web.
+            p.mb-0 Es un programa especializado que se instala en un dispositivo <i>hardware</i> o virtual y que cuenta con recursos de procesamiento, almacenamiento, de tráfico y sirve para ofrecer alojamiento de recursos web.
 
         .row.justify-content-center.align-items-center.mb-4
           .col-md-2
             figure
-              img(src='@/assets/curso/tema1/5.png', alt='icono')
+              img(src='@/assets/curso/tema1/5.svg', alt='icono')
           .col-md-10
             h5 Lenguajes de programación
             p.mb-0 Estos permiten programar la lógica de las aplicaciones web bajo el uso de lenguajes compilados o lenguajes intérpretes, dado que el lenguaje HTML no es de alto nivel y no permite programación a un nivel superior, se debe hacer uso de estos lenguajes para generar la lógica de negocio y comportamiento que debe se seguir una aplicación web.
@@ -187,10 +187,10 @@
         .row.justify-content-center.align-items-center.mb-4
           .col-md-2
             figure
-              img(src='@/assets/curso/tema1/6.png', alt='icono')
+              img(src='@/assets/curso/tema1/6.svg', alt='icono')
           .col-md-10
             h5 Motor de base de datos
-            p.mb-0 Este también es un programa que se aloja en un dispositivo hardware o virtual, y su función principal es la de almacenar la información de forma sistematizada, en estructuras organizadas como bases de datos, tablas y registros.
+            p.mb-0 Este también es un programa que se aloja en un dispositivo <i>hardware</i> o virtual, y su función principal es la de almacenar la información de forma sistematizada, en estructuras organizadas como bases de datos, tablas y registros.
 
     p.mb-4 Todos estos componentes se interrelacionan para conformar las arquitecturas técnicas de aplicaciones web, en la siguiente figura, se aprecia su interrelación y flujo de información ante una solicitud de un recurso web.
     
@@ -230,7 +230,7 @@
               | El servidor devuelve la respuesta hacia el navegador.
             li 
               span.text-bold e. 
-              | Navegador despliega resultado al usuario.
+              | El navegador despliega resultado al usuario.
 
     p.mb-4 Actualmente existen diferentes tipos de aplicaciones web, entre las más comunes se resaltan:
 
@@ -250,8 +250,8 @@
             p.mb-4 Automóviles en red, prendas tecnológicas y monitores de salud en la ropa, aplicaciones para ciclistas para controlar su actividad física, gafas inteligentes.
 
           .tarjeta.color-acento-contenido--borde.p-4(titulo="Ropa tecnológica (wearables)")
-            h5 Ropa tecnológica (wearables)
-            p Dispositivos médicos, productos de salud, marcapasos y bombas de insulina. Estos wearables monitorean la geolocalización, así como la frecuencia cardiaca, el pulso, calorías, patrones del sueño, etc.
+            h5 Ropa tecnológica <i>(wearables)</i>
+            p Dispositivos médicos, productos de salud, marcapasos y bombas de insulina. Estos <i>wearables</i> monitorean la geolocalización, así como la frecuencia cardiaca, el pulso, calorías, patrones del sueño, etc.
 
           .tarjeta.color-acento-contenido--borde.p-4(titulo="Transporte")
             h5 Transporte
@@ -315,7 +315,7 @@
                   i.fas.fa-angle-right
                   | Adoptar la mejora continua en la evaluación de la seguridad.
                 
-    p.mb-4 En cuanto a la metodología para la adopción de esta norma, se incorpora el ciclo PDCA, acrónimo del inglés Plan-Do-Check-Act (en español: PHVA, planear, actuar verificar y actuar) la cual incorpora los siguientes ítems como se puede apreciar en la siguiente figura. 
+    p.mb-4 En cuanto a la metodología para la adopción de esta norma, se incorpora el ciclo PDCA, acrónimo del inglés <i>Plan-Do-Check-Act</i> (en español: PHVA, planear, actuar verificar y actuar) la cual incorpora los siguientes ítems como se puede apreciar en la siguiente figura. 
 
     .titulo-sexto.color-acento-contenido
       h5 Figura 3
@@ -416,7 +416,7 @@
                           span 18
                         | Comunicar resultados de las acciones tomadas.
 
-    p.mb-4 Ahora bien, este estándar es base para la adopción de un SGSI, lo que conlleva a que, si una organización esta certificada o está pensando en certificar sus procesos bajo esta norma, debe tener presente la seguridad de la información que se gestiona a través de aplicaciones web, de acuerdo con las siguientes recomendaciones:
+    p.mb-4 Ahora bien, este estándar es base para la adopción de un SGSI, lo que conlleva a que, si una organización está certificada o está pensando en certificar sus procesos bajo esta norma, debe tener presente la seguridad de la información que se gestiona a través de aplicaciones web, de acuerdo con las siguientes recomendaciones:
 
     .row.justify-content-center.align-items-center.mb-4
       .col-md-5
@@ -432,7 +432,7 @@
             li 
               .lista-ol--cuadro__vineta
                 span 02
-            p Dado el cambio continuo tecnológico, se requiere que las aplicaciones web sean evaluadas permanentemente según los nuevos retos, tecnologías y amenazas.
+            p Dado el cambio tecnológico continuo, se requiere que las aplicaciones web sean evaluadas permanentemente según los nuevos retos, tecnologías y amenazas.
 
     .row.mb-4
       .col-md-3
@@ -490,7 +490,12 @@
           .col-md-6.mb-4.mb-md-0
             h5 Procedimientos de control de cambios
             p.mb-4 Cualquier cambio realizado en un sistema puede afectarlo negativamente, se sugieren una serie de recomendaciones para la gestión del control de cambios.
-            p.mb-4 Para conocer una serie de recomendaciones para la gestión del control de cambios, haz clic en el botón 
+            p.mb-4 Para conocer una serie de recomendaciones para la gestión del control de cambios, haz clic en el botón
+            .row.justify-content-between.align-items-center
+              .col-auto
+                a.boton.color-acento-botones.indicador__container(@click="modal1 = true")
+                  span Ver más
+                  .indicador--click(v-if="mostrarIndicador")
           .col-md-6
             figure
               img(src='@/assets/curso/tema1/slyder7.png', alt='Texto que describa la imagen')
@@ -523,31 +528,70 @@
           .col-md-6.mb-4.mb-md-0
             h5 Gestión de vulnerabilidades
             p.mb-4 Se deben adoptar mecanismos y planes para la gestión de vulnerabilidades en cualquier desarrollo o cambio realizado.
-            p.mb-3 Haz clic en el botón Ver más, para conocer qué se debe hacer antes de ser puesto en producción. 
+            p.mb-3 Haz clic en el botón Ver más, para conocer qué se debe hacer antes de ser puesto en producción.
+            .row.justify-content-between.align-items-center
+              .col-auto
+                a.boton.color-acento-botones.indicador__container(@click="modal2 = true")
+                  span Ver más
+                  .indicador--click(v-if="mostrarIndicador")
           .col-md-6
             figure
               img(src='@/assets/curso/tema1/slyder11.png', alt='Texto que describa la imagen')
+
+    ModalA(:abrir-modal.sync="modal1")
+      .row.align-items-center
+        .col-md-12.mb-4.mb-md-0
+          ol.lista-ol
+            li 
+              span.text-bold a. 
+              | Mantener un control centralizado de cambios, con control de autorizaciones de actualización.
+            li 
+              span.text-bold b. 
+              | Cualquier cambio deberá ser evaluado y aprobado antes de ser incluido oficialmente, además, todo cambio deberá ser motivado por una necesidad justificada.
+            li 
+              span.text-bold c. 
+              | Todo cambio deberá de realizarse con el menor trastorno y efecto para la organización.
+            li 
+              span.text-bold d. 
+              | Deberá contarse con un plan de retroceso ante problemas causados por los cambios.
+
+    ModalA(:abrir-modal.sync="modal2")
+      .row.align-items-center
+        .col-md-12.mb-4.mb-md-0
+          ol.lista-ol
+            li 
+              span.text-bold a. 
+              | Determinar las vulnerabilidades de mayor impacto para ser atendidas con prioridad.
+            li 
+              span.text-bold b. 
+              | Establecer los roles y asignar responsabilidades para la gestión de la seguridad.
+            li 
+              span.text-bold c. 
+              | Validar las vulnerabilidades identificadas con mecanismos o servicios centralizados y actualizados.
+            li 
+              span.text-bold d. 
+              | Cualquier parche generado para solucionar posibles vulnerabilidades deberá ser probado en entornos de prueba antes que en producción para identificar problemas, compatibilidad y evitar fallas generadas por dicha actualización.
 
     .row.mb-4
       .col-md-3
         .tarjeta.clr-1
           h4.text-center.p-2 Norma ISO/IEC 25010:2013: 
 
-    p.mb-4 Este estándar aplica para la industria del desarrollo de software, así como para las organizaciones que realizan desarrollos propios para gestionar su información, es así como esta norma busca mejorar la calidad en los productos de desarrollo de software a partir de las siguientes características:
+    p.mb-4 Este estándar aplica para la industria del desarrollo de <i>software,</i> así como para las organizaciones que realizan desarrollos propios para gestionar su información, es así como esta norma busca mejorar la calidad en los productos de desarrollo de <i>software</i> a partir de las siguientes características:
 
     .row 
       .col-md-12
         TabsA.color-acento-contenido.mb-5
-          .tarjeta.color-acento-contenido--borde.p-4(titulo="Adecuación funcional del software")
-            h5 Adecuación funcional del software 
+          .tarjeta.color-acento-contenido--borde.p-4(titulo="Adecuación funcional del <i>software</i>")
+            h5 Adecuación funcional del <i>software</i>
             p El sistema satisface las necesidades declaradas cuando se utiliza en condiciones específicas.
             .row.justify-content-center  
               .col-md-5
                 figure
                   img(src='@/assets/curso/tema1/calidad.jpg', alt='Texto que describa la imagen')
 
-          .tarjeta.color-acento-contenido--borde.p-4(titulo="Eficiencia del desempeño del software")
-            h5 Eficiencia del desempeño del software 
+          .tarjeta.color-acento-contenido--borde.p-4(titulo="Eficiencia del desempeño del <i>software</i>")
+            h5 Eficiencia del desempeño del <i>software</i>
             p.mb-4 Automóviles en red, prendas tecnológicas y monitores de salud en la ropa, aplicaciones para ciclistas para controlar su actividad física, gafas inteligentes.
             .row.justify-content-center  
               .col-md-5
@@ -556,7 +600,7 @@
 
           .tarjeta.color-acento-contenido--borde.p-4(titulo="Compatibilidad")
             h5 Compatibilidad 
-            p Necesidad del producto final para funcionar ante diferentes características de software y hardware.
+            p Necesidad del producto final para funcionar ante diferentes características de <i>software</i> y <i>hardware</i>.
             .row.justify-content-center  
               .col-md-5
                 figure
@@ -564,13 +608,13 @@
   
           .tarjeta.color-acento-contenido--borde.p-4(titulo="Usabilidad ")
             h5 Usabilidad 
-            p Donde entra en juego la interfaz y experiencia de usuario para aprender a usar rápidamente el software.
+            p Donde entra en juego la interfaz y experiencia de usuario para aprender a usar rápidamente el <i>software</i>.
             .row.justify-content-center  
               .col-md-5
                 figure
                   img(src='@/assets/curso/tema1/calidad.jpg', alt='Texto que describa la imagen')
              
-          .tarjeta.color-acento-contenido--borde.p-4(titulo="Contadores inteligentes")
+          .tarjeta.color-acento-contenido--borde.p-4(titulo="Confiabilidad")
             h5 Confiabilidad
             p Se basa en evaluar la capacidad del sistema para trabajar sin fallas durante un periodo de tiempo específico en un entorno específico.
             .row.justify-content-center  
@@ -578,15 +622,15 @@
                 figure
                   img(src='@/assets/curso/tema1/calidad.jpg', alt='Texto que describa la imagen')
 
-          .tarjeta.color-acento-contenido--borde.p-4(titulo="Ropa tecnológica (wearables)")
+          .tarjeta.color-acento-contenido--borde.p-4(titulo="Seguridad")
             h5 Seguridad 
-            p Nos ayuda a analizar y verificar la seguridad de nuestro producto software mediante diferentes pruebas como: pruebas de penetración, vulnerabilidad, ethical hacking o static analysis.
+            p Nos ayuda a analizar y verificar la seguridad de nuestro producto software mediante diferentes pruebas como: pruebas de penetración, vulnerabilidad, <i>ethical hacking</i> o <i>static analysis</i>.
             .row.justify-content-center  
               .col-md-5
                 figure
                   img(src='@/assets/curso/tema1/calidad.jpg', alt='Texto que describa la imagen')
   
-          .tarjeta.color-acento-contenido--borde.p-4(titulo="Transporte")
+          .tarjeta.color-acento-contenido--borde.p-4(titulo="Mantenibilidad")
             h5 Mantenibilidad
             p El sistema debe ser fácil de mantener, analizarlo, cambiarlo y probarlo. 
             .row.justify-content-center  
@@ -596,19 +640,19 @@
     
           .tarjeta.color-acento-contenido--borde.p-4(titulo="Portabilidad")
             h5 Portabilidad
-            p Esto se refiere a la capacidad que tiene el producto software para cambiar entre versiones de un sistema operativo a otro sin mayores complicaciones.
+            p Esto se refiere a la capacidad que tiene el producto <i>software</i> para cambiar entre versiones de un sistema operativo a otro sin mayores complicaciones.
             .row.justify-content-center  
               .col-md-5
                 figure
                   img(src='@/assets/curso/tema1/calidad.jpg', alt='Texto que describa la imagen')
 
-    p.mb-4 Esto fortalece los procesos de desarrollo de software dentro las organizaciones y en los procesos de desarrollo en sitio en las organizaciones, que buscan mejorar los niveles de seguridad.
+    p.mb-4 Esto fortalece los procesos de desarrollo de <i>software</i> dentro las organizaciones y en los procesos de desarrollo en sitio en las organizaciones, que buscan mejorar los niveles de seguridad.
     p.mb-4 Para reforzar esta temática, se sugiere observar el siguiente video.
 
     figure.mb-5
       .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-      figcaption Video: Leyenda del video
+        iframe(width="942" height="530" src="https://www.youtube.com/embed/AuqpvCnsHoY" title="Norma ISO" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+    
     separador
 
     #t_1_4.titulo-segundo.color-acento-contenido
@@ -617,7 +661,7 @@
     .row.justify-content-center.align-items-center.mb-4
       .col-md-8
         p.mb-4 Existen normas y estándares que orientan en la adopción de iniciativas de seguridad en las organizaciones y que impactan directamente en la seguridad de las aplicaciones web y en la información gestionada a través de ellos, ahora bien, desde el punto de vista práctico existen iniciativas metodológicas para la gestión de las vulnerabilidades en aplicaciones web específicamente, una de ellas es Owasp.
-        p Owasp (Open Web Application Security Project) es una metodología de seguridad para la auditoría web, orientada al análisis de seguridad de estas aplicaciones. Esta metodología está siendo utilizada en la mayoría de los trabajos de auditoría de seguridad, ya que permite a partir de la auditoría realizar una evaluación de riesgos.
+        p Owasp (<i>Open Web Application Security Project</i>) es una metodología de seguridad para la auditoría web, orientada al análisis de seguridad de estas aplicaciones. Esta metodología está siendo utilizada en la mayoría de los trabajos de auditoría de seguridad, ya que permite a partir de la auditoría realizar una evaluación de riesgos.
       .col-md-4
         figure
           img(src='@/assets/curso/tema1/9.png', alt='Texto que describa la imagen')
@@ -634,24 +678,25 @@
         figure
           img(src='@/assets/curso/tema1/vec3.svg', alt='Texto que describa la imagen')
 
-    p.mb-4 Actualmente la mayoría de los desarrolladores de software no realizan la validación de vulnerabilidades en sus productos si no hasta que este ya es funcional, pero esto no es tan eficiente, por ello se sugiere la adopción de un Ciclo de Vida de Desarrollo de Software (SDLC), el cual lleva a tener presente el factor de seguridad en cada una de las fases del desarrollo, así:
+    p.mb-4 Actualmente la mayoría de los desarrolladores de <i>software</i> no realizan la validación de vulnerabilidades en sus productos si no hasta que este ya es funcional, pero esto no es tan eficiente, por ello se sugiere la adopción de un Ciclo de Vida de Desarrollo de <i>software</i>(SDLC), el cual lleva a tener presente el factor de seguridad en cada una de las fases del desarrollo, así:
 
     .row.justify-content-center.align-items-center.mb-4
       .col-md-10
         .tarjeta.color-cuadro.p-4
           .row.justify-content-center.align-items-center
             .col-md-12
-              p.mb-4 Con la adopción de los SDLC o Ciclo de Vida de Desarrollo de Software, se busca que el factor de la seguridad esté presente desde el momento de la concepción del software permitiendo identificar los requisitos funcionales de la necesidad que motiva la creación de una aplicación, mantener los componentes seguros desde el diseño y prototipado, buenas prácticas de programación, desarrollar un plan de pruebas de seguridad, así como mantener un plan de mantenimiento y actualizaciones que garanticen su funcionalidad y seguridad de la información en el tiempo, como se puede apreciar en la siguiente figura. 
+              p.mb-4 Con la adopción de los SDLC o Ciclo de Vida de Desarrollo de <i>software</i>, se busca que el factor de la seguridad esté presente desde el momento de la concepción del <i>software</i> permitiendo identificar los requisitos funcionales de la necesidad que motiva la creación de una aplicación, mantener los componentes seguros desde el diseño y prototipado, buenas prácticas de programación, desarrollar un plan de pruebas de seguridad, así como mantener un plan de mantenimiento y actualizaciones que garanticen su funcionalidad y seguridad de la información en el tiempo, como se puede apreciar en la siguiente figura. 
             .col-md-6
-              figure
+              figure.mb-4
                 img(src='@/assets/curso/tema1/vec4.svg', alt='Texto que describa la imagen')
 
-        a.anexo.mb-4.mb-lg-0(href="https://en.wikipedia.org/wiki/Main_Page" target="_blank")
+      .col-md-6
+        a.anexo.mb-4.mb-lg-0(href="https://owasp.org/www-project-web-security-testing-guide/stable/" target="_blank")
           .anexo__icono
-            img(src="@/assets/template/icono-link.svg")
+            img(src="@/assets/template/icono-link.png")
           .anexo__texto
-            p Anexo. Consideraciones generales de tratamiento clínico del paciente con COVID-19 en el servicio de urgencias
-            
+            p La metodología Owasp, es abierta y su actualización <b>se puede consultar en su página oficial.</b>
+
 </template>
 
 <script>
@@ -662,7 +707,8 @@ export default {
     Muestras, // borrar una vez el componente "Muestras" no se necesite
   },
   data: () => ({
-    // variables de vue
+    modal1: false,
+    modal2: false,
   }),
   mounted() {
     this.$nextTick(() => {

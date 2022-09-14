@@ -19,7 +19,7 @@
     separador
     
     #t_2_1.titulo-segundo.color-acento-contenido
-      .h4 2.1 Infografía Animada
+      .h4 2.1	Metodologías para la gestión de vulnerabilidades
 
     p.mb-4 Owasp propone una metodología para la identificación de vulnerabilidades basada en pruebas de seguridad sobre las aplicaciones web, con el cual se busca encontrar las debilidades presentes en un sistema.
     p.mb-4 Este modelo de pruebas está conformado por:
@@ -57,7 +57,12 @@
         .row
           .col-md-6.mb-4.mb-md-0
             h5 Pruebas pasivas 
-            p El probador intenta comprender la lógica de la aplicación y explora la aplicación web como un usuario. Se pueden utilizar herramientas para la recopilación de información. Por ejemplo, se puede utilizar un proxy HTTP para observar todas las solicitudes y respuestas. Al final de esta fase, el probador generalmente debe comprender todos los puntos de acceso y la funcionalidad del sistema (por ejemplo, encabezados HTTP, parámetros, cookies, API, uso / patrones de tecnología, etc.).
+            p El probador intenta comprender la lógica de la aplicación y explora la aplicación web como un usuario. Se pueden utilizar herramientas para la recopilación de información. Por ejemplo, se puede utilizar un <i>proxy</i> HTTP para observar todas las solicitudes y respuestas. Al final de esta fase, el probador generalmente debe comprender todos los puntos de acceso y la funcionalidad del sistema (por ejemplo, encabezados HTTP, parámetros, <i>cookies</i>, API, uso / patrones de tecnología, etc.).
+            .row.justify-content-between.align-items-center
+              .col-auto
+                a.boton.color-acento-botones.indicador__container(@click="modal1 = true")
+                  span Ver más
+                  .indicador--click(v-if="mostrarIndicador")
           .col-md-6
             figure
               img(src='@/assets/curso/tema2/img2.png', alt='Texto que describa la imagen')
@@ -66,28 +71,36 @@
           .col-md-6.mb-4.mb-md-0
             h5 Pruebas activas
             p Durante estas pruebas, un probador comienza a utilizar las metodologías descritas en las siguientes secciones, las cuales están divididas en 12 categorías:
-            p.mb-0 01. Recopilación de información.
-            p.mb-0 2 Pruebas de administración de configuración e implementación.
-            p.mb-0 03. Pruebas de administración de identidades.
-            p.mb-0 04. Pruebas de autenticación.
-            p.mb-0 05. Pruebas de autorización.
-            p.mb-0 06. Pruebas de gestión de sesiones.
-            p.mb-0  07. Pruebas de validación de entrada.
-            p.mb-0 08. Manejo de errores.
-            p.mb-0  09. Criptografía.
+            p.mb-0 1. Recopilación de información.
+            p.mb-0 2. Pruebas de administración de configuración e implementación.
+            p.mb-0 3. Pruebas de administración de identidades.
+            p.mb-0 4. Pruebas de autenticación.
+            p.mb-0 5. Pruebas de autorización.
+            p.mb-0 6. Pruebas de gestión de sesiones.
+            p.mb-0  7. Pruebas de validación de entrada.
+            p.mb-0 8. Manejo de errores.
+            p.mb-0  9. Criptografía.
             p.mb-0  10. Pruebas de lógica empresarial.
             p.mb-0  11. Pruebas del lado del cliente.
             p.mb-0 12. Pruebas de API.
           .col-md-6
             figure
               img(src='@/assets/curso/tema2/img3.png', alt='Texto que describa la imagen')
+    
+    ModalA(:abrir-modal.sync="modal1")
+      .row.align-items-center
+        .col-md-12.mb-4.mb-md-0
+          p.mb-4 Esto puede indicar un formulario de autenticación donde la aplicación solicita un nombre de usuario y una contraseña.
+          p.mb-4 Los siguientes parámetros representan dos puntos de acceso a la aplicación: <a>https://www.example.com/appx?a=1&b=1</a>
+          p.mb-4 En este caso, la aplicación muestra dos puntos de acceso <b>(parámetros y).</b>
+          p.mb-4 Todos los puntos de entrada encontrados en esta fase representan un objetivo para las pruebas. Hay que realizar un seguimiento del directorio o árbol de llamadas de la aplicación y de todos los puntos de acceso puede ser útil durante las pruebas activas.
     separador
    
     #t_2_2.titulo-segundo.color-acento-contenido
-      .h4 2.2 Video Motion
+      .h4 2.2	Fundamentos de <i>pentesting</i>
 
-    p.mb-4 Dentro del ejercicio de la gestión de vulnerabilidades, cobran vital importancia las metodologías para el descubrimiento e identificación de estas, ya que orientan y dan un mapa de ruta de cómo se debe realizar el ejercicio, uno de estos es el pentesting o prueba de penetración, que no es más que un ejercicio de descubrimiento apoyado en técnicas y herramientas especializadas para la validación y búsqueda de vulnerabilidades en un sistema o aplicación.
-    p.mb-4 Existen los siguientes tipos de pentesting:
+    p.mb-4 Dentro del ejercicio de la gestión de vulnerabilidades, cobran vital importancia las metodologías para el descubrimiento e identificación de estas, ya que orientan y dan un mapa de ruta de cómo se debe realizar el ejercicio, uno de estos es el <i>pentesting</i> o prueba de penetración, que no es más que un ejercicio de descubrimiento apoyado en técnicas y herramientas especializadas para la validación y búsqueda de vulnerabilidades en un sistema o aplicación.
+    p.mb-4 Existen los siguientes tipos de <i>pentesting</i>:
 
     .row 
       .col-md-12
@@ -203,15 +216,15 @@
     separador
 
     #t_2_3.titulo-segundo.color-acento-contenido
-      .h4 2.3 Motion + Presentador
+      .h4 2.3 <i>Owasp</i>: top 10 de vulnerabilidades
 
-    p.mb-4 De acuerdo con la comunidad de Owasp, este genera reportes sobre las vulnerabilidades que más se encuentran en las aplicaciones web y en su último reporte se puede observar el siguiente comportamiento del top 10 de las vulnerabilidades identificadas.
+    p.mb-4 De acuerdo con la comunidad de <i>Owasp</i>, este genera reportes sobre las vulnerabilidades que más se encuentran en las aplicaciones web y en su último reporte se puede observar el siguiente comportamiento del top 10 de las vulnerabilidades identificadas.
 
     SlyderB.mb-5(:datos="datosSlyder")
     separador
     
     #t_2_4.titulo-segundo
-      .h4 2.4 Animación 2D
+      .h4 2.4	Herramientas especializadas
 
     .row.justify-content-center.align-items-center.mb-4
       .col-md-8
@@ -286,7 +299,7 @@
                   img(src='@/assets/curso/tema2/img8.jpg', alt='Texto que describa la imagen')
               .col-md-6.mb-4.mb-md-0
                 h4 WhiteSource Free Tools 
-                p.mb-4 Suite de herramientas para detectar vulnerabilidades en código fuente.
+                p.mb-4 <i>Suite</i> de herramientas para detectar vulnerabilidades en código fuente.
           
           .py-3.py-md-0(titulo="HCL AppScan CodeSweep")
             .row.tarjeta.color--gris.p-4
@@ -349,7 +362,7 @@
           .row(titulo="Owasp Purpleteam")
             .col-md-8.mb-4.mb-md-0
               h5 Owasp Purpleteam
-              p Una regresión de seguridad que prueba SaaS y CLI, perfecta para insertar en sus canalizaciones de compilación. No necesita escribir ninguna prueba. Esta herramienta únicamente necesita proporcionar un archivo de trabajo que le diga a Purpleteam lo que desea que se pruebe. Tiene dos ambientes principales y un local cloud.
+              p Una regresión de seguridad que prueba SaaS y CLI, perfecta para insertar en sus canalizaciones de compilación. No necesita escribir ninguna prueba. Esta herramienta únicamente necesita proporcionar un archivo de trabajo que le diga a Purpleteam lo que desea que se pruebe. Tiene dos ambientes principales y un <i>local cloud.</i>
           
             .col-md-4
               figure
@@ -377,15 +390,15 @@
               h5 Contrast Community Edition (CE) 
               p Versión con todas las funciones para 1 aplicación y hasta 5 usuarios (algunas funciones Enterprise deshabilitadas). Contrast CE solo admite Java y .NET.
 
-    p.mb-4 A continuación podrá conocer algunas de las herramientas disponibles para la auditoría de aplicaciones web y para proyectos de desarrollo de aplicaciones web, y vale la pena  aclarar que algunas de ellas son open source, o tienen una posibilidad de ser utilizados cuando son proyectos abiertos, pero para proyectos comerciales o de gran tamaño requieren de una licencia o contrato de uso.
+    p.mb-4 A continuación podrá conocer algunas de las herramientas disponibles para la auditoría de aplicaciones web y para proyectos de desarrollo de aplicaciones web, y vale la pena  aclarar que algunas de ellas son <i>open source,</i> o tienen una posibilidad de ser utilizados cuando son proyectos abiertos, pero para proyectos comerciales o de gran tamaño requieren de una licencia o contrato de uso.
 
     .row
       .col-md-12
         TabsB.color-acento-contenido.mb-5
-          .py-4.py-md-5(titulo="The splendor of the mystery" :icono="require('@/assets/curso/tema2/icon1.png')")
+          .py-4.py-md-5(titulo="Software de código abierto (OSS)" :icono="require('@/assets/curso/tema2/icon1.png')")
             .row
               .col-md-8.mb-4.mb-md-0
-                h4 Herramientas de seguridad de software de código abierto (OSS)
+                h4 Herramientas de seguridad de <i>software</i> de código abierto (OSS)
                 p.mb-4 OSS se refiere a las bibliotecas o componentes de código abierto que los desarrolladores de aplicaciones aprovechan para desarrollar rápidamente nuevas aplicaciones y agregar características a las aplicaciones existentes.
                 p.mb-2 Plugin Maven Versions. 
                 p.mb-2 Dependabot.
@@ -394,7 +407,7 @@
                 figure
                   img(src='@/assets/curso/tema2/vec1.jpg', alt='Texto que describa la imagen')
 
-          .py-4.py-md-5(titulo="The splendor of the mystery" :icono="require('@/assets/curso/tema2/icon2.png')")
+          .py-4.py-md-5(titulo="Componentes vulnerables conocidos" :icono="require('@/assets/curso/tema2/icon2.png')")
             .row
               .col-md-8.mb-4.mb-md-0
                 h4 Detección de componentes vulnerables conocidos 
@@ -407,11 +420,11 @@
                 figure
                   img(src='@/assets/curso/tema2/vec2.jpg', alt='Texto que describa la imagen')
 
-          .py-4.py-md-5(titulo="The splendor of the mystery" :icono="require('@/assets/curso/tema2/icon3.png')")
+          .py-4.py-md-5(titulo="Calidad de código" :icono="require('@/assets/curso/tema2/icon3.png')")
             .row
               .col-md-8.mb-4.mb-md-0
                 h4 Herramientas de calidad de código
-                p.mb-4 Los proyectos de desarrollo de software consideran el uso de herramientas de buena calidad de código. Algunos sugeridos por Owasp son:
+                p.mb-4 Los proyectos de desarrollo de <i>software</i> consideran el uso de herramientas de buena calidad de código. Algunos sugeridos por Owasp son:
                 p.mb-2 SpotBugs
                 p.mb-2 SonarQube
                 p.mb-2 DeepScan
@@ -420,23 +433,48 @@
                 figure
                   img(src='@/assets/curso/tema2/vec3.jpg', alt='Texto que describa la imagen')
 
-          .py-4.py-md-5(titulo="The splendor of the mystery" :icono="require('@/assets/curso/tema2/icon4.png')")
+          .py-4.py-md-5(titulo="Entornos DevOps/CI" :icono="require('@/assets/curso/tema2/icon4.png')")
             .row
               .col-md-8.mb-4.mb-md-0
                 h4 Herramientas de seguridad integradas en entornos DevOps/CI
-                p Permiten a las empresas conseguir una mayor eficiencia, productividad y agilidad, conectando diferentes aplicaciones de software y servicios, interfaces de programación de aplicaciones (API) datos y dispositivos para automatizar los procesos empresariales.
+                p Permiten a las empresas conseguir una mayor eficiencia, productividad y agilidad, conectando diferentes aplicaciones de <i>software</i> y servicios, interfaces de programación de aplicaciones (API) datos y dispositivos para automatizar los procesos empresariales.
                 p.mb-2 Grendel-Scan
                 p.mb-2 Vega
                 p.mb-2 Wapiti
-
+                .row.justify-content-between.align-items-center
+                  .col-auto
+                    a.boton.color-acento-botones.indicador__container(@click="modal2 = true")
+                      span Ver más
+                      .indicador--click(v-if="mostrarIndicador")
               .col-md-4
                 figure
                   img(src='@/assets/curso/tema2/vec4.jpg', alt='Texto que describa la imagen')
+    ModalA(:abrir-modal.sync="modal2")
+      .row.align-items-center
+        .col-md-12.mb-4.mb-md-0
+          h5 Herramientas de seguridad integradas en entornos DevOps/CI
+          p.mb-4 Otras herramientas de seguridad gratuitas de código abierto son:
+          ol.lista-ol
+            li 
+              span.text-bold a. 
+              | Skipfish.
+            li 
+              span.text-bold b. 
+              | SQLMap
+            li 
+              span.text-bold c. 
+              | Graber.
+            li 
+              span.text-bold d. 
+              | Ratproxy.
+            li 
+              span.text-bold e. 
+              | Wfuzz.
 
     separador
    
     #t_2_5.titulo-segundo.color-acento-contenido
-      .h4 2.5 Video interactivo
+      .h4 2.5 Análisis de resultados
 
     .row.justify-content-center.align-items-center.mb-4
       .col-md-8
@@ -451,33 +489,34 @@
       span Instrumento Checklist para registro de la evaluación.
 
     .row.justify-content-center.align-items-center.mb-4
-      .col-md-8
+      .col-md-10
         .row
-          .col-8
+          .col-md-6
             figure
               img.mb-0(src='@/assets/curso/tema2/img11.jpg', alt='Texto que describa la imagen')
-          .col-md-4
+          .col-md-6
             .tarjeta.color-gris.p-4
               h5 Instrumento checklist para registro de la evaluación
-              p Este permite obtener un informe del riesgo que pueden llegar a presentar una determinada aplicación web, registrando cada una de las aplicaciones web que se desea evaluar, y registrar el resultado de las pruebas practicadas, esta información será útil para generar un informe final del nivel del riesgo presente en las aplicaciones.
+              p.mb-4 Este permite obtener un informe del riesgo que pueden llegar a presentar una determinada aplicación web, registrando cada una de las aplicaciones web que se desea evaluar, y registrar el resultado de las pruebas practicadas, esta información será útil para generar un informe final del nivel del riesgo presente en las aplicaciones.
+              p.mb-0 Se encuentra disponible en la url: https://github.com
+              p.mb-0 /OWASP/wstg
+              p.mb-0 /tree/master/checklist.
 
     .titulo-sexto.color-acento-contenido
       h5 Figura 8
       span OWASP Risk Assesment Calculator.
 
     .row.justify-content-center.align-items-center.mb-4
-      .col-md-8
+      .col-md-10
         .row
-          .col-8
+          .col-md-6
             figure
               img.mb-0(src='@/assets/curso/tema2/img11.jpg', alt='Texto que describa la imagen')
-          .col-md-4
+          .col-md-6
             .tarjeta.color-gris.p-4
               h5 Instrument OWASP Risk Assessment Calculator
-              p Esta herramienta es una calculadora de evaluación de riesgos OWAS y se puede encontrar un instrumento de evaluación en línea.
-
-    
-
+              p.mb-0 Esta herramienta es una calculadora de evaluación de riesgos OWAS y se puede encontrar un instrumento de evaluación en línea disponible en 
+              p.mb-0 https://javierolmedo.github.io/OWASP-Calculator/.
 
 </template>
 
@@ -485,69 +524,71 @@
 export default {
   name: 'Tema2',
   data: () => ({
+    modal1: false,
+    modal2: false,
     datosSlyder: [
       {
-        titulo: 'Pérdida del control de acceso (Broken Access Control)',
+        titulo: 'Pérdida del control de acceso (<i>Broken Access Control</i>)',
         texto:
-          'El control de acceso permite cumplir una política de permisos y roles, es decir, que un usuario pueda acceder a determinados lugares. Estas restricciones implican que los usuarios no puedan actuar fuera de los permisos y, además, llevar un control de quien accede a cada recurso.<br></br>La vulnerabilidad Broken Access Control permite que un usuario sin privilegios pueda acceder a un recurso al que no tendría que acceder.',
+          'El control de acceso permite cumplir una política de permisos y roles, es decir, que un usuario pueda acceder a determinados lugares. Estas restricciones implican que los usuarios no puedan actuar fuera de los permisos y, además, llevar un control de quien accede a cada recurso.<br></br>La vulnerabilidad <i>Broken Access Control</i> permite que un usuario sin privilegios pueda acceder a un recurso al que no tendría que acceder.',
         imagen: require('@/assets/curso/tema2/1.jpg'),
       },
       {
-        titulo: 'Fallos criptográficos (Cryptographic Failures)',
+        titulo: 'Fallos criptográficos (<i>Cryptographic Failures</i>)',
         texto:
           'Hay ciertos datos que deben estar cifrados, como credenciales de acceso, datos bancarios, información confidencial de la empresa, etc., ya que, aparte de que la ley lo exija, lo que un ciberdelincuente pueda hacer con los datos resulta catastrófico para la empresa. Para que estos sean vistos únicamente por las personas autorizadas de la empresa, hay que aplicarles un cifrado con algoritmos y protocolos estándares y robustos. ',
         imagen: require('@/assets/curso/tema2/2.jpg'),
       },
       {
-        titulo: 'Inyección (Injection)',
+        titulo: 'Inyección (<i>Injection</i>)',
         texto:
-          'Esto sucede cuando un ciberdelincuente puede enviar datos dañinos a un cliente y desde el año 2021, el Cross-site Scripting forma parte de esta categoría, como una vulnerabilidad de seguridad inyectando un script malicioso en un sitio web para luego ser procesado y ejecutado.',
+          'Esto sucede cuando un ciberdelincuente puede enviar datos dañinos a un cliente y desde el año 2021, el <i>Cross-site Scripting</i> forma parte de esta categoría, como una vulnerabilidad de seguridad inyectando un script malicioso en un sitio web para luego ser procesado y ejecutado.',
         imagen: require('@/assets/curso/tema2/3.jpg'),
       },
       {
-        titulo: 'Diseño inseguro (Insecure Design)',
+        titulo: 'Diseño inseguro (<i>Insecure Design</i>)',
         texto:
           'A la hora de desarrollar una aplicación web es primordial incluir la seguridad de la aplicación desde la fase del diseño, centrándose la detección de riesgos relacionados con el diseño y las fallas arquitectónicas, además de dar más fuerza al modelado de amenazas, patrones de diseño seguros y arquitecturas de referencia.',
         imagen: require('@/assets/curso/tema2/4.jpg'),
       },
       {
         titulo:
-          'Configuración de seguridad defectuosa (Security Misconfiguration)',
+          'Configuración de seguridad defectuosa (<i>Security Misconfiguration</i>)',
         texto:
           'En el entorno de la aplicación web los ciberdelincuentes intentarán acceder mediante cuentas por defecto, versiones obsoletas con vulnerabilidades sin actualizar, directorios desprotegidos, etc. Por ello, tiene que estar todo bien configurado y evitar usar credenciales por defecto, como puede ser en el caso del servidor, aplicaciones o dispositivos.',
         imagen: require('@/assets/curso/tema2/5.jpg'),
       },
       {
         titulo:
-          'Componentes vulnerables y obsoletos (Vulnerable and Outdated Components)',
+          'Componentes vulnerables y obsoletos (<i>Vulnerable and Outdated Components</i>)',
         texto:
           'Un ciberdelincuente podrá comprometer un sistema mediante vulnerabilidades ya conocidas en componentes comunes, como por ejemplo la versión del sistema operativo o aplicaciones instaladas en el servidor, entre otras.',
         imagen: require('@/assets/curso/tema2/6.jpg'),
       },
       {
         titulo:
-          'Fallos de identificación y autenticación (Identification and Authentication Failures)',
+          'Fallos de identificación y autenticación (<i>Identification and Authentication Failures</i>)',
         texto:
           'Esto sucede cuando en las interfaces de acceso no se controla el número de intentos de autenticación, hay una baja complejidad de las contraseñas o no se implanta un sistema multifactor “2FA”.<br></br>Esto podría permitir a un ciberdelincuente realizar ataques de fuerza bruta o diccionario para ingresar en él o cuando la aplicación permite utilizar contraseñas débiles.',
         imagen: require('@/assets/curso/tema2/7.jpg'),
       },
       {
         titulo:
-          'Fallos en el software y en la integridad de los datos (Software and Data Integrity Failures)',
+          'Fallos en el software y en la integridad de los datos (<i>Software and Data Integrity Failures</i>)',
         texto:
           'Muchas aplicaciones se actualizan de manera automática. Cuando estas actualizaciones no son verificadas los ciberdelincuentes podrían modificarlas cargando sus propias actualizaciones y distribuyéndolas. ',
         imagen: require('@/assets/curso/tema2/8.jpg'),
       },
       {
         titulo:
-          'Fallos en el registro y la supervisión de la seguridad (Security Logging and Monitoring Failures)',
+          'Fallos en el registro y la supervisión de la seguridad (<i>Security Logging and Monitoring Failures</i>)',
         texto:
           'La falta de registros sobre eventos, los denominados logs, en la aplicación o en el sistema, como inicios de sesión (tanto válidos como fallidos). Por ejemplo, que estos registros no se almacenen remotamente impide que se puedan detectar las infracciones.',
         imagen: require('@/assets/curso/tema2/9.jpg'),
       },
       {
         titulo:
-          'Falsificación de solicitud del lado del servidor (Server-side Request Forguery o SSRF)',
+          'Falsificación de solicitud del lado del servidor (<i>Server-side Request Forguery o SSRF</i>)',
         texto:
           'Cuando nuestra aplicación web obtiene un recurso externo y este no valida la URL un ciberdelincuente podría modificarla con fines malintencionados y realizar peticiones no autorizadas.',
         imagen: require('@/assets/curso/tema2/10.jpg'),
