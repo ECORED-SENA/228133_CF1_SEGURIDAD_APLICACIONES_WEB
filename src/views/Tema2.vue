@@ -491,32 +491,112 @@
     .row.justify-content-center.align-items-center.mb-4
       .col-md-10
         .row
-          .col-md-6
+          .col-md-5
             figure
-              img.mb-0(src='@/assets/curso/tema2/img11.jpg', alt='Texto que describa la imagen')
+              img.mb-0(src='@/assets/curso/tema2/12.jpg', alt='Texto que describa la imagen')
           .col-md-6
             .tarjeta.color-gris.p-4
               h5 Instrumento checklist para registro de la evaluación
-              p.mb-4 Este permite obtener un informe del riesgo que pueden llegar a presentar una determinada aplicación web, registrando cada una de las aplicaciones web que se desea evaluar, y registrar el resultado de las pruebas practicadas, esta información será útil para generar un informe final del nivel del riesgo presente en las aplicaciones.
-              p.mb-0 Se encuentra disponible en la url: https://github.com
-              p.mb-0 /OWASP/wstg
-              p.mb-0 /tree/master/checklist.
+              p.mb-5 Este permite obtener un informe del riesgo que pueden llegar a presentar una determinada aplicación web, registrando cada una de las aplicaciones web que se desea evaluar, y registrar el resultado de las pruebas practicadas, esta información será útil para generar un informe final del nivel del riesgo presente en las aplicaciones.
+              .col-md-9
+                a.anexo.mb-4.mb-lg-0(href="https://github.comp.mb-0/OWASP/wstg/tree/master/checklist." target="_blank")
+                  .anexo__icono
+                    img(src="@/assets/template/icono-link.png")
+                  .anexo__texto
+                    p Se encuentra disponible en la url: <b>Master Checklist</b>
+
+               
 
     .titulo-sexto.color-acento-contenido
       h5 Figura 8
       span OWASP Risk Assesment Calculator.
 
-    .row.justify-content-center.align-items-center.mb-4
+    .row.justify-content-center.align-items-center.mb-5
       .col-md-10
         .row
-          .col-md-6
+          .col-md-5
             figure
-              img.mb-0(src='@/assets/curso/tema2/img11.jpg', alt='Texto que describa la imagen')
+              img.mb-0(src='@/assets/curso/tema2/11.jpg', alt='Texto que describa la imagen')
           .col-md-6
             .tarjeta.color-gris.p-4
               h5 Instrument OWASP Risk Assessment Calculator
-              p.mb-0 Esta herramienta es una calculadora de evaluación de riesgos OWAS y se puede encontrar un instrumento de evaluación en línea disponible en 
-              p.mb-0 https://javierolmedo.github.io/OWASP-Calculator/.
+              p.mb-5 Esta herramienta es una calculadora de evaluación de riesgos OWAS y se puede encontrar un instrumento de evaluación en línea disponible en
+              .col-md-9
+                a.anexo.mb-4.mb-lg-0(href="https://javierolmedo.github.io/OWASP-Calculator/." target="_blank")
+                  .anexo__icono
+                    img(src="@/assets/template/icono-link.png")
+                  .anexo__texto
+                    p Se encuentra disponible en la url: <b>Calculator</b>
+
+    .row.justify-content-center.align-items-center.mb-4
+      .col-md-11
+        .row.justify-content-center.align-items-center
+          .col-md-3
+            figure
+              img(src="@/assets/curso/tema2/13.jpg", alt="alt")
+          .col-md-7
+            .cajon-b1.colorz.p-3
+              p.mb-4 Es importante resaltar que el ejercicio de pruebas y la obtención del indicador de riesgo es un producto importante, pero ante la organización o los propietarios de la información se deben presentar reportes técnicos, con evidencias, detalles de las pruebas realizadas y resultados obtenidos, así como una serie de recomendaciones para subsanar dichas vulnerabilidades.
+              p.mb-5 Desde el proyecto Owasp, en su metodología en el capítulo 5, sugiere las partes mínimas de un informe.
+              .row.justify-content-center
+                .col-md-8
+                  a.anexo.mb-4.mb-lg-0(href="https://owasp.org/www-project-web-security-testing-guide/v42/5-Reporting/README." target="_blank")
+                    .anexo__icono
+                      img(src="@/assets/template/icono-link.png")
+                    .anexo__texto
+                      p Este se puede consultar en: <b>Web Security Testing Guide</b>
+
+    .titulo-sexto.color-acento-contenido
+      h5 Figura 10
+      span Estructura general de un reporte de <i>pentesting</i>
+
+    .row.justify-content-center.align-items-center.mb-4
+      .col-md-6
+        .tarjeta.color-gris.p-4
+          .row.justify-content-center
+            .col-md-6
+              .row
+                .col-md-8
+                  .tarjeta.color-titulo.p-2
+                    h5.mb-0.text-center 01. Introducción
+                .col-md-12.p-3
+                  p 1. Control de versiones.
+                  p  2. Tabla de contenido.
+                  p  3. Equipo de trabajo.
+                  p  4. Ámbito de aplicación.
+                  p  5. Limitaciones.
+                  p  6. Cronología.
+                  p  7. Descargo de responsabilidades.
+            .col-md-6
+              .row
+                .col-md-8
+                  .tarjeta.color-titulo.p-2
+                    h5.mb-0.text-center 02. Resumen ejecutivo
+                .col-md-12.p-3
+                  p <b>a. Conclusiones</b>
+                  .row 
+                    p.mb-0 1. Resumen de conclusiones.
+                    p 2. Detalles de hallazgos.
+                  p <b>b. Apéndices</b>
+      .col-md-4
+        figure
+          img(src="@/assets/curso/tema2/1.svg", alt="alt")
+
+    .tarjeta.color-fondo.p-4.mb-5
+      .row.justify-content-center.align-items-center
+        .col-3.col-sm-2.col-lg-1.p-3
+          img(src="@/assets/curso/tema2/manita.svg")
+        .col
+          .row.justify-content-between.align-items-center
+            .col.mb-3.mb-sm-0
+              h3.mb-1.text-white Modelo de Pentesting
+              p.text-small.text-white Para realizar una presentación y sustentación ante la organización del ejercicio realizado, y argumentando con detalles y pruebas, las debilidades que presentan y un plan de mejoramiento que permita la reducción de la brecha a la seguridad en aplicaciones web, se puede recurrir al modelo de reporte de pentesting.
+            .col-sm-auto
+              a.boton.color-acento-botones(href="https://rhinosecuritylabs.com/landing/penetration-test-report/" target="_blank")
+                span Ir al enlace
+
+
+
 
 </template>
 

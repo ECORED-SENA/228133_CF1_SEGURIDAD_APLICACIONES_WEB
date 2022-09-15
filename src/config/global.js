@@ -146,132 +146,100 @@ export default {
   referencias: [
     {
       referencia:
-        'Zlackman, C. (2012). 100 años de moda. Sistema de Bibliotecas SENA:',
+        'Guijarro, O., J., Caparrós, R., J., & Cubero, L., L. (2019). DevOps y seguridad cloud. Editorial UOC.',
       link:
-        'https://sena-primo.hosted.exlibrisgroup.com/primo-explore/fulldisplay?docid=sena_aleph000060086&vid=SENA&search_scope=sena_completo&tab=sena_completo&lang=es_ES&context=L',
+        'https://elibro-net.bdigital.sena.edu.co/es/ereader/senavirtual/128889',
     },
     {
       referencia:
-        'Castellanos, O., Fumeque A., y Ramirez D. (2011). Análisis de tendencias: de la información hacia la innovación. Universidad Nacional de Colombia. Sistema de Bibliotecas SENA:',
+        'Incibe. (2022). Top 10 vulnerabilidades web de 2021. Incibe.',
       link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000007947',
+        'https://www.incibe.es/protege-tu-empresa/blog/top-10-vulnerabilidades-web-2021',
     },
     {
-      referencia:
-        '<em>Harpersbazaar</em>. (2019). La ropa que eliges afecta a tu estado de ánimo y cerebro, según expertos. En arpersbazaar.mx.',
-    },
-    {
-      referencia:
-        'Lafuente M., Navarro J., y Navarro J. (2005). Ilustración de moda. Sistema de Bibliotecas SENA',
+      referencia: 'MinTIC. (2016). Guía de gestión de riesgos. MinTIC.',
       link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000025549',
+        'https://www.mintic.gov.co/gestionti/615/articles-5482_G7_Gestion_Riesgos.pdf',
     },
     {
       referencia:
-        'Laver, J.,  Albizua, H., y Fortea, B. (1990). Breve historia del traje y la moda. Sistema de Bibliotecas SENA.',
-    },
-    {
-      referencia:
-        'Navarro, J.,  y Lafuente, M. (2010). Ilustración de moda: dibujo plano. Sistema de Bibliotecas SENA:',
+        'MinTIC. (2016). Guía para la gestión y clasificación de activos de información. MinTIC. MinTIC.',
       link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/q6j6k0/sena_aleph000023241',
+        'https://www.mintic.gov.co/gestionti/615/articles-5482_G5_Gestion_Clasificacion.pdf',
     },
     {
       referencia:
-        'Áciedad Americana de Ensayos y Materiales (ASTM). (2003). Textiles. Editorial Staff. [Book]. Sistema de Bibliotecas SENA.',
+        'MinTIC. (2016). Guía para la implementación de seguridad de la información en una mipyme. MinTIC.',
       link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000051551',
+        'https://www.mintic.gov.co/gestionti/615/articles-5482_Guia_Seguridad_informacion_Mypimes.pdf',
     },
     {
       referencia:
-        'Szkutnicka, B., Cuenca, C., Koyama, A. (2010). El dibujo técnico de moda paso a paso. Sistema de Bibliotecas SENA.',
+        'MinTIC. (2020) Anexo 3 - Resolución MinTIC 1519 del 2020, Condiciones mínimas técnicas y de seguridad digital.',
       link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000057728',
+        'https://gobiernodigital.mintic.gov.co/692/articles-160770_Condiciones_minimas.pdf',
+    },
+    {
+      referencia:
+        'Ortega, C., J. M. (2018). Seguridad en aplicaciones web Java. RA-MA Editorial.',
+      link:
+        'https://elibro-net.bdigital.sena.edu.co/es/ereader/senavirtual/106511',
+    },
+    {
+      referencia: 'Owasp. (2022). Owasp Top 10:2021.',
+      link: 'https://owasp.org/Top10/',
+    },
+    {
+      referencia: 'Owasp. (2022). Owasp web Security Testing Guide.',
+      link: 'https://owasp.org/www-project-web-security-testing-guide/latest/',
     },
   ],
   glosario: [
     {
-      termino: 'MoodBoard',
+      termino: '2FA',
       significado:
-        'su traducción literal es mapa de inspiración y aunque su uso está muy asociado al ámbito de la decoración de interiores o la moda, <br/>realmente se utiliza en entornos creativos muy diversos, desde el diseño de productos o servicios al audiovisual o el diseño gráfico.',
+        'término que representa doble factor de autenticación, solución que agrega una capa de seguridad en sistemas d autenticación basados en componentes externos a un sistema, por ejemplo, un token, una aplicación, tarjeta inteligente, etc.',
     },
     {
-      termino: '<em>Suftware</em>',
+      termino: 'Checklist',
       significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
+        'lista de chequeo que sirve para registrar un proceso de auditoría.',
     },
     {
-      termino: 'Pirognóstico',
+      termino: 'GUI',
       significado:
-        'ensayo sin componentes reactivos, quiere decir, reconocimiento de los componentes, mediante la aplicación adecuada del fuego.',
+        'interfaz gráfica de usuario, por ejemplo, una aplicación, o aplicación móvil.',
     },
     {
-      termino: '<em>Áectores</em>',
+      termino: 'KPI',
       significado:
-        'en software de diseño, son líneas que se crean y permiten, expandir, modificar, al tamaño que sea sin pixelarse porque se unen por coordenadas matemáticas del programa y no se generan por números fijos.',
+        'Key Performance Indicator o indicador clave de desempeño, que representa las métricas de eficacia de las acciones adoptadas y así determinar si son efectivas o no.',
     },
     {
-      termino: 'Moda',
+      termino: 'URL',
       significado:
-        'hábito repetitivo que identifica a una persona, una especie de presión social, que debe consumir, utilizar o hacer.',
-    },
-    {
-      termino: 'Diseña',
-      significado:
-        'actividad creativa orientada a soluciones idóneas a ciertas problemáticas.',
-    },
-    {
-      termino: 'DIseño',
-      significado:
-        'actividad creativa orientada a soluciones idóneas a ciertas problemáticas.',
-    },
-    {
-      termino: 'Tipología',
-      significado:
-        'estudio de los tipos o modelos que se usan para clasificar en diversas ciencias o disciplinas.',
-    },
-    {
-      termino: 'Bidimensional',
-      significado:
-        'que se representa según su altura y su anchura y no su profundidad.',
-    },
-    {
-      termino: 'Interés Inferior del menor',
-      significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
-    },
-    {
-      termino: 'Interseccionalidad',
-      significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
-    },
-    {
-      termino: 'Interés superior del menor',
-      significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
+        'Uniform Resource Locator (localizador de recursos uniforme), representa una dirección que apunta hacia un recurso único en la web.',
     },
   ],
   complementario: [
     {
-      tema: 'Estrategias para la segmentación de mercados',
-      referencia:
-        'Cámara de Comercio de Medellín. (2020). <em>Suftware</em> Tendencias de negocios - Mercadeo y ventas',
-      tipo: 'Video',
-      link: 'https://www.google.com/',
+      tema: 'Análisis de resultados',
+      referencia: 'Owasp. (2022). Web Security Testing Guide 4.2. Owasp.',
+      tipo: 'Página Web',
+      link:
+        'https://github.com/OWASP/wstg/releases/download/v4.2/wstg-v4.2.pdf',
     },
     {
-      tema: 'Estrategias para la segmentación de mercados',
-      referencia:
-        'Cámara de Comercio de Medellín. (2020). <em>Suftware</em> Tendencias de negocios - Mercadeo y ventas',
-      tipo: 'Video',
-      link: 'https://www.google.com/',
+      tema: 'Análisis de resultados',
+      referencia: 'Owasp. (2022). Web Security Testing Guide Checklist. Owasp.',
+      tipo: 'Página Web',
+      link: 'https://github.com/OWASP/wstg/tree/master/checklist',
     },
     {
-      tema: 'Estrategias para la segmentación de mercados',
-      referencia:
-        'Cámara de Comercio de Medellín. (2020). <em>Suftware</em> Tendencias de negocios - Mercadeo y ventas',
-      tipo: 'Video',
-      link: 'https://www.google.com/',
+      tema: 'Análisis de resultados',
+      referencia: 'Olmedo, J. (2021). Owasp risk assessment calculator.',
+      tipo: 'Página Web',
+      link: 'https://javierolmedo.github.io/OWASP-Calculator/',
     },
   ],
   creditos: {
