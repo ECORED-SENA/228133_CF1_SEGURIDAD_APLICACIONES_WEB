@@ -115,7 +115,7 @@
 
           .row(titulo="Prueba de Client Side")
             .col-md-9.mb-4.mb-md-0
-              p En este tipo de prueba, es posible analizar software, programas de creación de contenido y Web browsers (como Chrome, Firefox, Explorer, etc) en ordenadores de los usuarios, para la búsqueda de vulnerabilidades.
+              p En este tipo de prueba, es posible analizar <i>software,</i> programas de creación de contenido y <i>Web browsers</i> (como Chrome, Firefox, Explorer, etc) en ordenadores de los usuarios, para la búsqueda de vulnerabilidades.
           
             .col-md-3
               figure
@@ -433,7 +433,7 @@
                 figure
                   img(src='@/assets/curso/tema2/vec3.jpg', alt='Texto que describa la imagen')
 
-          .py-4.py-md-5(titulo="Entornos DevOps/CI" :icono="require('@/assets/curso/tema2/icon4.png')")
+          .py-4.py-md-5(titulo="Entornos <i>DevOps/CI</i>" :icono="require('@/assets/curso/tema2/icon4.png')")
             .row
               .col-md-8.mb-4.mb-md-0
                 h4 Herramientas de seguridad integradas en entornos DevOps/CI

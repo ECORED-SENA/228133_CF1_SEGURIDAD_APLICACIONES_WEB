@@ -678,14 +678,14 @@
         figure
           img(src='@/assets/curso/tema1/vec3.svg', alt='Texto que describa la imagen')
 
-    p.mb-4 Actualmente la mayoría de los desarrolladores de <i>Software</i> no realizan la validación de vulnerabilidades en sus productos si no hasta que este ya es funcional, pero esto no es tan eficiente, por ello se sugiere la adopción de un Ciclo de Vida de Desarrollo de <i>Software</i>(SDLC), el cual lleva a tener presente el factor de seguridad en cada una de las fases del desarrollo, así:
+    p.mb-4 Actualmente la mayoría de los desarrolladores de <i>oftware</i> no realizan la validación de vulnerabilidades en sus productos si no hasta que este ya es funcional, pero esto no es tan eficiente, por ello se sugiere la adopción de un Ciclo de Vida de Desarrollo de <i>Software</i>(SDLC), el cual lleva a tener presente el factor de seguridad en cada una de las fases del desarrollo, así:
 
     .row.justify-content-center.align-items-center.mb-4
       .col-md-10
         .tarjeta.color-cuadro.p-4
           .row.justify-content-center.align-items-center
             .col-md-12
-              p.mb-4 Con la adopción de los SDLC o Ciclo de Vida de Desarrollo de <i>Software</i>, se busca que el factor de la seguridad esté presente desde el momento de la concepción del <i>Software</i> permitiendo identificar los requisitos funcionales de la necesidad que motiva la creación de una aplicación, mantener los componentes seguros desde el diseño y prototipado, buenas prácticas de programación, desarrollar un plan de pruebas de seguridad, así como mantener un plan de mantenimiento y actualizaciones que garanticen su funcionalidad y seguridad de la información en el tiempo, como se puede apreciar en la siguiente figura. 
+              p.mb-4 Con la adopción de los SDLC o Ciclo de Vida de Desarrollo de <i>software</i>, se busca que el factor de la seguridad esté presente desde el momento de la concepción del <i>software</i> permitiendo identificar los requisitos funcionales de la necesidad que motiva la creación de una aplicación, mantener los componentes seguros desde el diseño y prototipado, buenas prácticas de programación, desarrollar un plan de pruebas de seguridad, así como mantener un plan de mantenimiento y actualizaciones que garanticen su funcionalidad y seguridad de la información en el tiempo, como se puede apreciar en la siguiente figura. 
             .col-md-6
               figure.mb-4
                 img(src='@/assets/curso/tema1/vec4.svg', alt='Texto que describa la imagen')

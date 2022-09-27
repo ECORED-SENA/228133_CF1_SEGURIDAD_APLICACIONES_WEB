@@ -225,7 +225,7 @@ export default {
     {
       tema: 'Análisis de resultados',
       referencia: 'Owasp. (2022). Web Security Testing Guide 4.2. Owasp.',
-      tipo: 'Página Web',
+      tipo: 'PDF',
       link:
         'https://github.com/OWASP/wstg/releases/download/v4.2/wstg-v4.2.pdf',
     },
