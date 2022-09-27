@@ -592,7 +592,7 @@
               h3.mb-1.text-white Modelo de Pentesting
               p.text-small.text-white Para realizar una presentación y sustentación ante la organización del ejercicio realizado, y argumentando con detalles y pruebas, las debilidades que presentan y un plan de mejoramiento que permita la reducción de la brecha a la seguridad en aplicaciones web, se puede recurrir al modelo de reporte de pentesting.
             .col-sm-auto
-              a.boton.color-acento-botones(href="https://rhinosecuritylabs.com/landing/penetration-test-report/" target="_blank")
+              a.boton.color-acento-botones(href="https://owasp.org/www-project-web-security-testing-guide/v42/5-Reporting/README" target="_blank")
                 span Ir al enlace
 
 
