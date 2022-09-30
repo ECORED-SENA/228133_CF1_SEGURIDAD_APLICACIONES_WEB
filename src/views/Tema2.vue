@@ -8,7 +8,7 @@
         span 2
       h1  Vulnerabilidades en aplicaciones web
 
-    .row.justify-content-center.align-items-center.mb-4
+    .row.justify-content-center.align-items-center.mb-4(data-aos="fade")
       .col-md-10
         .bloque-texto-g.color-acento-botones.p-3.p-sm-4.p-md-5
           .bloque-texto-g__img(
@@ -18,13 +18,13 @@
             p.mb-0 Actualmente se cuenta con una amplia gama de recursos normativos y estándares para la gestión de vulnerabilidades, algunas de ellas con un nivel de cobertura más amplio dado su capacidad de aplicación dentro de las necesidades de una organización. Cada una de estas normas tiene como talante la gestión proactiva de las vulnerabilidades antes de una ocurrencia de un incidente que ponga en riesgo la información administrada
     separador
     
-    #t_2_1.titulo-segundo.color-acento-contenido
+    #t_2_1.titulo-segundo.color-acento-contenido(data-aos="fade-right")
       .h4 2.1	Metodologías para la gestión de vulnerabilidades
 
-    p.mb-4 Owasp propone una metodología para la identificación de vulnerabilidades basada en pruebas de seguridad sobre las aplicaciones web, con el cual se busca encontrar las debilidades presentes en un sistema.
-    p.mb-4 Este modelo de pruebas está conformado por:
+    p.mb-4(data-aos="fade-right") Owasp propone una metodología para la identificación de vulnerabilidades basada en pruebas de seguridad sobre las aplicaciones web, con el cual se busca encontrar las debilidades presentes en un sistema.
+    p.mb-4(data-aos="fade-right") Este modelo de pruebas está conformado por:
 
-    .row.mb-4
+    .row.mb-4(data-aos="fade")
       .col-lg-4.mb-4.mb-lg-0
         .tarjeta.rounded-0.bg--a-1.p-4.d-flex.flex-column.h-100.hoverScale2
           img.mb-2(src='@/assets/curso/tema2/1.png' style='width: 40px').mx-auto
@@ -50,9 +50,9 @@
                 h4.text-center.text-white.mb-0 Aplicación: 
           p.text-center Objeto que se desea probar.
     
-    P.mb-4 A su vez, las pruebas se pueden clasificar así:
+    P.mb-4(data-aos="fade-right") A su vez, las pruebas se pueden clasificar así:
 
-    .tarjeta.tarjeta-color.p-5.mb-5
+    .tarjeta.tarjeta-color.p-5.mb-5(data-aos="fade-up")
       SlyderA(tipo="b")
         .row
           .col-md-6.mb-4.mb-md-0
@@ -96,13 +96,13 @@
           p.mb-4 Todos los puntos de entrada encontrados en esta fase representan un objetivo para las pruebas. Hay que realizar un seguimiento del directorio o árbol de llamadas de la aplicación y de todos los puntos de acceso puede ser útil durante las pruebas activas.
     separador
    
-    #t_2_2.titulo-segundo.color-acento-contenido
+    #t_2_2.titulo-segundo.color-acento-contenido(data-aos="fade-right")
       .h4 2.2	Fundamentos de <i>pentesting</i>
 
-    p.mb-4 Dentro del ejercicio de la gestión de vulnerabilidades, cobran vital importancia las metodologías para el descubrimiento e identificación de estas, ya que orientan y dan un mapa de ruta de cómo se debe realizar el ejercicio, uno de estos es el <i>pentesting</i> o prueba de penetración, que no es más que un ejercicio de descubrimiento apoyado en técnicas y herramientas especializadas para la validación y búsqueda de vulnerabilidades en un sistema o aplicación.
-    p.mb-4 Existen los siguientes tipos de <i>pentesting</i>:
+    p.mb-4(data-aos="fade-right") Dentro del ejercicio de la gestión de vulnerabilidades, cobran vital importancia las metodologías para el descubrimiento e identificación de estas, ya que orientan y dan un mapa de ruta de cómo se debe realizar el ejercicio, uno de estos es el <i>pentesting</i> o prueba de penetración, que no es más que un ejercicio de descubrimiento apoyado en técnicas y herramientas especializadas para la validación y búsqueda de vulnerabilidades en un sistema o aplicación.
+    p.mb-4(data-aos="fade-right") Existen los siguientes tipos de <i>pentesting</i>:
 
-    .row 
+    .row.mb-4(data-aos="fade")
       .col-md-12
         AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta-azul")
           .row(titulo="Prueba en aplicación web")
@@ -137,9 +137,9 @@
               figure
                 img(src='@/assets/curso/tema2/7.png', alt='Texto que describa la imagen')
 
-    p.mb-4 Para cualquiera de los tipos de pentesting, se sugiere un ciclo de vida como se muestra en la siguiente figura, en donde se resalta:
+    p.mb-4(data-aos="fade-right") Para cualquiera de los tipos de <i>pentesting,</i> se sugiere un ciclo de vida como se muestra en la siguiente figura, en donde se resalta:
 
-    .row 
+    .row.mb-4(data-aos="fade")
       .col-md-12
         TabsA.color-acento-contenido.mb-5
           .tarjeta.color-acento-contenido--borde.p-4(titulo="Reconocimiento:")
@@ -160,7 +160,7 @@
                 figure
                   img(src='@/assets/curso/tema2/img2.jpg', alt='Texto que describa la imagen')
 
-          .tarjeta.color-acento-contenido--borde.p-4(titulo="Ropa tecnológica (wearables)")
+          .tarjeta.color-acento-contenido--borde.p-4(titulo="Ropa tecnológica (<i>wearables</i>)")
             .row
               .col-md-9
                 h5 Explotación:
@@ -187,10 +187,10 @@
                 figure
                   img(src='@/assets/curso/tema2/img2.jpg', alt='Texto que describa la imagen')
     
-    P.mb-4 Ahora bien, este ejercicio se puede realizar de manera exploratoria sin conocimiento del escenario e información de acceso, y dependiendo de esto, las pruebas se pueden clasificar en:
+    P.mb-4(data-aos="fade-right") Ahora bien, este ejercicio se puede realizar de manera exploratoria sin conocimiento del escenario e información de acceso, y dependiendo de esto, las pruebas se pueden clasificar en:
 
     .row.mb-5
-      .col-md-6.col-lg.mb-5.mb-lg-0
+      .col-md-6.col-lg.mb-5.mb-lg-0(data-aos="fade-up-right")
         .tarjeta-avatar
           img(src='@/assets/curso/tema2/avatar1.png' alt='AvatarTop')
           .tarjeta.color-ama
@@ -198,7 +198,7 @@
               h5.text-center.mb-5 Caja negra: 
               p Aquí los auditores no cuentan con información previa sobre el escenario en el cual se va a trabajar, se desarrollan ejercicios de exploración e intrusión, este tipo de pruebas por lo general son realizadas por personas externas a la organización.
 
-      .col-md-6.col-lg.mb-5.mb-lg-0
+      .col-md-6.col-lg.mb-5.mb-lg-0(data-aos="fade-up")
         .tarjeta-avatar
           img(src='@/assets/curso/tema2/avatar2.png' alt='AvatarTop')
           .tarjeta.color-ver
@@ -206,7 +206,7 @@
               h2.text-center.mb-5 Caja blanca
               p Los auditores cuentan con datos del escenario e incluso credenciales de acceso a los sistemas de información, este tipo de pruebas lo realizan principalmente personal interno de la organización.
 
-      .col-md-6.col-lg.mb-5.mb-lg-0
+      .col-md-6.col-lg.mb-5.mb-lg-0(data-aos="fade-up-left")
         .tarjeta-avatar
           img(src='@/assets/curso/tema2/avatar3.png' alt='AvatarTop')
           .tarjeta.color-az
@@ -215,27 +215,27 @@
               p Se cuenta con parte de la información, pero se requiere detallar ciertos aspectos técnicos. 
     separador
 
-    #t_2_3.titulo-segundo.color-acento-contenido
+    #t_2_3.titulo-segundo.color-acento-contenido(data-aos="fade-right")
       .h4 2.3 <i>Owasp</i>: top 10 de vulnerabilidades
 
-    p.mb-4 De acuerdo con la comunidad de <i>Owasp</i>, este genera reportes sobre las vulnerabilidades que más se encuentran en las aplicaciones web y en su último reporte se puede observar el siguiente comportamiento del top 10 de las vulnerabilidades identificadas.
+    p.mb-4(data-aos="fade-right") De acuerdo con la comunidad de <i>Owasp</i>, este genera reportes sobre las vulnerabilidades que más se encuentran en las aplicaciones web y en su último reporte se puede observar el siguiente comportamiento del top 10 de las vulnerabilidades identificadas.
 
-    SlyderB.mb-5(:datos="datosSlyder")
+    SlyderB.mb-5(:datos="datosSlyder")(data-aos="fade-right")
     separador
     
-    #t_2_4.titulo-segundo
+    #t_2_4.titulo-segundo(data-aos="fade-right")
       .h4 2.4	Herramientas especializadas
 
     .row.justify-content-center.align-items-center.mb-4
-      .col-md-8
+      .col-md-8(data-aos="fade-right")
         p.mb-4 Estas son un elemento fundamental en el ejercicio de la búsqueda y gestión de vulnerabilidades, dado que permiten agilizar, automatizar y realizar cientos de validaciones en segundos, y generando informes muy completos sobre los hallazgos encontrados.
         p.mb-4 A continuación, se exponen algunas de las herramientas más comunes, aunque más adelante se profundizará sobre su utilidad y manejo en el ejercicio de la auditoría.
         p.mb-4 Dentro del universo de herramientas a utilizar, están las siguientes categorías:
-      .col-md-4
+      .col-md-4(data-aos="fade-left")
         figure
           img(src='@/assets/curso/tema2/img3.jpg', alt='Texto que describa la imagen')
 
-    .row.mb-4
+    .row.mb-4(data-aos="fade-right")
       .col-md-12
         ul.lista-ul--color.mb-0
           li 
@@ -254,14 +254,14 @@
             i.fas.fa-atom
             | Herramientas de calidad de código estático.
 
-    .row.mb-4
+    .row.mb-4(data-aos="fade-right")
       .col-md-3
         .tarjeta.clr-1
           h4.text-center.p-2 Herramientas SAST
 
-    p.mb-4 En el siguiente recurso podrá conocer las herramientas más importantes SAST.
+    p.mb-4(data-aos="fade-right") En el siguiente recurso podrá conocer las herramientas más importantes SAST.
 
-    .row.mb-4 
+    .row.mb-4(data-aos="fade-up")
       .col-md-12 
         TabsC.color-acento-contenido
           .py-3.py-md-0(titulo="Escaneo de código de GitHub")
@@ -311,14 +311,14 @@
                 p.mb-4 Esta es una versión de la edición de la comunidad SAST de HCL AppScan. 
                 p La herramienta actualmente es compatible con Python, Ruby, JS (Vue, Node, Angular, JQuery, React, etc.), PHP, Perl, Go, TypeScript y con otros nuevos lenguajes que se agregan con frecuencia.  
 
-    .row.mb-4
+    .row.mb-4(data-aos="fade-right")
       .col-md-3
         .tarjeta.clr-1
           h4.text-center.p-2 Herramientas DAST
 
-    p.mb-4 Si un proyecto tiene un componente de aplicación web, se recomienda ejecutar análisis automatizados contra él para establecer las vulnerabilidades.
+    p.mb-4(data-aos="fade-right") Si un proyecto tiene un componente de aplicación web, se recomienda ejecutar análisis automatizados contra él para establecer las vulnerabilidades.
 
-    .row.mb-4 
+    .row.mb-4(data-aos="fade-up")
       .tarjeta.tarjeta-ama.p-4
         LineaTiempoC.color-acento-botones(text-small)
           .row(titulo="Owasp ZAP")
@@ -368,18 +368,18 @@
               figure
                 img(src='@/assets/curso/tema2/img4.jpg', alt='Texto que describa la imagen')
 
-    .row.mb-4
+    .row.mb-4(data-aos="fade-right")
       .col-md-3
         .tarjeta.clr-1
           h4.text-center.p-2 Herramientas IAST
 
-    p.mb-4 Estas herramientas suelen estar orientadas a analizar aplicaciones web y API web, pero eso es específico del proveedor. Puede haber productos IAST que también realicen un buen análisis de seguridad en aplicaciones que no sean web.
+    p.mb-4(data-aos="fade-right") Estas herramientas suelen estar orientadas a analizar aplicaciones web y API web, pero eso es específico del proveedor. Puede haber productos IAST que también realicen un buen análisis de seguridad en aplicaciones que no sean web.
 
-    .titulo-sexto.color-acento-contenido
+    .titulo-sexto.color-acento-contenido(data-aos="fade-right")
       h5 Figura 6
       span Contrast Community Edition (CE)
 
-    .row.justify-content-center.align-items-center.mb-4
+    .row.justify-content-center.align-items-center.mb-4(data-aos="fade-up")
       .col-md-8
         .row
           .col-8
@@ -390,9 +390,9 @@
               h5 Contrast Community Edition (CE) 
               p Versión con todas las funciones para 1 aplicación y hasta 5 usuarios (algunas funciones Enterprise deshabilitadas). Contrast CE solo admite Java y .NET.
 
-    p.mb-4 A continuación podrá conocer algunas de las herramientas disponibles para la auditoría de aplicaciones web y para proyectos de desarrollo de aplicaciones web, y vale la pena  aclarar que algunas de ellas son <i>open source,</i> o tienen una posibilidad de ser utilizados cuando son proyectos abiertos, pero para proyectos comerciales o de gran tamaño requieren de una licencia o contrato de uso.
+    p.mb-4(data-aos="fade-right") A continuación podrá conocer algunas de las herramientas disponibles para la auditoría de aplicaciones web y para proyectos de desarrollo de aplicaciones web, y vale la pena  aclarar que algunas de ellas son <i>open source,</i> o tienen una posibilidad de ser utilizados cuando son proyectos abiertos, pero para proyectos comerciales o de gran tamaño requieren de una licencia o contrato de uso.
 
-    .row
+    .row.mb-4(data-aos="fade-up")
       .col-md-12
         TabsB.color-acento-contenido.mb-5
           .py-4.py-md-5(titulo="Software de código abierto (OSS)" :icono="require('@/assets/curso/tema2/icon1.png')")
@@ -452,7 +452,7 @@
     ModalA(:abrir-modal.sync="modal2")
       .row.align-items-center
         .col-md-12.mb-4.mb-md-0
-          h5 Herramientas de seguridad integradas en entornos DevOps/CI
+          h5 Herramientas de seguridad integradas en entornos <i>DevOps/CI</i>
           p.mb-4 Otras herramientas de seguridad gratuitas de código abierto son:
           ol.lista-ol
             li 
@@ -470,25 +470,24 @@
             li 
               span.text-bold e. 
               | Wfuzz.
-
     separador
    
-    #t_2_5.titulo-segundo.color-acento-contenido
+    #t_2_5.titulo-segundo.color-acento-contenido(data-aos="fade-right")
       .h4 2.5 Análisis de resultados
 
     .row.justify-content-center.align-items-center.mb-4
-      .col-md-8
+      .col-md-8(data-aos="fade-right")
         p.mb-4 Una vez realizado el plan de pruebas programado con las herramientas y técnicas seleccionadas, se deben documentar los hallazgos encontrados en el ejercicio, para ello se emplean instrumentos que permitan registrar, analizar y evaluar el estado actual de la seguridad de las aplicaciones web.
         p Desde el proyecto Owasp, se han propuesto varios instrumentos para registrar la información a manera de checklist, a saber:
-      .col-md-4
+      .col-md-4(data-aos="fade-left")
         figure
           img(src='@/assets/curso/tema2/img10.jpg', alt='Texto que describa la imagen')
 
-    .titulo-sexto.color-acento-contenido
+    .titulo-sexto.color-acento-contenido(data-aos="fade-right")
       h5 Figura 7
       span Instrumento Checklist para registro de la evaluación.
 
-    .row.justify-content-center.align-items-center.mb-4
+    .row.justify-content-center.align-items-center.mb-4(data-aos="fade-up")
       .col-md-10
         .row
           .col-md-5
@@ -507,11 +506,11 @@
 
                
 
-    .titulo-sexto.color-acento-contenido
+    .titulo-sexto.color-acento-contenido(data-aos="fade-right")
       h5 Figura 8
       span OWASP Risk Assesment Calculator.
 
-    .row.justify-content-center.align-items-center.mb-5
+    .row.justify-content-center.align-items-center.mb-5(data-aos="fade-up")
       .col-md-10
         .row
           .col-md-5
@@ -531,10 +530,10 @@
     .row.justify-content-center.align-items-center.mb-4
       .col-md-11
         .row.justify-content-center.align-items-center
-          .col-md-3
+          .col-md-3(data-aos="fade-right")
             figure
               img(src="@/assets/curso/tema2/13.jpg", alt="alt")
-          .col-md-7
+          .col-md-7(data-aos="fade-left")
             .cajon-b1.colorz.p-3
               p.mb-4 Es importante resaltar que el ejercicio de pruebas y la obtención del indicador de riesgo es un producto importante, pero ante la organización o los propietarios de la información se deben presentar reportes técnicos, con evidencias, detalles de las pruebas realizadas y resultados obtenidos, así como una serie de recomendaciones para subsanar dichas vulnerabilidades.
               p.mb-5 Desde el proyecto Owasp, en su metodología en el capítulo 5, sugiere las partes mínimas de un informe.
@@ -546,12 +545,12 @@
                     .anexo__texto
                       p Este se puede consultar en: <b>Web Security Testing Guide</b>
 
-    .titulo-sexto.color-acento-contenido
+    .titulo-sexto.color-acento-contenido(data-aos="fade-right")
       h5 Figura 10
       span Estructura general de un reporte de <i>pentesting</i>
 
     .row.justify-content-center.align-items-center.mb-4
-      .col-md-6
+      .col-md-6(data-aos="fade-right")
         .tarjeta.color-gris.p-4
           .row.justify-content-center
             .col-md-6
@@ -578,11 +577,11 @@
                     p.mb-0 1. Resumen de conclusiones.
                     p 2. Detalles de hallazgos.
                   p <b>b. Apéndices</b>
-      .col-md-4
+      .col-md-4(data-aos="fade-left")
         figure
           img(src="@/assets/curso/tema2/1.svg", alt="alt")
 
-    .tarjeta.color-fondo.p-4.mb-5
+    .tarjeta.color-fondo.p-4.mb-5(data-aos="fade-right")
       .row.justify-content-center.align-items-center
         .col-3.col-sm-2.col-lg-1.p-3
           img(src="@/assets/curso/tema2/manita.svg")

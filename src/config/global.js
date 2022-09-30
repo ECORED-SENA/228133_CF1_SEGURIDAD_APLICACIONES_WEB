@@ -266,13 +266,13 @@ export default {
           'Centro Industrial del Diseño y la Manufactura Regional Santander',
       },
       {
-        nombre: '',
+        nombre: 'María Natalia Maldonado Delgado',
         cargo: 'Diseño web',
         centro:
           'Centro Industrial del Diseño y la Manufactura Regional Santander',
       },
       {
-        nombre: '',
+        nombre: 'Daniel Polanco',
         cargo: 'Validación Diseño web',
         centro:
           'Centro Industrial del Diseño y la Manufactura Regional Santander',
@@ -290,7 +290,7 @@ export default {
           'Centro Industrial del Diseño y la Manufactura Regional Santander',
       },
       {
-        nombre: '',
+        nombre: 'Lina Marcela Perez',
         cargo: 'Validación de Maquetación',
         centro:
           'Centro Industrial del Diseño y la Manufactura Regional Santander',
@@ -302,7 +302,7 @@ export default {
           'Centro Industrial del Diseño y la Manufactura Regional Santander',
       },
       {
-        nombre: '',
+        nombre: 'Lina Marcela Perez',
         cargo: 'Validación Contenido',
         centro:
           'Centro Industrial del Diseño y la Manufactura Regional Santander',
