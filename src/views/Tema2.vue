@@ -395,7 +395,7 @@
     .row.mb-4(data-aos="fade-up")
       .col-md-12
         TabsB.color-acento-contenido.mb-5
-          .py-4.py-md-5(titulo="Software de código abierto (OSS)" :icono="require('@/assets/curso/tema2/icon1.png')")
+          .py-4.py-md-5(titulo="<i>Software</i> de código abierto (OSS)" :icono="require('@/assets/curso/tema2/icon1.png')")
             .row
               .col-md-8.mb-4.mb-md-0
                 h4 Herramientas de seguridad de <i>software</i> de código abierto (OSS)
@@ -487,10 +487,10 @@
       h5 Figura 7
       span Instrumento Checklist para registro de la evaluación.
 
-    .row.justify-content-center.align-items-center.mb-4(data-aos="fade-up")
+    .row.justify-content-center.mb-4(data-aos="fade-up")
       .col-md-10
-        .row
-          .col-md-5
+        .row.justify-content-center.align-items-center
+          .col-md-4
             figure
               img.mb-0(src='@/assets/curso/tema2/12.jpg', alt='Texto que describa la imagen')
           .col-md-6
@@ -498,7 +498,7 @@
               h5 Instrumento checklist para registro de la evaluación
               p.mb-5 Este permite obtener un informe del riesgo que pueden llegar a presentar una determinada aplicación web, registrando cada una de las aplicaciones web que se desea evaluar, y registrar el resultado de las pruebas practicadas, esta información será útil para generar un informe final del nivel del riesgo presente en las aplicaciones.
               .col-md-9
-                a.anexo.mb-4.mb-lg-0(href="https://github.comp.mb-0/OWASP/wstg/tree/master/checklist." target="_blank")
+                a.anexo.mb-4.mb-lg-0(href="https://github.comp.mb-0/OWASP/wstg/tree/master/checklist" target="_blank")
                   .anexo__icono
                     img(src="@/assets/template/icono-link.png")
                   .anexo__texto
@@ -510,10 +510,10 @@
       h5 Figura 8
       span OWASP Risk Assesment Calculator.
 
-    .row.justify-content-center.align-items-center.mb-5(data-aos="fade-up")
+    .row.justify-content-center.mb-5(data-aos="fade-up")
       .col-md-10
-        .row
-          .col-md-5
+        .row.justify-content-center.align-items-center
+          .col-md-4
             figure
               img.mb-0(src='@/assets/curso/tema2/11.jpg', alt='Texto que describa la imagen')
           .col-md-6
@@ -521,7 +521,7 @@
               h5 Instrument OWASP Risk Assessment Calculator
               p.mb-5 Esta herramienta es una calculadora de evaluación de riesgos OWAS y se puede encontrar un instrumento de evaluación en línea disponible en
               .col-md-9
-                a.anexo.mb-4.mb-lg-0(href="https://javierolmedo.github.io/OWASP-Calculator/." target="_blank")
+                a.anexo.mb-4.mb-lg-0(href="https://javierolmedo.github.io/OWASP-Calculator/" target="_blank")
                   .anexo__icono
                     img(src="@/assets/template/icono-link.png")
                   .anexo__texto
@@ -539,7 +539,7 @@
               p.mb-5 Desde el proyecto Owasp, en su metodología en el capítulo 5, sugiere las partes mínimas de un informe.
               .row.justify-content-center
                 .col-md-8
-                  a.anexo.mb-4.mb-lg-0(href="https://owasp.org/www-project-web-security-testing-guide/v42/5-Reporting/README." target="_blank")
+                  a.anexo.mb-4.mb-lg-0(href="https://owasp.org/www-project-web-security-testing-guide/v42/5-Reporting/README" target="_blank")
                     .anexo__icono
                       img(src="@/assets/template/icono-link.png")
                     .anexo__texto
@@ -653,7 +653,7 @@ export default {
       },
       {
         titulo:
-          'Fallos en el software y en la integridad de los datos (<i>Software and Data Integrity Failures</i>)',
+          'Fallos en el <i>software</i> y en la integridad de los datos (<i>Software and Data Integrity Failures</i>)',
         texto:
           'Muchas aplicaciones se actualizan de manera automática. Cuando estas actualizaciones no son verificadas los ciberdelincuentes podrían modificarlas cargando sus propias actualizaciones y distribuyéndolas. ',
         imagen: require('@/assets/curso/tema2/8.jpg'),

@@ -114,7 +114,7 @@
             p Son instrumentos que nos permiten interpretar una medición frente a una escala, es decir, a partir de una lectura permite identificar el estado actual del objeto evaluado.        
           .col-md-6
             figure
-              img(src='@/assets/curso/tema1/slyder1.png', alt='Texto que describa la imagen')
+              img(src='@/assets/curso/tema1/slyder5.png', alt='Texto que describa la imagen')
 
     .titulo-sexto.color-acento-contenido(data-aos="fade-right")
       h5 Figura 1 
@@ -268,7 +268,7 @@
     #t_1_3.titulo-segundo.color-acento-contenido(data-aos="fade-right")
       .h4 1.3	Normatividad y estándares para la gestión de la seguridad
 
-    p.mb-4(data-aos="fade-right") La gestión de la seguridad en las aplicaciones web es una tarea que actualmente no se le presta la debida atención, y esta no depende únicamente de las buenas prácticas de programación de software, en su lugar es importante tener presente que la responsabilidad de poseer una aplicación web pública, que gestione información importante para la organización o maneje información confidencial, y ello obliga a contar con ciertos controles de seguridad que garantice los pilares de la seguridad de la información, a saber:
+    p.mb-4(data-aos="fade-right") La gestión de la seguridad en las aplicaciones web es una tarea que actualmente no se le presta la debida atención, y esta no depende únicamente de las buenas prácticas de programación de <i>software</i>, en su lugar es importante tener presente que la responsabilidad de poseer una aplicación web pública, que gestione información importante para la organización o maneje información confidencial, y ello obliga a contar con ciertos controles de seguridad que garantice los pilares de la seguridad de la información, a saber:
 
     .row.justify-content-center.align-items-center.mb-4(data-aos="fade")
       .col-md-10
@@ -624,7 +624,7 @@
 
           .tarjeta.color-acento-contenido--borde.p-4(titulo="Seguridad")
             h5 Seguridad 
-            p Nos ayuda a analizar y verificar la seguridad de nuestro producto software mediante diferentes pruebas como: pruebas de penetración, vulnerabilidad, <i>ethical hacking</i> o <i>static analysis</i>.
+            p Nos ayuda a analizar y verificar la seguridad de nuestro producto <i>software</i> mediante diferentes pruebas como: pruebas de penetración, vulnerabilidad, <i>ethical hacking</i> o <i>static analysis</i>.
             .row.justify-content-center  
               .col-md-5
                 figure
