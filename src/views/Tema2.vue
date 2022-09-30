@@ -498,7 +498,7 @@
               h5 Instrumento checklist para registro de la evaluación
               p.mb-5 Este permite obtener un informe del riesgo que pueden llegar a presentar una determinada aplicación web, registrando cada una de las aplicaciones web que se desea evaluar, y registrar el resultado de las pruebas practicadas, esta información será útil para generar un informe final del nivel del riesgo presente en las aplicaciones.
               .col-md-9
-                a.anexo.mb-4.mb-lg-0(href="https://github.comp.mb-0/OWASP/wstg/tree/master/checklist" target="_blank")
+                a.anexo.mb-4.mb-lg-0(href="https://docs.github.com/es/issues/tracking-your-work-with-issues/about-task-lists" target="_blank")
                   .anexo__icono
                     img(src="@/assets/template/icono-link.png")
                   .anexo__texto
