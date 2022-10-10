@@ -25,30 +25,36 @@
     p.mb-4(data-aos="fade-right") Este modelo de pruebas está conformado por:
 
     .row.mb-4(data-aos="fade")
-      .col-lg-4.mb-4.mb-lg-0
-        .tarjeta.rounded-0.bg--a-1.p-4.d-flex.flex-column.h-100.hoverScale2
-          img.mb-2(src='@/assets/curso/tema2/1.png' style='width: 40px').mx-auto
-          .row.justify-content-center.align-items-center.mb-2
-            .col-md-8
-              .tarjeta.color-primario.p-3
+      .col-lg-4.mb-4.mb-lg-0.col-md-12.col-12
+        .tarjeta.bg--a-1.p-4.d-flex.flex-column.h-100.hoverScale2
+          .row 
+            .col-lg-3.col-md-2.col-3
+              img.mb-3(src='@/assets/curso/tema2/1.png' )
+          .row.align-items-center.mb-2
+            .collgd-8.col-md-12
+              .tarjeta.color-prima.p-3.mb-4
                 h4.text-center.text-white.mb-0 Probador/Auditor: 
-          p.text-center Quien realiza las pruebas y validaciones.
-      .col-lg-4.mb-4.mb-lg-0
-        .tarjeta.rounded-0.bg--a-1.p-4.d-flex.flex-column.h-100.hoverScale2
-          img.mb-2(src='@/assets/curso/tema2/2.png' style='width: 40px').mx-auto
-          .row.justify-content-center.align-items-center.mb-2
-            .col-md-10
-              .tarjeta.color-primario.p-3
+          p Quien realiza las pruebas y validaciones.
+      .col-lg-4.mb-4.mb-lg-0.col-md-12.col-12
+        .tarjeta.bg--a-1.p-4.d-flex.flex-column.h-100.hoverScale2
+          .row 
+            .col-lg-3.col-md-2.col-3
+              img.mb-3(src='@/assets/curso/tema2/2.png' )
+          .row.align-items-center.mb-2
+            .col-lg-10.col-md-12
+              .tarjeta.color-prima.p-3.mb-4
                 h4.text-center.text-white.mb-0 Herramientas y metodología:  
-          p.text-center Guía de pruebas de Owasp.
-      .col-lg-4.mb-4.mb-lg-0
-        .tarjeta.rounded-0.bg--a-1.p-4.d-flex.flex-column.h-100.hoverScale2
-          img.mb-2(src='@/assets/curso/tema2/3.png' style='width: 40px').mx-auto
-          .row.justify-content-center.align-items-center.mb-2
-            .col-md-6
-              .tarjeta.color-primario.p-3
+          p Guía de pruebas de Owasp.
+      .col-lg-4.mb-4.mb-lg-0.col-md-12.col-12
+        .tarjeta.bg--a-1.p-4.d-flex.flex-column.h-100.hoverScale2
+          .row 
+            .col-lg-3.col-md-2.col-3
+              img.mb-3(src='@/assets/curso/tema2/3.png' )
+          .row.align-items-center.mb-2
+            .collgd-6.col-md-12
+              .tarjeta.color-prima.p-3.mb-4
                 h4.text-center.text-white.mb-0 Aplicación: 
-          p.text-center Objeto que se desea probar.
+          p Objeto que se desea probar.
     
     P.mb-4(data-aos="fade-right") A su vez, las pruebas se pueden clasificar así:
 
@@ -56,7 +62,7 @@
       SlyderA(tipo="b")
         .row
           .col-md-6.mb-4.mb-md-0
-            h5 Pruebas pasivas 
+            h4 Pruebas pasivas 
             p El probador intenta comprender la lógica de la aplicación y explora la aplicación web como un usuario. Se pueden utilizar herramientas para la recopilación de información. Por ejemplo, se puede utilizar un <i>proxy</i> HTTP para observar todas las solicitudes y respuestas. Al final de esta fase, el probador generalmente debe comprender todos los puntos de acceso y la funcionalidad del sistema (por ejemplo, encabezados HTTP, parámetros, <i>cookies</i>, API, uso / patrones de tecnología, etc.).
             .row.justify-content-between.align-items-center
               .col-auto
@@ -69,7 +75,7 @@
 
         .row
           .col-md-6.mb-4.mb-md-0
-            h5 Pruebas activas
+            h4 Pruebas activas
             p Durante estas pruebas, un probador comienza a utilizar las metodologías descritas en las siguientes secciones, las cuales están divididas en 12 categorías:
             p.mb-0 1. Recopilación de información.
             p.mb-0 2. Pruebas de administración de configuración e implementación.
@@ -190,28 +196,28 @@
     P.mb-4(data-aos="fade-right") Ahora bien, este ejercicio se puede realizar de manera exploratoria sin conocimiento del escenario e información de acceso, y dependiendo de esto, las pruebas se pueden clasificar en:
 
     .row.mb-5
-      .col-md-6.col-lg.mb-5.mb-lg-0(data-aos="fade-up-right")
+      .col-lg-4.col-md-12.col-12(data-aos="fade-up-right")
         .tarjeta-avatar
           img(src='@/assets/curso/tema2/avatar1.png' alt='AvatarTop')
           .tarjeta.color-ama
             .text-black.p-4
-              h5.text-center.mb-5 Caja negra: 
+              h4.text-center.mb-5 Caja negra
               p Aquí los auditores no cuentan con información previa sobre el escenario en el cual se va a trabajar, se desarrollan ejercicios de exploración e intrusión, este tipo de pruebas por lo general son realizadas por personas externas a la organización.
 
-      .col-md-6.col-lg.mb-5.mb-lg-0(data-aos="fade-up")
+      .col-lg-4.col-md-12.col-12(data-aos="fade-up")
         .tarjeta-avatar
           img(src='@/assets/curso/tema2/avatar2.png' alt='AvatarTop')
           .tarjeta.color-ver
             .p-4
-              h2.text-center.mb-5 Caja blanca
+              h4.text-center.mb-5 Caja blanca
               p Los auditores cuentan con datos del escenario e incluso credenciales de acceso a los sistemas de información, este tipo de pruebas lo realizan principalmente personal interno de la organización.
 
-      .col-md-6.col-lg.mb-5.mb-lg-0(data-aos="fade-up-left")
+      .col-lg-4.col-md-12.col-12(data-aos="fade-up-left")
         .tarjeta-avatar
           img(src='@/assets/curso/tema2/avatar3.png' alt='AvatarTop')
           .tarjeta.color-az
             .p-4
-              h2.text-center.mb-5.text-white Caja gris
+              h4.text-center.mb-5.text-white Caja gris
               p Se cuenta con parte de la información, pero se requiere detallar ciertos aspectos técnicos. 
     separador
 
@@ -223,7 +229,7 @@
     SlyderB.mb-5(:datos="datosSlyder")(data-aos="fade-right")
     separador
     
-    #t_2_4.titulo-segundo(data-aos="fade-right")
+    #t_2_4.titulo-segundo.color-acento-contenido(data-aos="fade-right")
       .h4 2.4	Herramientas especializadas
 
     .row.justify-content-center.align-items-center.mb-4
@@ -255,7 +261,7 @@
             | Herramientas de calidad de código estático.
 
     .row.mb-4(data-aos="fade-right")
-      .col-md-3
+      .col-lg-3.col-md-6.col-9
         .tarjeta.clr-1
           h4.text-center.p-2 Herramientas SAST
 
@@ -264,7 +270,7 @@
     .row.mb-4(data-aos="fade-up")
       .col-md-12 
         TabsC.color-acento-contenido
-          .py-3.py-md-0(titulo="Escaneo de código de GitHub")
+          .py-3.py-md-0(titulo="<b>Escaneo de código de GitHub</b>")
             .row.tarjeta.color--gris.p-4
               .col-md-6
                 figure
@@ -274,7 +280,7 @@
                 p.mb-4 Es un servicio gratuito de análisis estático de código abierto que utiliza GitHub Actions y CodeQL. 
                 p Sirve para escanear repositorios públicos en GitHub. Soporta C/C++, C#, Ruby (beta), Java, JavaScript/TypeScript, Python y Go.               
 
-          .py-3.py-md-0(titulo="Análisis estático de Coverity Scan")
+          .py-3.py-md-0(titulo="<b>Análisis estático de Coverity Scan</b>")
             .row.tarjeta.color--gris.p-4
               .col-md-6
                 figure
@@ -283,7 +289,7 @@
                 h4 Análisis estático de Coverity Scan 
                 p.mb-4 Se puede conectar a Travis-CI para que se realice automáticamente con recursos en línea. Soporta más de una docena de lenguajes de programación.
 
-          .py-3.py-md-0(titulo="Reshift")
+          .py-3.py-md-0(titulo="<b>Reshift</b>")
             .row.tarjeta.color--gris.p-4
               .col-md-6
                 figure
@@ -292,7 +298,7 @@
                 h4 Reshift
                 p.mb-4 Es una herramienta de CI/CD que utiliza el análisis de código estático para buscar vulnerabilidades y utiliza el aprendizaje automático para dar una predicción sobre falsos positivos. Soporta Java con soporte futuro para NodeJS y JavaScript planeado.  
 
-          .py-3.py-md-0(titulo="WhiteSource Free Tools ")
+          .py-3.py-md-0(titulo="<b>WhiteSource Free Tools</b>")
             .row.tarjeta.color--gris.p-4
               .col-md-6
                 figure
@@ -301,7 +307,7 @@
                 h4 WhiteSource Free Tools 
                 p.mb-4 <i>Suite</i> de herramientas para detectar vulnerabilidades en código fuente.
           
-          .py-3.py-md-0(titulo="HCL AppScan CodeSweep")
+          .py-3.py-md-0(titulo="<b>HCL AppScan CodeSweep</b>")
             .row.tarjeta.color--gris.p-4
               .col-md-6
                 figure
@@ -312,7 +318,7 @@
                 p La herramienta actualmente es compatible con Python, Ruby, JS (Vue, Node, Angular, JQuery, React, etc.), PHP, Perl, Go, TypeScript y con otros nuevos lenguajes que se agregan con frecuencia.  
 
     .row.mb-4(data-aos="fade-right")
-      .col-md-3
+      .col-lg-3.col-md-6.col-9
         .tarjeta.clr-1
           h4.text-center.p-2 Herramientas DAST
 
@@ -369,23 +375,23 @@
                 img(src='@/assets/curso/tema2/img4.jpg', alt='Texto que describa la imagen')
 
     .row.mb-4(data-aos="fade-right")
-      .col-md-3
+      .col-lg-3.col-md-6.col-9
         .tarjeta.clr-1
           h4.text-center.p-2 Herramientas IAST
 
     p.mb-4(data-aos="fade-right") Estas herramientas suelen estar orientadas a analizar aplicaciones web y API web, pero eso es específico del proveedor. Puede haber productos IAST que también realicen un buen análisis de seguridad en aplicaciones que no sean web.
 
-    .titulo-sexto.color-acento-contenido(data-aos="fade-right")
+    .titulo-sexto.color-acento-contenido
       h5 Figura 6
       span Contrast Community Edition (CE)
 
     .row.justify-content-center.align-items-center.mb-4(data-aos="fade-up")
       .col-md-8
         .row
-          .col-8
+          .col-lg-8.col-md-12.col-12
             figure
               img.mb-0(src='@/assets/curso/tema2/img11.jpg', alt='Texto que describa la imagen')
-          .col-md-4
+          .col-lg-4.col-md-12.col-12
             .tarjeta.color-gris.p-4
               h5 Contrast Community Edition (CE) 
               p Versión con todas las funciones para 1 aplicación y hasta 5 usuarios (algunas funciones Enterprise deshabilitadas). Contrast CE solo admite Java y .NET.
@@ -483,17 +489,16 @@
         figure
           img(src='@/assets/curso/tema2/img10.jpg', alt='Texto que describa la imagen')
 
-    .titulo-sexto.color-acento-contenido(data-aos="fade-right")
-      h5 Figura 7
-      span Instrumento Checklist para registro de la evaluación.
-
     .row.justify-content-center.mb-4(data-aos="fade-up")
       .col-md-10
         .row.justify-content-center.align-items-center
-          .col-md-4
+          .col-lg-5.col-md-12.col-12
+            .titulo-sexto.color-acento-contenido
+              h5 Figura 7
+              span Instrumento Checklist para registro de la evaluación.
             figure
               img.mb-0(src='@/assets/curso/tema2/12.jpg', alt='Texto que describa la imagen')
-          .col-md-6
+          .col-lg-6.col-md-12.col-12
             .tarjeta.color-gris.p-4
               h5 Instrumento checklist para registro de la evaluación
               p.mb-5 Este permite obtener un informe del riesgo que pueden llegar a presentar una determinada aplicación web, registrando cada una de las aplicaciones web que se desea evaluar, y registrar el resultado de las pruebas practicadas, esta información será útil para generar un informe final del nivel del riesgo presente en las aplicaciones.
@@ -504,19 +509,16 @@
                   .anexo__texto
                     p Se encuentra disponible en la url: <b>Master Checklist</b>
 
-               
-
-    .titulo-sexto.color-acento-contenido(data-aos="fade-right")
-      h5 Figura 8
-      span OWASP Risk Assesment Calculator.
-
     .row.justify-content-center.mb-5(data-aos="fade-up")
       .col-md-10
         .row.justify-content-center.align-items-center
-          .col-md-4
+          .col-lg-5.col-md-12.col-12
+            .titulo-sexto.color-acento-contenido
+              h5 Figura 8
+              span OWASP Risk Assesment Calculator.
             figure
               img.mb-0(src='@/assets/curso/tema2/11.jpg', alt='Texto que describa la imagen')
-          .col-md-6
+          .col-lg-6.col-md-12.col-12
             .tarjeta.color-gris.p-4
               h5 Instrument OWASP Risk Assessment Calculator
               p.mb-5 Esta herramienta es una calculadora de evaluación de riesgos OWAS y se puede encontrar un instrumento de evaluación en línea disponible en
@@ -528,12 +530,12 @@
                     p Se encuentra disponible en la url: <b>Calculator</b>
 
     .row.justify-content-center.align-items-center.mb-4
-      .col-md-11
+      .col-md-10
         .row.justify-content-center.align-items-center
-          .col-md-3(data-aos="fade-right")
+          .col-lg-3.col-md-12.col-12(data-aos="fade-right")
             figure
               img(src="@/assets/curso/tema2/13.jpg", alt="alt")
-          .col-md-7(data-aos="fade-left")
+          .col-lg-7.col-md-12.col-12(data-aos="fade-left")
             .cajon-b1.colorz.p-3
               p.mb-4 Es importante resaltar que el ejercicio de pruebas y la obtención del indicador de riesgo es un producto importante, pero ante la organización o los propietarios de la información se deben presentar reportes técnicos, con evidencias, detalles de las pruebas realizadas y resultados obtenidos, así como una serie de recomendaciones para subsanar dichas vulnerabilidades.
               p.mb-5 Desde el proyecto Owasp, en su metodología en el capítulo 5, sugiere las partes mínimas de un informe.
@@ -550,11 +552,11 @@
       span Estructura general de un reporte de <i>pentesting</i>
 
     .row.justify-content-center.align-items-center.mb-4
-      .col-md-6(data-aos="fade-right")
+      .col-lg-6.col-md-12.col-12(data-aos="fade-right")
         .tarjeta.color-gris.p-4
           .row.justify-content-center
-            .col-md-6
-              .row
+            .col-lg-6
+              .row.mb-4
                 .col-md-8
                   .tarjeta.color-titulo.p-2
                     h5.mb-0.text-center 01. Introducción
@@ -566,8 +568,8 @@
                   p  5. Limitaciones.
                   p  6. Cronología.
                   p  7. Descargo de responsabilidades.
-            .col-md-6
-              .row
+            .col-lg-6
+              .row.mb-4
                 .col-md-8
                   .tarjeta.color-titulo.p-2
                     h5.mb-0.text-center 02. Resumen ejecutivo
@@ -577,12 +579,14 @@
                     p.mb-0 1. Resumen de conclusiones.
                     p 2. Detalles de hallazgos.
                   p <b>b. Apéndices</b>
-      .col-md-4(data-aos="fade-left")
+      .col-lg-4.col-md-10.col-12(data-aos="fade-left")
         figure
           img(src="@/assets/curso/tema2/1.svg", alt="alt")
 
-    .tarjeta.color-fondo.p-4.mb-5(data-aos="fade-right")
+    .tarjeta.color-fondo.p-2.mb-4(data-aos="fade-right")
       .row.justify-content-center.align-items-center
+        .col-lg-1.col-sm-1.col-1 
+          span.mb-0
         .col-3.col-sm-2.col-lg-1.p-3
           img(src="@/assets/curso/tema2/manita.svg")
         .col
@@ -593,6 +597,8 @@
             .col-sm-auto
               a.boton.color-acento-botones(href="https://owasp.org/www-project-web-security-testing-guide/v42/5-Reporting/README" target="_blank")
                 span Ir al enlace
+        .col-lg-1.col-sm-1.col-1 
+          span.mb-0
 
 
 

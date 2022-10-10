@@ -19,7 +19,7 @@
     separador
 
     #t_1_1.titulo-segundo.color-acento-contenido(data-aos="fade-right")
-      .h4 1.1 Conceptos
+      .h2 1.1 Conceptos
 
     p.mb-4(data-aos="fade-right") Dentro del ejercicio de la gestión de las vulnerabilidades en aplicaciones web se hará uso de metodologías, técnicas y herramientas especializadas, las cuales presentan términos que no son muy comunes y que es necesario reconocer para dar una adecuada interpretación de la información, así como transmitir los resultados obtenidos.
     p.mb-4(data-aos="fade-right") Se invita a conocer cuáles son los principales conceptos de vulnerabilidades en aplicaciones web:
@@ -60,7 +60,7 @@
           p.text-center.mb-0 Es la probabilidad de que se produzca un incidente de seguridad, materializándose una amenaza y causando pérdidas o daños.
     
     .row.justify-content-center.align-items-center.mb-4
-      .col-md-11
+      .col-md-10
         .row.justify-content-center.align-items-center
           .col-md-8(data-aos="fade-right")
             .cajon-b.color-acento-botones.p-3
@@ -78,7 +78,7 @@
       SlyderA(tipo="b")
         .row
           .col-md-6.mb-4.mb-md-0
-            h5 <i>Bug</i>
+            h4   <i>Bug</i>
             p En informática se dice que hay un bug cuando se produce un error o fallo en un programa que tiene como consecuencia un resultado o comportamiento inesperado. 
           .col-md-6
             figure
@@ -86,7 +86,7 @@
 
         .row
           .col-md-6.mb-4.mb-md-0
-            h5 <i>Patch</i>
+            h4   <i>Patch</i>
             p También conocido como parche, es una pieza de programa adicional que corrige un <i>bug</i> o adiciona funcionalidades en una aplicación.	
           .col-md-6
             figure
@@ -94,7 +94,7 @@
 
         .row
           .col-md-6.mb-4.mb-md-0
-            h5 <i>Testing</i>
+            h4   <i>Testing</i>
             p También conocidas como pruebas, son un conjunto de técnicas y pruebas utilizadas dentro de la auditoría de aplicaciones web para verificar si estas son vulnerables o no ante dicha amenaza.         
           .col-md-6
             figure
@@ -102,7 +102,7 @@
   
         .row
           .col-md-6.mb-4.mb-md-0
-            h5 Medida
+            h4   Medida
             p Corresponde a las mediciones realizadas en una prueba de auditoría, la cual es útil para tomar decisiones.         
           .col-md-6
             figure
@@ -110,7 +110,7 @@
 
         .row
           .col-md-6.mb-4.mb-md-0
-            h5 Métrica
+            h4   Métrica
             p Son instrumentos que nos permiten interpretar una medición frente a una escala, es decir, a partir de una lectura permite identificar el estado actual del objeto evaluado.        
           .col-md-6
             figure
@@ -131,7 +131,7 @@
     separador
 
     #t_1_2.titulo-segundo.color-acento-contenido(data-aos="fade-right")
-      .h4 1.2 Infraestructura de aplicaciones web
+      .h2 1.2 Infraestructura de aplicaciones web
 
     .row.justify-content-center.align-items-center.mb-4
       .col-md-8(data-aos="fade-right")
@@ -144,51 +144,62 @@
     .row.justify-content-center.mb-4
       .col-md-10
         .row.justify-content-center.align-items-center.mb-4
-          .col-md-2(data-aos="fade-right")
-            figure
-              img(src='@/assets/curso/tema1/1.svg', alt='icono')
-          .col-md-10(data-aos="fade-left")
+          .col-lg-2.col-md-4.col-5(data-aos="fade-right")
+            .row.justify-content-end
+              .col-md-10
+                figure
+                  img(src='@/assets/curso/tema1/1.svg', alt='icono')
+          .col-lg-10.col-md-8.col-12(data-aos="fade-left")
             h5 Usuario
             p.mb-0 Es la persona u otra aplicación que realiza la solicitud de acceso a un recurso web,  de forma habitual en diferentes situaciones, diferenciando los aspectos entre el servicio, el producto y la persona.
 
         .row.justify-content-center.align-items-center.mb-4
-          .col-md-2(data-aos="fade-right")
-            figure
-              img(src='@/assets/curso/tema1/2.svg', alt='icono')
-          .col-md-10(data-aos="fade-left")
+          .col-lg-2.col-md-4.col-5(data-aos="fade-right")
+            .row.justify-content-end
+              .col-md-10
+                figure
+                  img(src='@/assets/curso/tema1/2.svg', alt='icono')
+          .col-lg-10.col-md-8.col-12(data-aos="fade-left")
             h5 Dispositivo de acceso
             p.mb-0 Es el dispositivo físico que utiliza el usuario para conectarse a una red y hacer uso de un navegador,  a través de computadores, portátiles, tabletas y dispositivos móviles entre otros.
 
         .row.justify-content-center.align-items-center.mb-4
-          .col-md-2(data-aos="fade-right")
-            figure
-              img(src='@/assets/curso/tema1/3.svg', alt='icono')
-          .col-md-10(data-aos="fade-left")
+          .col-lg-2.col-md-4.col-5(data-aos="fade-right")
+            .row.justify-content-end
+              .col-md-10
+                figure
+                  img(src='@/assets/curso/tema1/3.svg', alt='icono')
+          .col-lg-10.col-md-8.col-12(data-aos="fade-left")
             h5 Navegador web
             p.mb-0 Son programas que permiten navegar dentro de una red como lo es internet y visualizar recursos enriquecidos con texto, imágenes, videos, audio, hoy en día se cuenta con gran variedad de navegadores como, por ejemplo: Edge, Firefox, Chrome, Opera, Safari, Brave, entre otros.
 
         .row.justify-content-center.align-items-center.mb-4
-          .col-md-2(data-aos="fade-right")
-            figure
-              img(src='@/assets/curso/tema1/4.svg', alt='icono')
-          .col-md-10(data-aos="fade-left")
+          .col-lg-2.col-md-4.col-5(data-aos="fade-right")
+            .row.justify-content-end
+              .col-md-10
+                figure
+                  img(src='@/assets/curso/tema1/4.svg', alt='icono')
+          .col-lg-10.col-md-8.col-12(data-aos="fade-left")
             h5 Servidor Web
             p.mb-0 Es un programa especializado que se instala en un dispositivo <i>hardware</i> o virtual y que cuenta con recursos de procesamiento, almacenamiento, de tráfico y sirve para ofrecer alojamiento de recursos web.
 
         .row.justify-content-center.align-items-center.mb-4
-          .col-md-2(data-aos="fade-right")
-            figure
-              img(src='@/assets/curso/tema1/5.svg', alt='icono')
-          .col-md-10(data-aos="fade-left")
+          .col-lg-2.col-md-4.col-5(data-aos="fade-right")
+            .row.justify-content-end
+              .col-md-10
+                figure
+                  img(src='@/assets/curso/tema1/5.svg', alt='icono')
+          .col-lg-10.col-md-8.col-12(data-aos="fade-left")
             h5 Lenguajes de programación
             p.mb-0 Estos permiten programar la lógica de las aplicaciones web bajo el uso de lenguajes compilados o lenguajes intérpretes, dado que el lenguaje HTML no es de alto nivel y no permite programación a un nivel superior, se debe hacer uso de estos lenguajes para generar la lógica de negocio y comportamiento que debe se seguir una aplicación web.
 
-
         .row.justify-content-center.align-items-center.mb-4
-          .col-md-2(data-aos="fade-right")
-            figure
-              img(src='@/assets/curso/tema1/6.svg', alt='icono')
-          .col-md-10(data-aos="fade-left")
+          .col-lg-2.col-md-4.col-5(data-aos="fade-right")
+            .row.justify-content-end
+              .col-md-10
+                figure
+                  img(src='@/assets/curso/tema1/6.svg', alt='icono')
+          .col-lg-10.col-md-8.col-12(data-aos="fade-left")
             h5 Motor de base de datos
             p.mb-0 Este también es un programa que se aloja en un dispositivo <i>hardware</i> o virtual, y su función principal es la de almacenar la información de forma sistematizada, en estructuras organizadas como bases de datos, tablas y registros.
 
@@ -199,10 +210,10 @@
       span Arquitectura de una aplicación web
 
     .row.justify-content-center.align-items-center.mb-4
-      .col-md-6(data-aos="fade-right")
-        figure
+      .col-lg-6.col-md-12.col-12(data-aos="fade-right")
+        figure.mb-2
           img(src='@/assets/curso/tema1/img1.svg', alt='icono')
-      .col-md-5(data-aos="fade-left")
+      .col-lg-5.col-md-12(data-aos="fade-left")
         .tarjeta.tarjeta-color1.p-5
           ol.lista-ol
             li 
@@ -217,13 +228,13 @@
             li  
               ul.lista-ul--color
                 li 
-                  i.fas.fa-angle-right
+                  i.fas.fa-check
                   | Procesa lógica de negocio.
                 li 
-                  i.fas.fa-angle-right
+                  i.fas.fa-check
                   | Procesa información desde bases de datos.
                 li 
-                  i.fas.fa-angle-right
+                  i.fas.fa-check
                   | Conforma la respuesta.
             li 
               span.text-bold d. 
@@ -266,7 +277,7 @@
     separador
 
     #t_1_3.titulo-segundo.color-acento-contenido(data-aos="fade-right")
-      .h4 1.3	Normatividad y estándares para la gestión de la seguridad
+      .h2 1.3	Normatividad y estándares para la gestión de la seguridad
 
     p.mb-4(data-aos="fade-right") La gestión de la seguridad en las aplicaciones web es una tarea que actualmente no se le presta la debida atención, y esta no depende únicamente de las buenas prácticas de programación de <i>software</i>, en su lugar es importante tener presente que la responsabilidad de poseer una aplicación web pública, que gestione información importante para la organización o maneje información confidencial, y ello obliga a contar con ciertos controles de seguridad que garantice los pilares de la seguridad de la información, a saber:
 
@@ -278,7 +289,7 @@
     p.mb-4(data-aos="fade-right") Ahora bien, para cumplir con estos tres pilares se hace necesario de acciones, y aquí es donde han surgido algunas buenas iniciativas como normatividad, estándares y buenas prácticas para una adecuada gestión de la información, entre las cuales poder revisar:
     
     .row.mb-4(data-aos="fade-right")
-      .col-md-3
+      .col-lg-3.col-md-6.col-10
         .tarjeta.clr-1
           h4.text-center.p-2 Norma ISO/IEC 27001:2013:
 
@@ -287,33 +298,33 @@
     .row.justify-content-center.align-items-center.mb-4
       .col-lg-10.position-relative
         .crd.crd--avatarHorizontal.py-4
-          .row.align-items-center
-            .col-auto(data-aos="fade-right")
-              figure
-                img(src='@/assets/curso/tema1/7.png' alt='AvatarTop').img1
+          .row.align-items-center 
             .col(data-aos="fade-left")
               ul.lista-ul--color.mb-0
                 li 
-                  i.fas.fa-angle-right
+                  i.fas.fa-check
                   | Concientización de la necesidad de adoptar una cultura de seguridad.
                 li 
-                  i.fas.fa-angle-right
+                  i.fas.fa-check
                   | Delegación de responsabilidades sobre la seguridad de la información.
                 li 
-                  i.fas.fa-angle-right
+                  i.fas.fa-check
                   | Involucrar la alta dirección en la estrategia de seguridad.
                 li 
-                  i.fas.fa-angle-right
+                  i.fas.fa-check
                   | Seleccionar los controles adecuados para garantizar la seguridad de la información.
                 li 
-                  i.fas.fa-angle-right
+                  i.fas.fa-check
                   | Adoptar la seguridad como elemento esencial de los sistemas de información.
                 li 
-                  i.fas.fa-angle-right
+                  i.fas.fa-check
                   | Adoptar estrategias activas para la prevención de incidentes de seguridad activa.
                 li 
-                  i.fas.fa-angle-right
+                  i.fas.fa-check
                   | Adoptar la mejora continua en la evaluación de la seguridad.
+            .col-auto(data-aos="fade-right")
+              figure
+                img(src='@/assets/curso/tema1/7.png' alt='AvatarTop').img1
                 
     p.mb-4(data-aos="fade-right") En cuanto a la metodología para la adopción de esta norma, se incorpora el ciclo PDCA, acrónimo del inglés <i>Plan-Do-Check-Act</i> (en español: PHVA, planear, actuar verificar y actuar) la cual incorpora los siguientes ítems como se puede apreciar en la siguiente figura. 
 
@@ -322,11 +333,11 @@
       span Fases de un SGSI
 
     .row.justify-content-center.align-items-center.mb-4
-      .col-md-12(data-aos="fade-up")
+      .col-lg-12(data-aos="fade-up")
         .tarjeta.clr--gris1
-          .p-5
+          .p-4
             .row.justify-content-center.align-items-center
-              .col-md-7
+              .col-lg-7.col-md-12.col-12
                 ImagenInfografica.color-secundario.m-5
                   template(v-slot:imagen)
                     figure
@@ -364,55 +375,55 @@
                         | Generar SoA.
 
                   .tarjeta.color-info.p-5(x="72%" y="78%" numero="")
-                    ol.lista-ol--cuadro
+                    ol.lista-ol1--cuadro
                       li 
-                        .lista-ol--cuadro__vineta
+                        .lista-ol1--cuadro__vineta
                           span 8
                         | Generar plan de mitigación de riesgos.
                       li 
-                        .lista-ol--cuadro__vineta
+                        .lista-ol1--cuadro__vineta
                           span 9
                         | Aplicar plan de mitigación de riesgos.
                       li 
-                        .lista-ol--cuadro__vineta
+                        .lista-ol1--cuadro__vineta
                           span 10
                         | Implementar controles seleccionados.
                       li 
-                        .lista-ol--cuadro__vineta
+                        .lista-ol1--cuadro__vineta
                           span 11
                         | Administración de cambio.
 
                   .tarjeta.color-info.p-5(x="16%" y="78%" numero="")
-                    ol.lista-ol--cuadro
-                      li 
-                        .lista-ol--cuadro__vineta
+                    ol.lista-ol2--cuadro
+                      li.mb-2 
+                        .lista-ol2--cuadro__vineta
                           span 12
                         | Revisiones gerenciales.
-                      li 
-                        .lista-ol--cuadro__vineta
+                      li.mb-2 
+                        .lista-ol2--cuadro__vineta
                           span 13
                         | Revisiones independientes.
-                      li 
-                        .lista-ol--cuadro__vineta
+                      li.mb-2 
+                        .lista-ol2--cuadro__vineta
                           span 14
                         | Auditorías internas.
-                      li 
-                        .lista-ol--cuadro__vineta
+                      li.mb-2 
+                        .lista-ol2--cuadro__vineta
                           span 15
                         | Revisiones técnicas.
 
                   .tarjeta.color-info.p-5(x="17%" y="9%" numero="")
-                    ol.lista-ol--cuadro
-                      li 
-                        .lista-ol--cuadro__vineta
+                    ol.lista-ol3--cuadro
+                      li.mb-2
+                        .lista-ol3--cuadro__vineta
                           span 16
                         | Implementar mejoras.
-                      li 
-                        .lista-ol--cuadro__vineta
+                      li.mb-2
+                        .lista-ol3--cuadro__vineta
                           span 17
                         | Tomar acciones preventivas y correctivas.
-                      li 
-                        .lista-ol--cuadro__vineta
+                      li.mb-2
+                        .lista-ol3--cuadro__vineta
                           span 18
                         | Comunicar resultados de las acciones tomadas.
 
@@ -421,21 +432,21 @@
     .row.justify-content-center.align-items-center.mb-4
       .col-md-5(data-aos="fade-right")
         .tarjeta.color-amarillo.p-4
-          ol.lista-ol--cuadro
+          ol.lista-ol1--cuadro
             li 
-              .lista-ol--cuadro__vineta
+              .lista-ol1--cuadro__vineta
                 span 01
             p Los elementos y componentes de las aplicaciones web deberán ser objeto de análisis, planificación y evaluación para que sean cubiertos por el SGSI, esto involucra que también se le haga un análisis de riesgos.
       .col-md-5(data-aos="fade-up-right")
         .tarjeta.color-amarillo.p-4
-          ol.lista-ol--cuadro
+          ol.lista-ol1--cuadro
             li 
-              .lista-ol--cuadro__vineta
+              .lista-ol1--cuadro__vineta
                 span 02
             p Dado el cambio tecnológico continuo, se requiere que las aplicaciones web sean evaluadas permanentemente según los nuevos retos, tecnologías y amenazas.
 
     .row.mb-4(data-aos="fade-right")
-      .col-md-3
+      .col-lg-3.col-md-6.col-10
         .tarjeta.clr-1
           h4.text-center.p-2 Norma ISO/IEC 27002:2013:
 
@@ -445,7 +456,7 @@
 
     .row.justify-content-center.mb-5
       .col-lg-10.position-relative
-        .crd.crd--avatarHorizontal.py-4
+        .crd.crd--avatarHorizontal2.py-4
           .row.align-items-center
             .col-auto(data-aos="fade-right")
               figure
@@ -453,25 +464,25 @@
             .col(data-aos="fade-left")
               ul.lista-ul--color.mb-0
                 li 
-                  i.fas.fa-angle-right
+                  i.fas.fa-check
                   | Documento con política de seguridad de la información.
                 li 
-                  i.fas.fa-angle-right
+                  i.fas.fa-check
                   | Asignación de responsabilidades relativas a la seguridad.
                 li 
-                  i.fas.fa-angle-right
+                  i.fas.fa-check
                   | Formación y concienciación sobre la seguridad de la información.
                 li 
-                  i.fas.fa-angle-right
+                  i.fas.fa-check
                   | Notificación de los eventos de seguridad de la información.
                 li 
-                  i.fas.fa-angle-right
+                  i.fas.fa-check
                   | Gestión de los derechos de propiedad intelectual.
                 li 
-                  i.fas.fa-angle-right
+                  i.fas.fa-check
                   | Protección de activos de documentación de la organización.
                 li 
-                  i.fas.fa-angle-right
+                  i.fas.fa-check
                   | Protección de datos y privacidad de la información de carácter sensible de índole personal.
               
     p.mb-4(data-aos="fade-right") Desde el punto de vista de aporte de este estándar en la seguridad web, se pueden referenciar algunas medidas importantes que ayudan a gestionar la seguridad de los datos en las aplicaciones web, así:
@@ -480,7 +491,7 @@
       SlyderA(tipo="b")(data-aos="fade-up")
         .row
           .col-md-6.mb-4.mb-md-0
-            h5 Control de acceso al código fuente
+            h4 Control de acceso al código fuente
             p Se debe gestionar la seguridad del código fuente, las personas que acceden a partir de medidas de protección.
           .col-md-6
             figure
@@ -488,7 +499,7 @@
 
         .row
           .col-md-6.mb-4.mb-md-0
-            h5 Procedimientos de control de cambios
+            h4 Procedimientos de control de cambios
             p.mb-4 Cualquier cambio realizado en un sistema puede afectarlo negativamente, se sugieren una serie de recomendaciones para la gestión del control de cambios.
             p.mb-4 Para conocer una serie de recomendaciones para la gestión del control de cambios, haz clic en el botón
             .row.justify-content-between.align-items-center
@@ -502,7 +513,7 @@
 
         .row
           .col-md-6.mb-4.mb-md-0
-            h5 Revisión técnica tras cambios en las plataformas
+            h4 Revisión técnica tras cambios en las plataformas
             p Todo sistema deberá ser evaluado después de la aplicación de los cambios, para verificar que no existan fallas.        
           .col-md-6
             figure
@@ -510,7 +521,7 @@
   
         .row
           .col-md-6.mb-4.mb-md-0
-            h5 Fugas de información
+            h4 Fugas de información
             p Se deben evitar que sucedan fugas de información a partir de la inadecuada aplicación de cambios en los sistemas de información, es necesario adoptar los controles para la detección de fugas.         
           .col-md-6
             figure
@@ -518,7 +529,7 @@
 
         .row
           .col-md-6.mb-4.mb-md-0
-            h5 Desarrollo externo de aplicaciones
+            h4 Desarrollo externo de aplicaciones
             p Si la organización considera el desarrollo por terceros o externos, se deberá velar porque cumpla con las condiciones y requisitos de seguridad y teniendo en cuenta las condiciones de propiedad intelectual, calidad del desarrollo, certificaciones, entre otros.        
           .col-md-6
             figure
@@ -526,7 +537,7 @@
 
         .row
           .col-md-6.mb-4.mb-md-0
-            h5 Gestión de vulnerabilidades
+            h4 Gestión de vulnerabilidades
             p.mb-4 Se deben adoptar mecanismos y planes para la gestión de vulnerabilidades en cualquier desarrollo o cambio realizado.
             p.mb-3 Haz clic en el botón Ver más, para conocer qué se debe hacer antes de ser puesto en producción.
             .row.justify-content-between.align-items-center
@@ -573,7 +584,7 @@
               | Cualquier parche generado para solucionar posibles vulnerabilidades deberá ser probado en entornos de prueba antes que en producción para identificar problemas, compatibilidad y evitar fallas generadas por dicha actualización.
 
     .row.mb-4(data-aos="fade-right")
-      .col-md-3
+      .col-lg-3.col-md-6.col-10
         .tarjeta.clr-1
           h4.text-center.p-2 Norma ISO/IEC 25010:2013: 
 
@@ -656,7 +667,7 @@
     separador
 
     #t_1_4.titulo-segundo.color-acento-contenido(data-aos="fade-right")
-      .h4 1.4	Metodologías para la gestión de la seguridad en aplicaciones web
+      .h2 1.4	Metodologías para la gestión de la seguridad en aplicaciones web
 
     .row.justify-content-center.align-items-center.mb-4
       .col-md-8(data-aos="fade-right")

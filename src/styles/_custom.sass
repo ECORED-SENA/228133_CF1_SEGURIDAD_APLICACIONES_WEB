@@ -132,14 +132,92 @@
     position: absolute 
     content: ''
     top: 0
-    right: 0
-    width: calc( 100% - 60px)
+    right: +10em
+    width: calc( 100% - 12%)
+    height: 100%
+    background-color: #E5FDF3
+    border-radius: 20px
+  @media (max-width: 1000px)
+    position: relative
+    padding-right: 2rem
+    & > *
+      position: relative
+    p 
+      margin-bottom: 0
+    &::before  
+      position: absolute 
+      content: ''
+      top: 0
+      right: +10em
+      width: calc( 78%)
+      height: 100%
+      background-color: #E5FDF3
+      border-radius: 20px
+  @media (max-width: 770px)
+    position: relative
+    padding-right: 2rem
+    & > *
+      position: relative
+    p 
+      margin-bottom: 0
+    &::before  
+      position: absolute 
+      content: ''
+      top: 0
+      right: - 0.5em
+      width: calc( 105%)
+      height: 100%
+      background-color: #E5FDF3
+      border-radius: 20px
+
+.crd--avatarHorizontal2
+  position: relative
+  padding-right: 4rem
+  & > *
+    position: relative
+  p 
+    margin-bottom: 0
+  &::before  
+    position: absolute 
+    content: ''
+    top: 0
+    right: +3em
+    width: calc( 100% - 12%)
     height: 100%
     background-color: #E5EAFF
     border-radius: 20px
-
-  @media (max-width: 1000px)
+  @media (max-width: 999px)
+    position: relative
     padding-right: 2rem
+    & > *
+      position: relative
+    p 
+      margin-bottom: 0
+    &::before  
+      position: absolute 
+      content: ''
+      top: 0
+      right: +1em
+      width: calc( 78%)
+      height: 100%
+      background-color: #E5EAFF
+      border-radius: 20px
+  @media (max-width: 770px)
+    position: relative
+    padding-right: 2rem
+    & > *
+      position: relative
+    p 
+      margin-bottom: 0
+    &::before  
+      position: absolute 
+      content: ''
+      top: 0
+      right: - 0.5em
+      width: calc( 105%)
+      height: 100%
+      background-color: #E5EAFF
+      border-radius: 20px
 
 .color-cuadro
   background-color: #FFFDF8
@@ -149,7 +227,30 @@
 .tarjeta.color-cuadro
   border-color: #ECC153
 
+.slyder-a__tipo-b .slyder-a__btn--atrs
+  background-color: #6ACEAE
+
+.slyder-a__tipo-b .slyder-a__btn--sigt
+  background-color: #6ACEAE
+
+.slyder-a__btn--sigt, .slyder-a__btn--atrs  
+  border: none
+
+.slyder-a__bullets__item--active
+  background-color: #6ACEAE !important
+  border: none
+
+.slyder-a__bullets__item
+  background-color: #B0C0D2
+
 ///tema2
+
+.tarjeta-color1
+  background-color: #F6F6F6
+  border-radius: 0px
+
+.anch
+  width: 89px  
 
 .bg--a-1
   background-color: #E5EAFF
@@ -176,16 +277,26 @@
   background-color: #FFF1CC
 
 .tarjeta.color-ama
-  background: linear-gradient(0deg, #FFF4D6 60%, #F3C035 60%);
+  background: linear-gradient(0deg, #FFF4D6 65%, #F3C035 45%);
   border-radius: 0px
+  @media (max-width: 999px)
+    background: linear-gradient(0deg, #FFF4D6 56%, #F3C035 45%);
+  @media (max-width: 576px)
+    background: linear-gradient(0deg, #FFF4D6 66%, #F3C035 45%);
 
 .tarjeta.color-ver
-  background: linear-gradient(0deg, #E5FDF3 60%, #6ACEAE 60%);
+  background: linear-gradient(0deg, #E5FDF3 65%, #6ACEAE 45%);
   border-radius: 0px
+  @media (max-width: 999px)
+    background: linear-gradient(0deg, #E5FDF3 54%, #6ACEAE 45%);
+  @media (max-width: 576px)
+    background: linear-gradient(0deg, #E5FDF3 62%, #6ACEAE 45%);
 
 .tarjeta.color-az
-  background: linear-gradient(0deg, #E5EAFF 60%, #294DDC 60%);
+  background: linear-gradient(0deg, #E5EAFF 65%, #294DDC 45%);
   border-radius: 0px
+  @media (max-width: 999px)
+    background: linear-gradient(0deg, #E5EAFF 49%, #294DDC 45%);
 
 .tarjeta.tarjeta-ama
   background-color: #FFFAEF
@@ -241,4 +352,69 @@
   background: linear-gradient(0deg, #111F4F, #2E52D4);
   width: calc( 100% + 6rem)
   margin: 0 -3rem
+  border-radius: 0px
+
+.lista-ol1--cuadro li
+  display: flex
+
+.lista-ol1--cuadro__vineta span
+  position: absolute
+  top: 50%
+  left: 50%
+  transform: translate(-50%, -50%)
+  line-height: 1em
+
+.lista-ol1--cuadro__vineta 
+  background-color: #F38E1E
+  display: inline-block
+  min-width: 24px
+  height: 24px
+  color: #12263F
+  position: relative
+  margin-right: 8px
+
+///
+
+.lista-ol2--cuadro li
+  display: flex
+
+.lista-ol2--cuadro__vineta span
+  position: absolute
+  top: 50%
+  left: 50%
+  transform: translate(-50%, -50%)
+  line-height: 1em
+
+.lista-ol2--cuadro__vineta 
+  background-color: #0F1E52
+  display: inline-block
+  min-width: 24px
+  height: 24px
+  color: #fff
+  position: relative
+  margin-right: 8px
+
+///
+
+.lista-ol3--cuadro li
+  display: flex
+
+.lista-ol3--cuadro__vineta span
+  position: absolute
+  top: 50%
+  left: 50%
+  transform: translate(-50%, -50%)
+  line-height: 1em
+
+.lista-ol3--cuadro__vineta 
+  background-color: #F3C035
+  display: inline-block
+  min-width: 24px
+  height: 24px
+  color: #12263F
+  position: relative
+  margin-right: 8px
+
+.color-prima
+  background-color: #12263F
   border-radius: 0px
