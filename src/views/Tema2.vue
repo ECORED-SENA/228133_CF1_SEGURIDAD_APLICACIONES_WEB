@@ -19,7 +19,7 @@
     separador
     
     #t_2_1.titulo-segundo.color-acento-contenido(data-aos="fade-right")
-      .h4 2.1	Metodologías para la gestión de vulnerabilidades
+      .h2 2.1	Metodologías para la gestión de vulnerabilidades
 
     p.mb-4(data-aos="fade-right") Owasp propone una metodología para la identificación de vulnerabilidades basada en pruebas de seguridad sobre las aplicaciones web, con el cual se busca encontrar las debilidades presentes en un sistema.
     p.mb-4(data-aos="fade-right") Este modelo de pruebas está conformado por:
@@ -103,7 +103,7 @@
     separador
    
     #t_2_2.titulo-segundo.color-acento-contenido(data-aos="fade-right")
-      .h4 2.2	Fundamentos de <i>pentesting</i>
+      .h2 2.2	Fundamentos de <i>pentesting</i>
 
     p.mb-4(data-aos="fade-right") Dentro del ejercicio de la gestión de vulnerabilidades, cobran vital importancia las metodologías para el descubrimiento e identificación de estas, ya que orientan y dan un mapa de ruta de cómo se debe realizar el ejercicio, uno de estos es el <i>pentesting</i> o prueba de penetración, que no es más que un ejercicio de descubrimiento apoyado en técnicas y herramientas especializadas para la validación y búsqueda de vulnerabilidades en un sistema o aplicación.
     p.mb-4(data-aos="fade-right") Existen los siguientes tipos de <i>pentesting</i>:
@@ -222,7 +222,7 @@
     separador
 
     #t_2_3.titulo-segundo.color-acento-contenido(data-aos="fade-right")
-      .h4 2.3 <i>Owasp</i>: top 10 de vulnerabilidades
+      .h2 2.3 <i>Owasp</i>: top 10 de vulnerabilidades
 
     p.mb-4(data-aos="fade-right") De acuerdo con la comunidad de <i>Owasp</i>, este genera reportes sobre las vulnerabilidades que más se encuentran en las aplicaciones web y en su último reporte se puede observar el siguiente comportamiento del top 10 de las vulnerabilidades identificadas.
 
@@ -230,7 +230,7 @@
     separador
     
     #t_2_4.titulo-segundo.color-acento-contenido(data-aos="fade-right")
-      .h4 2.4	Herramientas especializadas
+      .h2 2.4	Herramientas especializadas
 
     .row.justify-content-center.align-items-center.mb-4
       .col-md-8(data-aos="fade-right")
@@ -270,7 +270,7 @@
     .row.mb-4(data-aos="fade-up")
       .col-md-12 
         TabsC.color-acento-contenido
-          .py-3.py-md-0(titulo="<b>Escaneo de código de GitHub</b>")
+          .py-3.py-md-0(titulo="Escaneo de código de GitHub")
             .row.tarjeta.color--gris.p-4
               .col-md-6
                 figure
@@ -280,7 +280,7 @@
                 p.mb-4 Es un servicio gratuito de análisis estático de código abierto que utiliza GitHub Actions y CodeQL. 
                 p Sirve para escanear repositorios públicos en GitHub. Soporta C/C++, C#, Ruby (beta), Java, JavaScript/TypeScript, Python y Go.               
 
-          .py-3.py-md-0(titulo="<b>Análisis estático de Coverity Scan</b>")
+          .py-3.py-md-0(titulo="Análisis estático de Coverity Scan")
             .row.tarjeta.color--gris.p-4
               .col-md-6
                 figure
@@ -289,7 +289,7 @@
                 h4 Análisis estático de Coverity Scan 
                 p.mb-4 Se puede conectar a Travis-CI para que se realice automáticamente con recursos en línea. Soporta más de una docena de lenguajes de programación.
 
-          .py-3.py-md-0(titulo="<b>Reshift</b>")
+          .py-3.py-md-0(titulo="Reshift")
             .row.tarjeta.color--gris.p-4
               .col-md-6
                 figure
@@ -298,7 +298,7 @@
                 h4 Reshift
                 p.mb-4 Es una herramienta de CI/CD que utiliza el análisis de código estático para buscar vulnerabilidades y utiliza el aprendizaje automático para dar una predicción sobre falsos positivos. Soporta Java con soporte futuro para NodeJS y JavaScript planeado.  
 
-          .py-3.py-md-0(titulo="<b>WhiteSource Free Tools</b>")
+          .py-3.py-md-0(titulo="WhiteSource Free Tools")
             .row.tarjeta.color--gris.p-4
               .col-md-6
                 figure
@@ -307,7 +307,7 @@
                 h4 WhiteSource Free Tools 
                 p.mb-4 <i>Suite</i> de herramientas para detectar vulnerabilidades en código fuente.
           
-          .py-3.py-md-0(titulo="<b>HCL AppScan CodeSweep</b>")
+          .py-3.py-md-0(titulo="HCL AppScan CodeSweep")
             .row.tarjeta.color--gris.p-4
               .col-md-6
                 figure
@@ -479,7 +479,7 @@
     separador
    
     #t_2_5.titulo-segundo.color-acento-contenido(data-aos="fade-right")
-      .h4 2.5 Análisis de resultados
+      .h2 2.5 Análisis de resultados
 
     .row.justify-content-center.align-items-center.mb-4
       .col-md-8(data-aos="fade-right")
@@ -536,7 +536,7 @@
             figure
               img(src="@/assets/curso/tema2/13.jpg", alt="alt")
           .col-lg-7.col-md-12.col-12(data-aos="fade-left")
-            .cajon-b1.colorz.p-3
+            .cajon-b.color-acento-contenido.p-3
               p.mb-4 Es importante resaltar que el ejercicio de pruebas y la obtención del indicador de riesgo es un producto importante, pero ante la organización o los propietarios de la información se deben presentar reportes técnicos, con evidencias, detalles de las pruebas realizadas y resultados obtenidos, así como una serie de recomendaciones para subsanar dichas vulnerabilidades.
               p.mb-5 Desde el proyecto Owasp, en su metodología en el capítulo 5, sugiere las partes mínimas de un informe.
               .row.justify-content-center
@@ -588,7 +588,9 @@
         .col-lg-1.col-sm-1.col-1 
           span.mb-0
         .col-3.col-sm-2.col-lg-1.p-3
-          img(src="@/assets/curso/tema2/manita.svg")
+          .row.justify-content-end.align-items-center
+            .col-9
+              img(src="@/assets/curso/tema2/manita.svg")
         .col
           .row.justify-content-between.align-items-center
             .col.mb-3.mb-sm-0

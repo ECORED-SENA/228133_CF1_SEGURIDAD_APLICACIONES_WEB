@@ -143,60 +143,80 @@
 
     .row.justify-content-center.mb-4
       .col-md-10
-        .row.justify-content-center.align-items-center.mb-4
+        .row.justify-content-center.align-items-center.mb-1
           .col-lg-2.col-md-4.col-5(data-aos="fade-right")
             .row.justify-content-end
-              .col-md-10
+              .col-md-9
                 figure
                   img(src='@/assets/curso/tema1/1.svg', alt='icono')
           .col-lg-10.col-md-8.col-12(data-aos="fade-left")
             h5 Usuario
             p.mb-0 Es la persona u otra aplicación que realiza la solicitud de acceso a un recurso web,  de forma habitual en diferentes situaciones, diferenciando los aspectos entre el servicio, el producto y la persona.
 
+        .row.justify-content-center.mb-1
+          .col-md-12
+            hr.lineagris
+
         .row.justify-content-center.align-items-center.mb-4
           .col-lg-2.col-md-4.col-5(data-aos="fade-right")
             .row.justify-content-end
-              .col-md-10
+              .col-md-9
                 figure
                   img(src='@/assets/curso/tema1/2.svg', alt='icono')
           .col-lg-10.col-md-8.col-12(data-aos="fade-left")
             h5 Dispositivo de acceso
             p.mb-0 Es el dispositivo físico que utiliza el usuario para conectarse a una red y hacer uso de un navegador,  a través de computadores, portátiles, tabletas y dispositivos móviles entre otros.
 
+        .row.justify-content-center.mb-1
+          .col-md-12
+            hr.lineagris
+
         .row.justify-content-center.align-items-center.mb-4
           .col-lg-2.col-md-4.col-5(data-aos="fade-right")
             .row.justify-content-end
-              .col-md-10
+              .col-md-9
                 figure
                   img(src='@/assets/curso/tema1/3.svg', alt='icono')
           .col-lg-10.col-md-8.col-12(data-aos="fade-left")
             h5 Navegador web
             p.mb-0 Son programas que permiten navegar dentro de una red como lo es internet y visualizar recursos enriquecidos con texto, imágenes, videos, audio, hoy en día se cuenta con gran variedad de navegadores como, por ejemplo: Edge, Firefox, Chrome, Opera, Safari, Brave, entre otros.
 
+        .row.justify-content-center.mb-1
+          .col-md-12
+            hr.lineagris
+
         .row.justify-content-center.align-items-center.mb-4
           .col-lg-2.col-md-4.col-5(data-aos="fade-right")
             .row.justify-content-end
-              .col-md-10
+              .col-md-9
                 figure
                   img(src='@/assets/curso/tema1/4.svg', alt='icono')
           .col-lg-10.col-md-8.col-12(data-aos="fade-left")
             h5 Servidor Web
             p.mb-0 Es un programa especializado que se instala en un dispositivo <i>hardware</i> o virtual y que cuenta con recursos de procesamiento, almacenamiento, de tráfico y sirve para ofrecer alojamiento de recursos web.
 
+        .row.justify-content-center.mb-1
+          .col-md-12
+            hr.lineagris
+
         .row.justify-content-center.align-items-center.mb-4
           .col-lg-2.col-md-4.col-5(data-aos="fade-right")
             .row.justify-content-end
-              .col-md-10
+              .col-md-9
                 figure
                   img(src='@/assets/curso/tema1/5.svg', alt='icono')
           .col-lg-10.col-md-8.col-12(data-aos="fade-left")
             h5 Lenguajes de programación
             p.mb-0 Estos permiten programar la lógica de las aplicaciones web bajo el uso de lenguajes compilados o lenguajes intérpretes, dado que el lenguaje HTML no es de alto nivel y no permite programación a un nivel superior, se debe hacer uso de estos lenguajes para generar la lógica de negocio y comportamiento que debe se seguir una aplicación web.
 
+        .row.justify-content-center.mb-1
+          .col-md-12
+            hr.lineagris
+
         .row.justify-content-center.align-items-center.mb-4
           .col-lg-2.col-md-4.col-5(data-aos="fade-right")
             .row.justify-content-end
-              .col-md-10
+              .col-md-9
                 figure
                   img(src='@/assets/curso/tema1/6.svg', alt='icono')
           .col-lg-10.col-md-8.col-12(data-aos="fade-left")
@@ -333,12 +353,12 @@
       span Fases de un SGSI
 
     .row.justify-content-center.align-items-center.mb-4
-      .col-lg-12(data-aos="fade-up")
+      .col-lg-12.col-md-12.col-12(data-aos="fade-up")
         .tarjeta.clr--gris1
           .p-4
             .row.justify-content-center.align-items-center
               .col-lg-7.col-md-12.col-12
-                ImagenInfografica.color-secundario.m-5
+                ImagenInfografica.color-secundario
                   template(v-slot:imagen)
                     figure
                       img.mb-0(src='@/assets/curso/tema1/info1.svg', alt='Texto que describa la imagen')

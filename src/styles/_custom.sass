@@ -114,7 +114,14 @@
 
 .color-amarillo
   background-color: #FFFAEF
-  border-radius: 0px
+  border-radius: 20px
+  height: 200px
+  @media (max-width: 997px)
+    height: 100%
+
+.tabs-c.color-acento-contenido .tabs-c__tab--active
+  border-bottom-color: #6ACEAE !important
+  font-weight: bold
 
 .img1
   width: 240px
@@ -328,13 +335,8 @@
   border-radius: 10px
   top: -30px
 
-.cajon-b1
-  position: relative
-
-.cajon-b1.colorz:before
-  background-color: #E5FDF3
-
-.cajon-b1:before 
+.cajon-b.color-acento-contenido:before 
+  background-color: #6ACEAE
   content: ''
   display: block
   position: absolute
@@ -343,6 +345,7 @@
   left: 78%
   right: 2%
   bottom: 72%
+
 
 .color-titulo
   background-color: #F3C035
@@ -365,7 +368,7 @@
   line-height: 1em
 
 .lista-ol1--cuadro__vineta 
-  background-color: #F38E1E
+  background-color: #F3C035
   display: inline-block
   min-width: 24px
   height: 24px
@@ -418,3 +421,6 @@
 .color-prima
   background-color: #12263F
   border-radius: 0px
+
+.lineagris
+  background-color: #D1D1D1
