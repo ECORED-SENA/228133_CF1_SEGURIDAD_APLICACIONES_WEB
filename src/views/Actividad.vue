@@ -13,11 +13,11 @@
           h2 Interpretación del resultado de una prueba bajo Owasp
         p.mb-4 Reconocer los resultados de una prueba que permita determinar el nivel de riesgo en una aplicación web.
         .tarjeta.actividad.p-3
-          .row.justify-content-around.align-items-center            
+          .row.justify-content-around.align-items-center
             .col-sm.mb-3.mb-sm-0
-              p.fw-bold.mb-0 falso o verdadero.
+              p.fw-bold.mb-0 Falso o verdadero.
             .col-auto
-              a.boton.boton--b(:href="obtenerLink('/actividades/Actividad2/story.html')" target="_blank")
+              a.boton.boton--b(:href="obtenerLink('/actividades/story.html')" target="_blank")
                 span Realizar
                 i.fas.fa-puzzle-piece
 

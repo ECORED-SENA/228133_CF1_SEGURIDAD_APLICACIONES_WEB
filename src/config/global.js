@@ -284,19 +284,13 @@ export default {
           'Centro Industrial del Diseño y la Manufactura Regional Santander',
       },
       {
-        nombre: '',
-        cargo: 'Soporte front-end',
-        centro:
-          'Centro Industrial del Diseño y la Manufactura Regional Santander',
-      },
-      {
-        nombre: 'Lina Marcela Perez',
+        nombre: 'Andrea Botello',
         cargo: 'Validación de Maquetación',
         centro:
           'Centro Industrial del Diseño y la Manufactura Regional Santander',
       },
       {
-        nombre: '',
+        nombre: 'Eulises Orduz',
         cargo: 'Actividades didácticas',
         centro:
           'Centro Industrial del Diseño y la Manufactura Regional Santander',
@@ -333,12 +327,6 @@ export default {
       },
       {
         nombre: 'Gilberto Junior Rodríguez Rodríguez',
-        cargo: 'Validación audiovisual',
-        centro:
-          'Centro Industrial del Diseño y la Manufactura Regional Santander',
-      },
-      {
-        nombre: '',
         cargo: 'Validación audiovisual',
         centro:
           'Centro Industrial del Diseño y la Manufactura Regional Santander',
