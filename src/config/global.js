@@ -233,7 +233,7 @@ export default {
       tema: 'Análisis de resultados',
       referencia: 'OWASP. (2022). Web Security Testing Guide Checklist. OWASP.',
       tipo: 'Página Web',
-      link: 'https://github.com/OWASP/wstg/tree/master/checklist',
+      link: 'https://github.com/0xRadi/OWASP-Web-Checklist',
     },
     {
       tema: 'Análisis de resultados',
