@@ -238,13 +238,13 @@
           ol.lista-ol
             li 
               span.text-bold a. 
-              | El usuario realiza la solicitud de un recurso <em>web</em> a través de un navegador.
+              span El usuario realiza la solicitud de un recurso <em>web</em> a través de un navegador.
             li 
               span.text-bold b. 
-              | El navegador realiza la petición del recurso <em>web</em> a través del protocolo http.
+              span El navegador realiza la petición del recurso <em>web</em> a través del protocolo http.
             li 
               span.text-bold c. 
-              | El servidor <em>web</em> recibe la petición y procesa la respuesta:
+              span El servidor <em>web</em> recibe la petición y procesa la respuesta:
             li  
               ul.lista-ul--color
                 li 
@@ -692,7 +692,7 @@
     .row.justify-content-center.align-items-center.mb-4
       .col-md-8(data-aos="fade-right")
         p.mb-4 Existen normas y estándares que orientan en la adopción de iniciativas de seguridad en las organizaciones y que impactan directamente en la seguridad de las aplicaciones <em>web</em> y en la información gestionada a través de ellos, ahora bien, desde el punto de vista práctico existen iniciativas metodológicas para la gestión de las vulnerabilidades en aplicaciones <em>web</em> específicamente, una de ellas es OWASP.
-        p OWASP (<i>Open <em>web</em> Application Security Project</i>) es una metodología de seguridad para la auditoría <em>web</em>, orientada al análisis de seguridad de estas aplicaciones. Esta metodología está siendo utilizada en la mayoría de los trabajos de auditoría de seguridad, ya que permite a partir de la auditoría realizar una evaluación de riesgos.
+        p OWASP (<i>Open <em>Web</em> Application Security Project</i>) es una metodología de seguridad para la auditoría <em>web</em>, orientada al análisis de seguridad de estas aplicaciones. Esta metodología está siendo utilizada en la mayoría de los trabajos de auditoría de seguridad, ya que permite a partir de la auditoría realizar una evaluación de riesgos.
       .col-md-4(data-aos="fade-left")
         figure
           img(src='@/assets/curso/tema1/9.png', alt='Texto que describa la imagen')

@@ -44,7 +44,7 @@
             .col-lg-10.col-md-12
               .tarjeta.color-prima.p-3.mb-4
                 h4.text-center.text-white.mb-0 Herramientas y metodología:  
-          p Guía de pruebas de Owasp.
+          p Guía de pruebas de OWASP.
       .col-lg-4.mb-4.mb-lg-0.col-md-12.col-12
         .tarjeta.bg--a-1.p-4.d-flex.flex-column.h-100.hoverScale2
           .row 
@@ -249,10 +249,10 @@
             | Herramientas de pruebas de seguridad de aplicaciones estáticas (SAST).
           li 
             i.fas.fa-atom
-            | Herramientas de pruebas dinámicas de seguridad de aplicaciones (DAST), principalmente para aplicaciones <em>web</em>.
+            span Herramientas de pruebas dinámicas de seguridad de aplicaciones (DAST), principalmente para aplicaciones <em>web</em>.
           li 
             i.fas.fa-atom
-            | Herramientas interactivas de pruebas de seguridad de aplicaciones (IAST), principalmente para aplicaciones <em>web</em> y API <em>web</em>.
+            span Herramientas interactivas de pruebas de seguridad de aplicaciones (IAST), principalmente para aplicaciones <em>web</em> y API  <em>web</em>.
           li 
             i.fas.fa-atom
             | Mantener actualizadas las bibliotecas de código abierto, para evitar el uso de componentes con vulnerabilidades conocidas (OWASP Top 10-2017 A9)
@@ -545,7 +545,7 @@
                     .anexo__icono
                       img(src="@/assets/template/icono-link.png")
                     .anexo__texto
-                      p Este se puede consultar en: <b><em>web</em> Security Testing Guide</b>
+                      p Este se puede consultar en: <b><em>Web</em> Security Testing Guide</b>
 
     .titulo-sexto.color-acento-contenido(data-aos="fade-right")
       h5 Figura 10

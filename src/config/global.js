@@ -80,7 +80,7 @@ export default {
           {
             icono: 'far fa-file-alt',
             numero: '2.2',
-            titulo: 'Fundamentos de pentesting',
+            titulo: 'Fundamentos de <em>pentesting</em>',
             hash: 't_2_2',
           },
           {
@@ -190,7 +190,7 @@ export default {
       link: 'https://owasp.org/Top10/',
     },
     {
-      referencia: 'OWASP. (2022). OWASP <em>web Security Testing Guide</em>.',
+      referencia: 'OWASP. (2022). OWASP <em>Web Security Testing Guide</em>.',
       link: 'https://owasp.org/www-project-web-security-testing-guide/latest/',
     },
   ],
