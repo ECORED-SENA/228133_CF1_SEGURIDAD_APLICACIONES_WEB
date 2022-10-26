@@ -9,7 +9,7 @@
           i.fas.fa-info
       h1 Introducción
 
-    p.mb-4(data-aos="fade-right") Le damos la bienvenida al componente formativo denominado <b>Metodologías, normas y estándares de seguridad orientada a aplicaciones web,</b> el cual hace parte del programa de formación técnico en “Seguridad en aplicaciones web”, para lo cual se invita a observar el siguiente video:
+    p.mb-4(data-aos="fade-right") Le damos la bienvenida al componente formativo denominado <b>Metodologías, normas y estándares de seguridad orientada a aplicaciones <em>web</em>,</b> el cual hace parte del programa de formación técnico en “Seguridad de aplicaciones <em>web</em>”, para lo cual se invita a observar el siguiente video:
     
     figure.mb-5(data-aos="fade-up")
       .video

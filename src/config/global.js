@@ -1,9 +1,9 @@
 export default {
   global: {
     componenteFormativo:
-      'Metodologías, normas y estándares de seguridad orientada a aplicaciones web',
+      'Metodologías, normas y estándares de seguridad orientada a aplicaciones <em>web</em>',
     descripcionCurso:
-      'En este componente se presentan los fundamentos necesarios para el desarrollo de una auditoría de la seguridad en aplicaciones web, mediante el reconocimiento de estándares, metodologías, técnicas y herramientas necesarias para la evaluación de la seguridad.',
+      'En este componente se presentan los fundamentos necesarios para el desarrollo de una auditoría de la seguridad en aplicaciones <em>web</em>, mediante el reconocimiento de estándares, metodologías, técnicas y herramientas necesarias para la evaluación de la seguridad.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.svg'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
@@ -34,7 +34,7 @@ export default {
         nombreRuta: 'tema1',
         icono: 'far fa-file-alt',
         numero: '1',
-        titulo: 'Fundamentos de seguridad en aplicaciones web',
+        titulo: 'Fundamentos de seguridad en aplicaciones <em>web</em>',
         desarrolloContenidos: true,
         subMenu: [
           {
@@ -46,7 +46,7 @@ export default {
           {
             icono: 'far fa-file-alt',
             numero: '1.2',
-            titulo: 'Infraestructura de aplicaciones web',
+            titulo: 'Infraestructura de aplicaciones <em>web</em>',
             hash: 't_1_2',
           },
           {
@@ -59,7 +59,7 @@ export default {
             icono: 'far fa-file-alt',
             numero: '1.4',
             titulo:
-              'Metodologías para la gestión de la seguridad en aplicaciones web',
+              'Metodologías para la gestión de la seguridad en aplicaciones <em>web</em>',
             hash: 't_1_4',
           },
         ],
@@ -68,7 +68,7 @@ export default {
         nombreRuta: 'tema2',
         icono: 'far fa-file-alt',
         numero: '2',
-        titulo: 'Vulnerabilidades en aplicaciones web',
+        titulo: 'Vulnerabilidades en aplicaciones <em>web</em>',
         desarrolloContenidos: true,
         subMenu: [
           {
@@ -86,7 +86,7 @@ export default {
           {
             icono: 'far fa-file-alt',
             numero: '2.3',
-            titulo: 'Owasp: top 10 de vulnerabilidades',
+            titulo: 'OWASP: top 10 de vulnerabilidades',
             hash: 't_2_3',
           },
           {
@@ -146,13 +146,13 @@ export default {
   referencias: [
     {
       referencia:
-        'Guijarro, O., J., Caparrós, R., J., & Cubero, L., L. (2019). DevOps y seguridad cloud. Editorial UOC.',
+        'Guijarro, O., J., Caparrós, R., J., & Cubero, L., L. (2019). DevOps y seguridad <em>cloud</em>. Editorial UOC.',
       link:
         'https://elibro-net.bdigital.sena.edu.co/es/ereader/senavirtual/128889',
     },
     {
       referencia:
-        'Incibe. (2022). Top 10 vulnerabilidades web de 2021. Incibe.',
+        'Incibe. (2022). Top 10 vulnerabilidades <em>web</em> de 2021. Incibe.',
       link:
         'https://www.incibe.es/protege-tu-empresa/blog/top-10-vulnerabilidades-web-2021',
     },
@@ -163,7 +163,7 @@ export default {
     },
     {
       referencia:
-        'MinTIC. (2016). Guía para la gestión y clasificación de activos de información. MinTIC. MinTIC.',
+        'MinTIC. (2016). Guía para la gestión y clasificación de activos de información. MinTIC.',
       link:
         'https://www.mintic.gov.co/gestionti/615/articles-5482_G5_Gestion_Clasificacion.pdf',
     },
@@ -181,16 +181,16 @@ export default {
     },
     {
       referencia:
-        'Ortega, C., J. M. (2018). Seguridad en aplicaciones web Java. RA-MA Editorial.',
+        'Ortega, C., J. M. (2018). Seguridad en aplicaciones <em>web</em> Java. RA-MA Editorial.',
       link:
         'https://elibro-net.bdigital.sena.edu.co/es/ereader/senavirtual/106511',
     },
     {
-      referencia: 'Owasp. (2022). Owasp Top 10:2021.',
+      referencia: 'OWASP. (2022). OWASP <em>Top</em> 10:2021.',
       link: 'https://owasp.org/Top10/',
     },
     {
-      referencia: 'Owasp. (2022). Owasp web Security Testing Guide.',
+      referencia: 'OWASP. (2022). OWASP <em>web Security Testing Guide</em>.',
       link: 'https://owasp.org/www-project-web-security-testing-guide/latest/',
     },
   ],
@@ -198,10 +198,10 @@ export default {
     {
       termino: '2FA',
       significado:
-        'término que representa doble factor de autenticación, solución que agrega una capa de seguridad en sistemas d autenticación basados en componentes externos a un sistema, por ejemplo, un token, una aplicación, tarjeta inteligente, etc.',
+        'término que representa doble factor de autenticación, solución que agrega una capa de seguridad en sistemas de autenticación basados en componentes externos a un sistema, por ejemplo, un token, una aplicación, tarjeta inteligente, etc.',
     },
     {
-      termino: 'Checklist',
+      termino: '<em>Checklist</em>',
       significado:
         'lista de chequeo que sirve para registrar un proceso de auditoría.',
     },
@@ -213,31 +213,31 @@ export default {
     {
       termino: 'KPI',
       significado:
-        'Key Performance Indicator o indicador clave de desempeño, que representa las métricas de eficacia de las acciones adoptadas y así determinar si son efectivas o no.',
+        '<em>Key Performance Indicator</em> o indicador clave de desempeño, que representa las métricas de eficacia de las acciones adoptadas y así determinar si son efectivas o no.',
     },
     {
       termino: 'URL',
       significado:
-        'Uniform Resource Locator (localizador de recursos uniforme), representa una dirección que apunta hacia un recurso único en la web.',
+        '<em>Uniform Resource Locator</em> (localizador de recursos uniforme), representa una dirección que apunta hacia un recurso único en la web.',
     },
   ],
   complementario: [
     {
       tema: 'Análisis de resultados',
-      referencia: 'Owasp. (2022). Web Security Testing Guide 4.2. Owasp.',
+      referencia: 'OWASP. (2022). Web Security Testing Guide 4.2. OWASP.',
       tipo: 'PDF',
       link:
         'https://github.com/OWASP/wstg/releases/download/v4.2/wstg-v4.2.pdf',
     },
     {
       tema: 'Análisis de resultados',
-      referencia: 'Owasp. (2022). Web Security Testing Guide Checklist. Owasp.',
+      referencia: 'OWASP. (2022). Web Security Testing Guide Checklist. OWASP.',
       tipo: 'Página Web',
       link: 'https://github.com/OWASP/wstg/tree/master/checklist',
     },
     {
       tema: 'Análisis de resultados',
-      referencia: 'Olmedo, J. (2021). Owasp risk assessment calculator.',
+      referencia: 'Olmedo, J. (2021). OWASP risk assessment calculator.',
       tipo: 'Página Web',
       link: 'https://javierolmedo.github.io/OWASP-Calculator/',
     },
@@ -256,6 +256,28 @@ export default {
         cargo: 'Asesor metodológico y pedagógico',
         centro:
           'Centro Industrial del Diseño y la Manufactura Regional Santander',
+      },
+      {
+        nombre: 'Hernando José Peña Hidalgo',
+        cargo: 'Experto temático	',
+        centro:
+          'Centro de teleinformática y producción industrial - Regional Cauca',
+      },
+      {
+        nombre: 'Paula Andrea Taborda Ortiz',
+        cargo: 'Diseñadora instruccional',
+        centro:
+          'Centro de la Industria, la Empresa y Los Servicios CIES - Regional Norte de Santander',
+      },
+      {
+        nombre: 'Carolina Coca Salazar',
+        cargo: 'Asesora metodológica ',
+        centro: 'Centro de Diseño y Metrología - Regional Distrito Capital',
+      },
+      {
+        nombre: 'José Gabriel Ortiz Abella',
+        cargo: 'Corrector de estilo',
+        centro: 'Centro de Diseño y Metrología - Regional Distrito Capital',
       },
     ],
     desarrolloProducto: [
@@ -336,11 +358,6 @@ export default {
       {
         nombre: 'Milady Tatiana Villamil Castellanos',
         cargo: 'Responsable del equipo de Gestión de Repositorio',
-        centro: 'Centro de Comercio y Servicios Regional Tolima',
-      },
-      {
-        nombre: '',
-        cargo: 'Validación y vinculación en plataforma LMS',
         centro: 'Centro de Comercio y Servicios Regional Tolima',
       },
     ],

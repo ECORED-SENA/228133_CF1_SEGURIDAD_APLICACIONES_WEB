@@ -1,2 +1,2 @@
 module.exports =
-  'Metodologías, normas y estándares de seguridad orientada a aplicaciones web'
+  'Metodologías, normas y estándares de seguridad orientada a aplicaciones <em>web</em>'

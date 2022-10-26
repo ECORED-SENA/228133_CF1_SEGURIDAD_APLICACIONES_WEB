@@ -10,8 +10,8 @@
             img(src="@/assets/template/falso-verdadero.svg", alt="Texto que describa la imagen")
       .col-12.col-md-8.col-lg-9
         .titulo-segundo
-          h2 Interpretación del resultado de una prueba bajo Owasp
-        p.mb-4 Reconocer los resultados de una prueba que permita determinar el nivel de riesgo en una aplicación web.
+          h2 Interpretación del resultado de una prueba bajo OWASP
+        p.mb-4 Reconocer los resultados de una prueba que permita determinar el nivel de riesgo en una aplicación <em>web</em>.
         .tarjeta.actividad.p-3
           .row.justify-content-around.align-items-center
             .col-sm.mb-3.mb-sm-0

@@ -6,13 +6,13 @@
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span 1
-      h1 Fundamentos de seguridad en aplicaciones web
+      h1 Fundamentos de seguridad en aplicaciones <em>web</em>
 
     .row.justify-content-center.align-items-center.mb-4
       .col-md-9(data-aos="fade-right")
         p.mb-4 La seguridad de la información en las organizaciones presenta una responsabilidad compartida dada por algunas normas, estándares, implementaciones de cumplimiento legal y algunas iniciativas de buenas prácticas que conllevan a generar una cultura de seguridad en los datos gestionados. 
         p.mb-4 Ahora bien, existe un gran número de este tipo de iniciativas enfocadas a la seguridad perimetral, de procesos, de infraestructura, y no se le da la correspondiente importancia al desarrollo de aplicaciones las cuales son la ventana o interfaz que los usuarios o clientes van a utilizar para acceder y gestionar la información.
-        p.mb-4 De acuerdo con lo anterior, a continuación, se reconocerán algunas iniciativas que han surgido y que son muy utilizadas dentro de la seguridad de aplicaciones web.
+        p.mb-4 De acuerdo con lo anterior, a continuación, se reconocerán algunas iniciativas que han surgido y que son muy utilizadas dentro de la seguridad de aplicaciones <em>web</em>.
       .col-md-3(data-aos="fade-left")
         figure
           img(src='@/assets/curso/tema1/img1.png', alt='Mujer con tablet')
@@ -21,8 +21,8 @@
     #t_1_1.titulo-segundo.color-acento-contenido(data-aos="fade-right")
       .h2 1.1 Conceptos
 
-    p.mb-4(data-aos="fade-right") Dentro del ejercicio de la gestión de las vulnerabilidades en aplicaciones web se hará uso de metodologías, técnicas y herramientas especializadas, las cuales presentan términos que no son muy comunes y que es necesario reconocer para dar una adecuada interpretación de la información, así como transmitir los resultados obtenidos.
-    p.mb-4(data-aos="fade-right") Se invita a conocer cuáles son los principales conceptos de vulnerabilidades en aplicaciones web:
+    p.mb-4(data-aos="fade-right") Dentro del ejercicio de la gestión de las vulnerabilidades en aplicaciones <em>web</em> se hará uso de metodologías, técnicas y herramientas especializadas, las cuales presentan términos que no son muy comunes y que es necesario reconocer para dar una adecuada interpretación de la información, así como transmitir los resultados obtenidos.
+    p.mb-4(data-aos="fade-right") Se invita a conocer cuáles son los principales conceptos de vulnerabilidades en aplicaciones <em>web</em>:
 
     .row.justify-content-center.mb-5
       .col-lg-4.mb-4.mb-lg-0
@@ -95,7 +95,7 @@
         .row
           .col-md-6.mb-4.mb-md-0
             h4   <i>Testing</i>
-            p También conocidas como pruebas, son un conjunto de técnicas y pruebas utilizadas dentro de la auditoría de aplicaciones web para verificar si estas son vulnerables o no ante dicha amenaza.         
+            p También conocidas como pruebas, son un conjunto de técnicas y pruebas utilizadas dentro de la auditoría de aplicaciones <em>web</em> para verificar si estas son vulnerables o no ante dicha amenaza.         
           .col-md-6
             figure
               img(src='@/assets/curso/tema1/slyder3.png', alt='Texto que describa la imagen')
@@ -127,16 +127,16 @@
             figure
               img(src='@/assets/curso/tema1/vec1.svg', alt='Texto que describa la imagen')
           .col-md-5
-            p.mb-4 Estos conceptos permiten comprender mejor el ejercicio realizado, interpretar algunos resultados obtenidos, así como generar informes técnicos con datos coherentes y que pueden demostrar el estado actual de la seguridad de una aplicación web.
+            p.mb-4 Estos conceptos permiten comprender mejor el ejercicio realizado, interpretar algunos resultados obtenidos, así como generar informes técnicos con datos coherentes y que pueden demostrar el estado actual de la seguridad de una aplicación <em>web</em>.
     separador
 
     #t_1_2.titulo-segundo.color-acento-contenido(data-aos="fade-right")
-      .h2 1.2 Infraestructura de aplicaciones web
+      .h2 1.2 Infraestructura de aplicaciones <em>web</em>
 
     .row.justify-content-center.align-items-center.mb-4
       .col-md-8(data-aos="fade-right")
-        p.mb-4 Las aplicaciones web han ganado terreno en la adopción e implementación de soluciones para las organizaciones, dada su flexibilidad, compatibilidad, capacidades de gestionar información y sobre todo su rapidez para la implementación dado que requiere de una infraestructura centralizada, esto conlleva a facilitar también su mantenimiento; y, por otra parte, a los usuarios finales les significa accederlas desde cualquier dispositivo haciendo uso de un navegador web y estar conectados a una red local o internet.
-        p.mb-4 En el siguiente recurso se presentan algunos de los componentes que integran una infraestructura de aplicaciones web, lo cual servirá para comprender mejor su funcionamiento:
+        p.mb-4 Las aplicaciones <em>web</em> han ganado terreno en la adopción e implementación de soluciones para las organizaciones, dada su flexibilidad, compatibilidad, capacidades de gestionar información y sobre todo su rapidez para la implementación dado que requiere de una infraestructura centralizada, esto conlleva a facilitar también su mantenimiento; y, por otra parte, a los usuarios finales les significa accederlas desde cualquier dispositivo haciendo uso de un navegador <em>web</em> y estar conectados a una red local o internet.
+        p.mb-4 En el siguiente recurso se presentan algunos de los componentes que integran una infraestructura de aplicaciones <em>web</em>, lo cual servirá para comprender mejor su funcionamiento:
       .col-md-4(data-aos="fade-left")
         figure
           img(src='@/assets/curso/tema1/1.jpg', alt='Mujer animada con tablet')
@@ -151,7 +151,7 @@
                   img(src='@/assets/curso/tema1/1.svg', alt='icono')
           .col-lg-10.col-md-8.col-12(data-aos="fade-left")
             h5 Usuario
-            p.mb-0 Es la persona u otra aplicación que realiza la solicitud de acceso a un recurso web,  de forma habitual en diferentes situaciones, diferenciando los aspectos entre el servicio, el producto y la persona.
+            p.mb-0 Es la persona u otra aplicación que realiza la solicitud de acceso a un recurso <em>web</em>,  de forma habitual en diferentes situaciones, diferenciando los aspectos entre el servicio, el producto y la persona.
 
         .row.justify-content-center.mb-1
           .col-md-12
@@ -165,7 +165,7 @@
                   img(src='@/assets/curso/tema1/2.svg', alt='icono')
           .col-lg-10.col-md-8.col-12(data-aos="fade-left")
             h5 Dispositivo de acceso
-            p.mb-0 Es el dispositivo físico que utiliza el usuario para conectarse a una red y hacer uso de un navegador,  a través de computadores, portátiles, tabletas y dispositivos móviles entre otros.
+            p.mb-0 Es el dispositivo físico que utiliza el usuario para conectarse a una red y hacer uso de un navegador,  a través de computadores, portátiles, tabletas y dispositivos móviles, entre otros.
 
         .row.justify-content-center.mb-1
           .col-md-12
@@ -178,7 +178,7 @@
                 figure
                   img(src='@/assets/curso/tema1/3.svg', alt='icono')
           .col-lg-10.col-md-8.col-12(data-aos="fade-left")
-            h5 Navegador web
+            h5 Navegador <em>web</em>
             p.mb-0 Son programas que permiten navegar dentro de una red como lo es internet y visualizar recursos enriquecidos con texto, imágenes, videos, audio, hoy en día se cuenta con gran variedad de navegadores como, por ejemplo: Edge, Firefox, Chrome, Opera, Safari, Brave, entre otros.
 
         .row.justify-content-center.mb-1
@@ -192,8 +192,8 @@
                 figure
                   img(src='@/assets/curso/tema1/4.svg', alt='icono')
           .col-lg-10.col-md-8.col-12(data-aos="fade-left")
-            h5 Servidor Web
-            p.mb-0 Es un programa especializado que se instala en un dispositivo <i>hardware</i> o virtual y que cuenta con recursos de procesamiento, almacenamiento, de tráfico y sirve para ofrecer alojamiento de recursos web.
+            h5 Servidor <em>web</em>
+            p.mb-0 Es un programa especializado que se instala en un dispositivo <i>hardware</i> o virtual y que cuenta con recursos de procesamiento, almacenamiento, de tráfico y sirve para ofrecer alojamiento de recursos <em>web</em>.
 
         .row.justify-content-center.mb-1
           .col-md-12
@@ -207,7 +207,7 @@
                   img(src='@/assets/curso/tema1/5.svg', alt='icono')
           .col-lg-10.col-md-8.col-12(data-aos="fade-left")
             h5 Lenguajes de programación
-            p.mb-0 Estos permiten programar la lógica de las aplicaciones web bajo el uso de lenguajes compilados o lenguajes intérpretes, dado que el lenguaje HTML no es de alto nivel y no permite programación a un nivel superior, se debe hacer uso de estos lenguajes para generar la lógica de negocio y comportamiento que debe se seguir una aplicación web.
+            p.mb-0 Estos permiten programar la lógica de las aplicaciones <em>web</em> bajo el uso de lenguajes compilados o lenguajes intérpretes, dado que el lenguaje HTML no es de alto nivel y no permite programación a un nivel superior, se debe hacer uso de estos lenguajes para generar la lógica de negocio y comportamiento que debe de seguir una aplicación <em>web</em>.
 
         .row.justify-content-center.mb-1
           .col-md-12
@@ -223,11 +223,11 @@
             h5 Motor de base de datos
             p.mb-0 Este también es un programa que se aloja en un dispositivo <i>hardware</i> o virtual, y su función principal es la de almacenar la información de forma sistematizada, en estructuras organizadas como bases de datos, tablas y registros.
 
-    p.mb-4(data-aos="fade-right") Todos estos componentes se interrelacionan para conformar las arquitecturas técnicas de aplicaciones web, en la siguiente figura, se aprecia su interrelación y flujo de información ante una solicitud de un recurso web.
+    p.mb-4(data-aos="fade-right") Todos estos componentes se interrelacionan para conformar las arquitecturas técnicas de aplicaciones <em>web</em>, en la siguiente figura, se aprecia su interrelación y flujo de información ante una solicitud de un recurso <em>web</em>.
     
     .titulo-sexto.color-acento-contenido(data-aos="fade-right")
       h5 Figura 2
-      span Arquitectura de una aplicación web
+      span Arquitectura de una aplicación <em>web</em>
 
     .row.justify-content-center.align-items-center.mb-4
       .col-lg-6.col-md-12.col-12(data-aos="fade-right")
@@ -238,13 +238,13 @@
           ol.lista-ol
             li 
               span.text-bold a. 
-              | El usuario realiza la solicitud de un recurso web a través de un navegador.
+              | El usuario realiza la solicitud de un recurso <em>web</em> a través de un navegador.
             li 
               span.text-bold b. 
-              | El navegador realiza la petición del recurso web a través del protocolo http.
+              | El navegador realiza la petición del recurso <em>web</em> a través del protocolo http.
             li 
               span.text-bold c. 
-              | El servidor web recibe la petición y procesa la respuesta:
+              | El servidor <em>web</em> recibe la petición y procesa la respuesta:
             li  
               ul.lista-ul--color
                 li 
@@ -263,7 +263,7 @@
               span.text-bold e. 
               | El navegador despliega resultado al usuario.
 
-    p.mb-4(data-aos="fade-right") Actualmente existen diferentes tipos de aplicaciones web, entre las más comunes se resaltan:
+    p.mb-4(data-aos="fade-right") Actualmente existen diferentes tipos de aplicaciones <em>web</em>, entre las más comunes se resaltan:
 
     .row.justify-content-center.align-items-center.mb-4
       .col-md-4(data-aos="fade-right")
@@ -292,14 +292,14 @@
             h5 Contadores inteligentes
             p Dispositivos electrónicos de medición de energía, calefacción, climatización, agua.
 
-    p.mb-4(data-aos="fade-right") Comprender la arquitectura técnica que sirven las aplicaciones web, así como sus tipos, permitirá comprender el funcionamiento y determinar un ejercicio que facilite el aseguramiento de las aplicaciones web.
+    p.mb-4(data-aos="fade-right") Comprender la arquitectura técnica que sirven las aplicaciones <em>web</em>, así como sus tipos, permitirá comprender el funcionamiento y determinar un ejercicio que facilite el aseguramiento de las aplicaciones <em>web</em>.
 
     separador
 
     #t_1_3.titulo-segundo.color-acento-contenido(data-aos="fade-right")
       .h2 1.3	Normatividad y estándares para la gestión de la seguridad
 
-    p.mb-4(data-aos="fade-right") La gestión de la seguridad en las aplicaciones web es una tarea que actualmente no se le presta la debida atención, y esta no depende únicamente de las buenas prácticas de programación de <i>software</i>, en su lugar es importante tener presente que la responsabilidad de poseer una aplicación web pública, que gestione información importante para la organización o maneje información confidencial, y ello obliga a contar con ciertos controles de seguridad que garantice los pilares de la seguridad de la información, a saber:
+    p.mb-4(data-aos="fade-right") La gestión de la seguridad en las aplicaciones <em>web</em> es una tarea que actualmente no se le presta la debida atención, y esta no depende únicamente de las buenas prácticas de programación de <i>software</i>, en su lugar es importante tener presente que la responsabilidad de poseer una aplicación <em>web</em> pública, que gestione información importante para la organización o maneje información confidencial, y ello obliga a contar con ciertos controles de seguridad que garantice los pilares de la seguridad de la información, a saber:
 
     .row.justify-content-center.align-items-center.mb-4(data-aos="fade")
       .col-md-10
@@ -447,7 +447,7 @@
                           span 18
                         | Comunicar resultados de las acciones tomadas.
 
-    p.mb-4(data-aos="fade-right") Ahora bien, este estándar es base para la adopción de un SGSI, lo que conlleva a que, si una organización está certificada o está pensando en certificar sus procesos bajo esta norma, debe tener presente la seguridad de la información que se gestiona a través de aplicaciones web, de acuerdo con las siguientes recomendaciones:
+    p.mb-4(data-aos="fade-right") Ahora bien, este estándar es base para la adopción de un SGSI, lo que conlleva a que, si una organización está certificada o está pensando en certificar sus procesos bajo esta norma, debe tener presente la seguridad de la información que se gestiona a través de aplicaciones <em>web</em>, de acuerdo con las siguientes recomendaciones:
 
     .row.justify-content-center.align-items-center.mb-4
       .col-md-5(data-aos="fade-right")
@@ -456,14 +456,14 @@
             li 
               .lista-ol1--cuadro__vineta
                 span 01
-            p Los elementos y componentes de las aplicaciones web deberán ser objeto de análisis, planificación y evaluación para que sean cubiertos por el SGSI, esto involucra que también se le haga un análisis de riesgos.
+            p Los elementos y componentes de las aplicaciones <em>web</em> deberán ser objeto de análisis, planificación y evaluación para que sean cubiertos por el SGSI, esto involucra que también se le haga un análisis de riesgos.
       .col-md-5(data-aos="fade-up-right")
         .tarjeta.color-amarillo.p-4
           ol.lista-ol1--cuadro
             li 
               .lista-ol1--cuadro__vineta
                 span 02
-            p Dado el cambio tecnológico continuo, se requiere que las aplicaciones web sean evaluadas permanentemente según los nuevos retos, tecnologías y amenazas.
+            p Dado el cambio tecnológico continuo, se requiere que las aplicaciones <em>web</em> sean evaluadas permanentemente según los nuevos retos, tecnologías y amenazas.
 
     .row.mb-4(data-aos="fade-right")
       .col-lg-3.col-md-6.col-10
@@ -472,7 +472,7 @@
 
     p.mb-0(data-aos="fade-right") Este estándar establece una guía para la implementación de controles de seguridad en una organización, a partir de sus objetivos, controles y estrategias de implementación.
     p.mb-4(data-aos="fade-right") Este estándar está compuesto por 14 dominios, 35 objetivos de control y 114 controles, con los cuales se busca adoptar medidas de seguridad en una organización.
-    p.mb-4(data-aos="fade-right") A continuación, se exponen algunos de los controles asociados directamente con la seguridad de la información en aplicaciones web:
+    p.mb-4(data-aos="fade-right") A continuación, se exponen algunos de los controles asociados directamente con la seguridad de la información en aplicaciones <em>web</em>:
 
     .row.justify-content-center.mb-5
       .col-lg-10.position-relative
@@ -505,7 +505,7 @@
                   i.fas.fa-check
                   | Protección de datos y privacidad de la información de carácter sensible de índole personal.
               
-    p.mb-4(data-aos="fade-right") Desde el punto de vista de aporte de este estándar en la seguridad web, se pueden referenciar algunas medidas importantes que ayudan a gestionar la seguridad de los datos en las aplicaciones web, así:
+    p.mb-4(data-aos="fade-right") Desde el punto de vista de aporte de este estándar en la seguridad <em>web</em>, se pueden referenciar algunas medidas importantes que ayudan a gestionar la seguridad de los datos en las aplicaciones <em>web</em>, así:
 
     .tarjeta.tarjeta-color.p-5.mb-5
       SlyderA(tipo="b")(data-aos="fade-up")
@@ -623,7 +623,7 @@
 
           .tarjeta.color-acento-contenido--borde.p-4(titulo="Eficiencia del desempeño del <i>software</i>")
             h5 Eficiencia del desempeño del <i>software</i>
-            p.mb-4 Automóviles en red, prendas tecnológicas y monitores de salud en la ropa, aplicaciones para ciclistas para controlar su actividad física, gafas inteligentes.
+            p.mb-4 También conocido como <em>performance</em>, se debe evaluar el producto <em>software</em> ante diferentes escenarios, por ejemplo: volumen, carga, estrés, escalabilidad y rendimiento.
             .row.justify-content-center  
               .col-md-5
                 figure
@@ -687,12 +687,12 @@
     separador
 
     #t_1_4.titulo-segundo.color-acento-contenido(data-aos="fade-right")
-      .h2 1.4	Metodologías para la gestión de la seguridad en aplicaciones web
+      .h2 1.4	Metodologías para la gestión de la seguridad en aplicaciones <em>web</em>
 
     .row.justify-content-center.align-items-center.mb-4
       .col-md-8(data-aos="fade-right")
-        p.mb-4 Existen normas y estándares que orientan en la adopción de iniciativas de seguridad en las organizaciones y que impactan directamente en la seguridad de las aplicaciones web y en la información gestionada a través de ellos, ahora bien, desde el punto de vista práctico existen iniciativas metodológicas para la gestión de las vulnerabilidades en aplicaciones web específicamente, una de ellas es Owasp.
-        p Owasp (<i>Open Web Application Security Project</i>) es una metodología de seguridad para la auditoría web, orientada al análisis de seguridad de estas aplicaciones. Esta metodología está siendo utilizada en la mayoría de los trabajos de auditoría de seguridad, ya que permite a partir de la auditoría realizar una evaluación de riesgos.
+        p.mb-4 Existen normas y estándares que orientan en la adopción de iniciativas de seguridad en las organizaciones y que impactan directamente en la seguridad de las aplicaciones <em>web</em> y en la información gestionada a través de ellos, ahora bien, desde el punto de vista práctico existen iniciativas metodológicas para la gestión de las vulnerabilidades en aplicaciones <em>web</em> específicamente, una de ellas es OWASP.
+        p OWASP (<i>Open <em>web</em> Application Security Project</i>) es una metodología de seguridad para la auditoría <em>web</em>, orientada al análisis de seguridad de estas aplicaciones. Esta metodología está siendo utilizada en la mayoría de los trabajos de auditoría de seguridad, ya que permite a partir de la auditoría realizar una evaluación de riesgos.
       .col-md-4(data-aos="fade-left")
         figure
           img(src='@/assets/curso/tema1/9.png', alt='Texto que describa la imagen')
@@ -709,7 +709,7 @@
         figure
           img(src='@/assets/curso/tema1/vec3.svg', alt='Texto que describa la imagen')
 
-    p.mb-4(data-aos="fade-right") Actualmente la mayoría de los desarrolladores de <i>oftware</i> no realizan la validación de vulnerabilidades en sus productos si no hasta que este ya es funcional, pero esto no es tan eficiente, por ello se sugiere la adopción de un Ciclo de Vida de Desarrollo de <i>Software</i>(SDLC), el cual lleva a tener presente el factor de seguridad en cada una de las fases del desarrollo, así:
+    p.mb-4(data-aos="fade-right") Actualmente la mayoría de los desarrolladores de <i>Software</i> no realizan la validación de vulnerabilidades en sus productos si no hasta que este ya es funcional, pero esto no es tan eficiente, por ello se sugiere la adopción de un Ciclo de Vida de Desarrollo de <i>Software</i> (SDLC), el cual lleva a tener presente el factor de seguridad en cada una de las fases del desarrollo, así:
 
     .row.justify-content-center.align-items-center.mb-4
       .col-md-10(data-aos="fade")
@@ -718,6 +718,9 @@
             .col-md-12
               p.mb-4 Con la adopción de los SDLC o Ciclo de Vida de Desarrollo de <i>software</i>, se busca que el factor de la seguridad esté presente desde el momento de la concepción del <i>software</i> permitiendo identificar los requisitos funcionales de la necesidad que motiva la creación de una aplicación, mantener los componentes seguros desde el diseño y prototipado, buenas prácticas de programación, desarrollar un plan de pruebas de seguridad, así como mantener un plan de mantenimiento y actualizaciones que garanticen su funcionalidad y seguridad de la información en el tiempo, como se puede apreciar en la siguiente figura. 
             .col-md-6
+              .titulo-sexto.color-acento-contenido(data-aos="fade-right")
+                h5 Figura 5
+                span Ciclo de vida SDLC genérico
               figure.mb-4
                 img(src='@/assets/curso/tema1/vec4.svg', alt='Texto que describa la imagen')
 
@@ -726,7 +729,7 @@
           .anexo__icono
             img(src="@/assets/template/icono-link.png")
           .anexo__texto
-            p La metodología Owasp, es abierta y su actualización <b>se puede consultar en su página oficial.</b>
+            p La metodología OWASP, es abierta y su actualización <b>se puede consultar en su página oficial.</b>
 
 </template>
 

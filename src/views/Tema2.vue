@@ -6,7 +6,7 @@
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span 2
-      h1  Vulnerabilidades en aplicaciones web
+      h1  Vulnerabilidades en aplicaciones <em><em>web</em></em>
 
     .row.justify-content-center.align-items-center.mb-4(data-aos="fade")
       .col-md-10
@@ -21,7 +21,7 @@
     #t_2_1.titulo-segundo.color-acento-contenido(data-aos="fade-right")
       .h2 2.1	Metodologías para la gestión de vulnerabilidades
 
-    p.mb-4(data-aos="fade-right") Owasp propone una metodología para la identificación de vulnerabilidades basada en pruebas de seguridad sobre las aplicaciones web, con el cual se busca encontrar las debilidades presentes en un sistema.
+    p.mb-4(data-aos="fade-right") OWASP propone una metodología para la identificación de vulnerabilidades basada en pruebas de seguridad sobre las aplicaciones <em>web</em>, con el cual se busca encontrar las debilidades presentes en un sistema.
     p.mb-4(data-aos="fade-right") Este modelo de pruebas está conformado por:
 
     .row.mb-4(data-aos="fade")
@@ -63,7 +63,7 @@
         .row
           .col-md-6.mb-4.mb-md-0
             h4 Pruebas pasivas 
-            p El probador intenta comprender la lógica de la aplicación y explora la aplicación web como un usuario. Se pueden utilizar herramientas para la recopilación de información. Por ejemplo, se puede utilizar un <i>proxy</i> HTTP para observar todas las solicitudes y respuestas. Al final de esta fase, el probador generalmente debe comprender todos los puntos de acceso y la funcionalidad del sistema (por ejemplo, encabezados HTTP, parámetros, <i>cookies</i>, API, uso / patrones de tecnología, etc.).
+            p El probador intenta comprender la lógica de la aplicación y explora la aplicación <em>web</em> como un usuario. Se pueden utilizar herramientas para la recopilación de información. Por ejemplo, se puede utilizar un <i>proxy</i> HTTP para observar todas las solicitudes y respuestas. Al final de esta fase, el probador generalmente debe comprender todos los puntos de acceso y la funcionalidad del sistema (por ejemplo, encabezados HTTP, parámetros, <i>cookies</i>, API, uso / patrones de tecnología, etc.).
             .row.justify-content-between.align-items-center
               .col-auto
                 a.boton.color-acento-botones.indicador__container(@click="modal1 = true")
@@ -111,9 +111,9 @@
     .row.mb-4(data-aos="fade")
       .col-md-12
         AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta-azul")
-          .row(titulo="Prueba en aplicación web")
+          .row(titulo="Prueba en aplicación <em>web</em>")
             .col-md-9.mb-4.mb-md-0
-              p Es una exploración profunda en una aplicación de tipo web, realizando análisis extremadamente detallados, para identificar vulnerabilidades que pueden poner en riesgo la información.
+              p Es una exploración profunda en una aplicación de tipo <em>web</em>, realizando análisis extremadamente detallados, para identificar vulnerabilidades que pueden poner en riesgo la información.
 
             .col-md-3
               figure
@@ -121,7 +121,7 @@
 
           .row(titulo="Prueba de Client Side")
             .col-md-9.mb-4.mb-md-0
-              p En este tipo de prueba, es posible analizar <i>software,</i> programas de creación de contenido y <i>Web browsers</i> (como Chrome, Firefox, Explorer, etc) en ordenadores de los usuarios, para la búsqueda de vulnerabilidades.
+              p En este tipo de prueba, es posible analizar <i>software,</i> programas de creación de contenido y <i><em>web</em> browsers</i> (como Chrome, Firefox, Explorer, etc) en ordenadores de los usuarios, para la búsqueda de vulnerabilidades.
           
             .col-md-3
               figure
@@ -148,7 +148,7 @@
     .row.mb-4(data-aos="fade")
       .col-md-12
         TabsA.color-acento-contenido.mb-5
-          .tarjeta.color-acento-contenido--borde.p-4(titulo="Reconocimiento:")
+          .tarjeta.color-acento-contenido--borde.p-4(titulo="Reconocimiento")
             .row
               .col-md-9
                 h5 Reconocimiento: 
@@ -157,7 +157,7 @@
                 figure
                   img(src='@/assets/curso/tema2/img2.jpg', alt='Texto que describa la imagen')
 
-          .tarjeta.color-acento-contenido--borde.p-4(titulo="Fuera del hogar")
+          .tarjeta.color-acento-contenido--borde.p-4(titulo="Análisis de vulnerabilidades")
             .row
               .col-md-9
                 h5 Análisis de vulnerabilidades:
@@ -166,7 +166,7 @@
                 figure
                   img(src='@/assets/curso/tema2/img2.jpg', alt='Texto que describa la imagen')
 
-          .tarjeta.color-acento-contenido--borde.p-4(titulo="Ropa tecnológica (<i>wearables</i>)")
+          .tarjeta.color-acento-contenido--borde.p-4(titulo="Explotación")
             .row
               .col-md-9
                 h5 Explotación:
@@ -175,7 +175,7 @@
                 figure
                   img(src='@/assets/curso/tema2/img2.jpg', alt='Texto que describa la imagen')
 
-          .tarjeta.color-acento-contenido--borde.p-4(titulo="Transporte")
+          .tarjeta.color-acento-contenido--borde.p-4(titulo="Escalar privilegios o postexplotación")
             .row
               .col-md-9
                 h5 Escalar privilegios o postexplotación:
@@ -184,7 +184,7 @@
                 figure
                   img(src='@/assets/curso/tema2/img2.jpg', alt='Texto que describa la imagen')
 
-          .tarjeta.color-acento-contenido--borde.p-4(titulo="Contadores inteligentes")
+          .tarjeta.color-acento-contenido--borde.p-4(titulo="Informe")
             .row
               .col-md-9
                 h5 Informe:
@@ -222,9 +222,9 @@
     separador
 
     #t_2_3.titulo-segundo.color-acento-contenido(data-aos="fade-right")
-      .h2 2.3 <i>Owasp</i>: top 10 de vulnerabilidades
+      .h2 2.3 OWASP: top 10 de vulnerabilidades
 
-    p.mb-4(data-aos="fade-right") De acuerdo con la comunidad de <i>Owasp</i>, este genera reportes sobre las vulnerabilidades que más se encuentran en las aplicaciones web y en su último reporte se puede observar el siguiente comportamiento del top 10 de las vulnerabilidades identificadas.
+    p.mb-4(data-aos="fade-right") De acuerdo con la comunidad de OWASP, este genera reportes sobre las vulnerabilidades que más se encuentran en las aplicaciones <em>web</em> y en su último reporte se puede observar el siguiente comportamiento del top 10 de las vulnerabilidades identificadas.
 
     SlyderB.mb-5(:datos="datosSlyder")(data-aos="fade-right")
     separador
@@ -249,13 +249,13 @@
             | Herramientas de pruebas de seguridad de aplicaciones estáticas (SAST).
           li 
             i.fas.fa-atom
-            | Herramientas de pruebas dinámicas de seguridad de aplicaciones (DAST), principalmente para aplicaciones web.
+            | Herramientas de pruebas dinámicas de seguridad de aplicaciones (DAST), principalmente para aplicaciones <em>web</em>.
           li 
             i.fas.fa-atom
-            | Herramientas interactivas de pruebas de seguridad de aplicaciones (IAST), principalmente para aplicaciones web y API web.
+            | Herramientas interactivas de pruebas de seguridad de aplicaciones (IAST), principalmente para aplicaciones <em>web</em> y API <em>web</em>.
           li 
             i.fas.fa-atom
-            | Mantener actualizadas las bibliotecas de código abierto, para evitar el uso de componentes con vulnerabilidades conocidas (Owasp Top 10-2017 A9)
+            | Mantener actualizadas las bibliotecas de código abierto, para evitar el uso de componentes con vulnerabilidades conocidas (OWASP Top 10-2017 A9)
           li 
             i.fas.fa-atom
             | Herramientas de calidad de código estático.
@@ -322,15 +322,15 @@
         .tarjeta.clr-1
           h4.text-center.p-2 Herramientas DAST
 
-    p.mb-4(data-aos="fade-right") Si un proyecto tiene un componente de aplicación web, se recomienda ejecutar análisis automatizados contra él para establecer las vulnerabilidades.
+    p.mb-4(data-aos="fade-right") Si un proyecto tiene un componente de aplicación <em>web</em>, se recomienda ejecutar análisis automatizados contra él para establecer las vulnerabilidades.
 
     .row.mb-4(data-aos="fade-up")
       .tarjeta.tarjeta-ama.p-4
         LineaTiempoC.color-acento-botones(text-small)
-          .row(titulo="Owasp ZAP")
+          .row(titulo="OWASP ZAP")
             .col-md-8.mb-4.mb-md-0
-              h5 Owasp ZAP
-              p Es una herramienta gratuita y de código abierto con todas las funciones que incluye escaneo automatizado en busca de vulnerabilidades y herramientas para ayudar a los expertos a realizar pruebas manuales de lápiz de aplicaciones web.
+              h5 OWASP ZAP
+              p Es una herramienta gratuita y de código abierto con todas las funciones que incluye escaneo automatizado en busca de vulnerabilidades y herramientas para ayudar a los expertos a realizar pruebas manuales de lápiz de aplicaciones <em>web</em>.
           
             .col-md-4
               figure
@@ -339,7 +339,7 @@
           .row(titulo="StackHawk")
             .col-md-8.mb-4.mb-md-0
               h5 StackHawk
-              p Esta es una herramienta con soporte comercial construida sobre Owasp ZAP y optimizada para ejecutarse en CI/CD (casi todos los CI soportados) para probar aplicaciones web durante el desarrollo y en CI/CD. StackHawk es gratuito para proyectos de código abierto y de uso gratuito en una sola aplicación.
+              p Esta es una herramienta con soporte comercial construida sobre OWASP ZAP y optimizada para ejecutarse en CI/CD (casi todos los CI soportados) para probar aplicaciones <em>web</em> durante el desarrollo y en CI/CD. StackHawk es gratuito para proyectos de código abierto y de uso gratuito en una sola aplicación.
           
             .col-md-4
               figure
@@ -358,16 +358,16 @@
           .row(titulo="VWT Digital's Sec-helpers")
             .col-md-8.mb-4.mb-md-0
               h5 VWT Digital's Sec-helpers
-              p Es una herramienta gratuita y de código abierto con todas las funciones que incluye escaneo automatizado en busca de vulnerabilidades y herramientas para ayudar a los expertos a realizar pruebas manuales de lápiz de aplicaciones web.
+              p Colección de ayudantes dinámicos relacionados con la seguridad. Sec-helpers es un conjunto de pruebas y validadores útiles para garantizar la seguridad de un dominio determinado.
           
             .col-md-4
               figure
                 img(src='@/assets/curso/tema2/img4.jpg', alt='Texto que describa la imagen')
 
 
-          .row(titulo="Owasp Purpleteam")
+          .row(titulo="OWASP Purpleteam")
             .col-md-8.mb-4.mb-md-0
-              h5 Owasp Purpleteam
+              h5 OWASP Purpleteam
               p Una regresión de seguridad que prueba SaaS y CLI, perfecta para insertar en sus canalizaciones de compilación. No necesita escribir ninguna prueba. Esta herramienta únicamente necesita proporcionar un archivo de trabajo que le diga a Purpleteam lo que desea que se pruebe. Tiene dos ambientes principales y un <i>local cloud.</i>
           
             .col-md-4
@@ -379,7 +379,7 @@
         .tarjeta.clr-1
           h4.text-center.p-2 Herramientas IAST
 
-    p.mb-4(data-aos="fade-right") Estas herramientas suelen estar orientadas a analizar aplicaciones web y API web, pero eso es específico del proveedor. Puede haber productos IAST que también realicen un buen análisis de seguridad en aplicaciones que no sean web.
+    p.mb-4(data-aos="fade-right") Estas herramientas suelen estar orientadas a analizar aplicaciones <em>web</em> y API <em>web</em>, pero eso es específico del proveedor. Puede haber productos IAST que también realicen un buen análisis de seguridad en aplicaciones que no sean <em>web</em>.
 
     .titulo-sexto.color-acento-contenido
       h5 Figura 6
@@ -396,7 +396,7 @@
               h5 Contrast Community Edition (CE) 
               p Versión con todas las funciones para 1 aplicación y hasta 5 usuarios (algunas funciones Enterprise deshabilitadas). Contrast CE solo admite Java y .NET.
 
-    p.mb-4(data-aos="fade-right") A continuación podrá conocer algunas de las herramientas disponibles para la auditoría de aplicaciones web y para proyectos de desarrollo de aplicaciones web, y vale la pena  aclarar que algunas de ellas son <i>open source,</i> o tienen una posibilidad de ser utilizados cuando son proyectos abiertos, pero para proyectos comerciales o de gran tamaño requieren de una licencia o contrato de uso.
+    p.mb-4(data-aos="fade-right") A continuación podrá conocer algunas de las herramientas disponibles para la auditoría de aplicaciones <em>web</em> y para proyectos de desarrollo de aplicaciones <em>web</em>, y vale la pena  aclarar que algunas de ellas son <i>open source,</i> o tienen una posibilidad de ser utilizados cuando son proyectos abiertos, pero para proyectos comerciales o de gran tamaño requieren de una licencia o contrato de uso.
 
     .row.mb-4(data-aos="fade-up")
       .col-md-12
@@ -418,7 +418,7 @@
               .col-md-8.mb-4.mb-md-0
                 h4 Detección de componentes vulnerables conocidos 
                 p.mb-4 Como alternativa y para tratar de mantener todos sus componentes actualizados, un proyecto puede monitorear específicamente si alguno de los componentes que utilizan tiene componentes vulnerables conocidos:
-                p.mb-2 Owasp.
+                p.mb-2 OWASP.
                 p.mb-2 GitHub
                 p.mb-2 Debricked
 
@@ -430,7 +430,7 @@
             .row
               .col-md-8.mb-4.mb-md-0
                 h4 Herramientas de calidad de código
-                p.mb-4 Los proyectos de desarrollo de <i>software</i> consideran el uso de herramientas de buena calidad de código. Algunos sugeridos por Owasp son:
+                p.mb-4 Los proyectos de desarrollo de <i>software</i> consideran el uso de herramientas de buena calidad de código. Algunos sugeridos por OWASP son:
                 p.mb-2 SpotBugs
                 p.mb-2 SonarQube
                 p.mb-2 DeepScan
@@ -483,8 +483,8 @@
 
     .row.justify-content-center.align-items-center.mb-4
       .col-md-8(data-aos="fade-right")
-        p.mb-4 Una vez realizado el plan de pruebas programado con las herramientas y técnicas seleccionadas, se deben documentar los hallazgos encontrados en el ejercicio, para ello se emplean instrumentos que permitan registrar, analizar y evaluar el estado actual de la seguridad de las aplicaciones web.
-        p Desde el proyecto Owasp, se han propuesto varios instrumentos para registrar la información a manera de checklist, a saber:
+        p.mb-4 Una vez realizado el plan de pruebas programado con las herramientas y técnicas seleccionadas, se deben documentar los hallazgos encontrados en el ejercicio, para ello se emplean instrumentos que permitan registrar, analizar y evaluar el estado actual de la seguridad de las aplicaciones <em>web</em>.
+        p Desde el proyecto OWASP, se han propuesto varios instrumentos para registrar la información a manera de <em>checklist</em>, a saber:
       .col-md-4(data-aos="fade-left")
         figure
           img(src='@/assets/curso/tema2/img10.jpg', alt='Texto que describa la imagen')
@@ -495,19 +495,19 @@
           .col-lg-5.col-md-12.col-12
             .titulo-sexto.color-acento-contenido
               h5 Figura 7
-              span Instrumento Checklist para registro de la evaluación.
+              span Instrumento <em>checklist</em> para registro de la evaluación.
             figure
               img.mb-0(src='@/assets/curso/tema2/12.jpg', alt='Texto que describa la imagen')
           .col-lg-6.col-md-12.col-12
             .tarjeta.color-gris.p-4
-              h5 Instrumento checklist para registro de la evaluación
-              p.mb-5 Este permite obtener un informe del riesgo que pueden llegar a presentar una determinada aplicación web, registrando cada una de las aplicaciones web que se desea evaluar, y registrar el resultado de las pruebas practicadas, esta información será útil para generar un informe final del nivel del riesgo presente en las aplicaciones.
+              h5 Instrumento <em>checklist</em> para registro de la evaluación
+              p.mb-5 Este permite obtener un informe del riesgo que pueden llegar a presentar una determinada aplicación <em>web</em>, registrando cada una de las aplicaciones <em>web</em> que se desea evaluar, y registrar el resultado de las pruebas practicadas, esta información será útil para generar un informe final del nivel del riesgo presente en las aplicaciones.
               .col-md-9
                 a.anexo.mb-4.mb-lg-0(href="https://docs.github.com/es/issues/tracking-your-work-with-issues/about-task-lists" target="_blank")
                   .anexo__icono
                     img(src="@/assets/template/icono-link.png")
                   .anexo__texto
-                    p Se encuentra disponible en la url: <b>Master Checklist</b>
+                    p Se encuentra disponible en la url: <b>Master <em>checklist</em></b>
 
     .row.justify-content-center.mb-5(data-aos="fade-up")
       .col-md-10
@@ -521,7 +521,7 @@
           .col-lg-6.col-md-12.col-12
             .tarjeta.color-gris.p-4
               h5 Instrument OWASP Risk Assessment Calculator
-              p.mb-5 Esta herramienta es una calculadora de evaluación de riesgos OWAS y se puede encontrar un instrumento de evaluación en línea disponible en
+              p.mb-5 Esta herramienta es una calculadora de evaluación de riesgos OWASP y se puede encontrar un instrumento de evaluación en línea disponible en
               .col-md-9
                 a.anexo.mb-4.mb-lg-0(href="https://javierolmedo.github.io/OWASP-Calculator/" target="_blank")
                   .anexo__icono
@@ -538,14 +538,14 @@
           .col-lg-7.col-md-12.col-12(data-aos="fade-left")
             .cajon-b.color-acento-contenido.p-3
               p.mb-4 Es importante resaltar que el ejercicio de pruebas y la obtención del indicador de riesgo es un producto importante, pero ante la organización o los propietarios de la información se deben presentar reportes técnicos, con evidencias, detalles de las pruebas realizadas y resultados obtenidos, así como una serie de recomendaciones para subsanar dichas vulnerabilidades.
-              p.mb-5 Desde el proyecto Owasp, en su metodología en el capítulo 5, sugiere las partes mínimas de un informe.
+              p.mb-5 Desde el proyecto OWASP, en su metodología en el capítulo 5, sugiere las partes mínimas de un informe.
               .row.justify-content-center
                 .col-md-8
                   a.anexo.mb-4.mb-lg-0(href="https://owasp.org/www-project-web-security-testing-guide/v42/5-Reporting/README" target="_blank")
                     .anexo__icono
                       img(src="@/assets/template/icono-link.png")
                     .anexo__texto
-                      p Este se puede consultar en: <b>Web Security Testing Guide</b>
+                      p Este se puede consultar en: <b><em>web</em> Security Testing Guide</b>
 
     .titulo-sexto.color-acento-contenido(data-aos="fade-right")
       h5 Figura 10
@@ -594,8 +594,8 @@
         .col
           .row.justify-content-between.align-items-center
             .col.mb-3.mb-sm-0
-              h3.mb-1.text-white Modelo de Pentesting
-              p.text-small.text-white Para realizar una presentación y sustentación ante la organización del ejercicio realizado, y argumentando con detalles y pruebas, las debilidades que presentan y un plan de mejoramiento que permita la reducción de la brecha a la seguridad en aplicaciones web, se puede recurrir al modelo de reporte de pentesting.
+              h3.mb-1.text-white Modelo de <em>Pentesting</em>
+              p.text-small.text-white Para realizar una presentación y sustentación ante la organización del ejercicio realizado, y argumentando con detalles y pruebas, las debilidades que presentan y un plan de mejoramiento que permita la reducción de la brecha a la seguridad en aplicaciones <em>web</em>, se puede recurrir al modelo de reporte de <em>pentesting</em>.
             .col-sm-auto
               a.boton.color-acento-botones(href="https://owasp.org/www-project-web-security-testing-guide/v42/5-Reporting/README" target="_blank")
                 span Ir al enlace
@@ -670,7 +670,7 @@ export default {
         titulo:
           'Fallos en el registro y la supervisión de la seguridad (<i>Security Logging and Monitoring Failures</i>)',
         texto:
-          'La falta de registros sobre eventos, los denominados logs, en la aplicación o en el sistema, como inicios de sesión (tanto válidos como fallidos). Por ejemplo, que estos registros no se almacenen remotamente impide que se puedan detectar las infracciones.',
+          'La falta de registros sobre eventos, los denominados <em>logs</em>, en la aplicación o en el sistema, como inicios de sesión (tanto válidos como fallidos). Por ejemplo, que estos registros no se almacenen remotamente impide que se puedan detectar las infracciones.',
         imagen: require('@/assets/curso/tema2/9.jpg'),
       },
       {
